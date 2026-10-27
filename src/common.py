@@ -27,8 +27,18 @@ def atomic_json(path, obj):
     os.replace(path + '.tmp', path)
 @functools.lru_cache(maxsize=2000)
 def font(size, weight='ExtraBold'): return ImageFont.truetype(os.path.join(FONTS, f'Montserrat-{weight}.ttf'), size)
+TEXT_FIT_LOG = []
 @functools.lru_cache(maxsize=1500)
 def glyph(t, size=34, col=INK, width=800, weight='ExtraBold', align='left'):
+    # Never truncate an unbreakable word to the image width. Shrink it first;
+    # multi-line/cell sizing remains the caller's responsibility.
+    requested_size = size
+    longest = max((text_w(w, size, weight) for w in t.split()), default=0)
+    while longest > width and size > 1:
+        size -= 1
+        longest = max((text_w(w, size, weight) for w in t.split()), default=0)
+    if size != requested_size:
+        TEXT_FIT_LOG.append({'text': t, 'requested': requested_size, 'actual': size, 'width': width})
     f = font(size, weight); d = ImageDraw.Draw(Image.new('RGBA', (1, 1))); ls = []
     for part in t.split('\n'):
         cur = ''

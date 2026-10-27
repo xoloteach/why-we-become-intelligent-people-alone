@@ -9,7 +9,7 @@ permissions:
   contents: write
 concurrency:
   group: render
-  cancel-in-progress: false
+  cancel-in-progress: true
 env:
   WWB_WORK: ${{ github.workspace }}/work
   PERF_DIR: ${{ github.workspace }}/perf
@@ -40,7 +40,7 @@ jobs:
           mkdir -p "$WWB_WORK/assets" "$PERF_DIR"
           curl -fsSL --retry 5 -o "$WWB_WORK/assets/subscribe-end-card.jpeg" https://raw.githubusercontent.com/xoloteach/why-we-become-everyone-else-living-better/main/assets/subscribe-end-card.jpeg
           echo "ad94c68ce9302180b90e9342ebd7eab0c1e8ef1e60408d0c35ad1e931e83e8dc  $WWB_WORK/assets/subscribe-end-card.jpeg" | sha256sum -c -
-          python3 ci/perf.py prep -- bash -c 'python3 src/align.py "$WWB_WORK/narration_processed.flac" && python3 src/plan.py && python3 src/captions.py && python3 src/extract.py' 2>&1 | tee -a logs.txt
+          python3 ci/perf.py prep -- bash -c 'python3 src/align.py "$WWB_WORK/narration_processed.flac" && python3 src/plan.py && python3 src/captions.py && python3 ci/check_typography.py && python3 src/extract.py' 2>&1 | tee -a logs.txt
           python3 -c "import json;p=json.load(open('$WWB_WORK/plan.json'));print('plan', p['total'], p['fx_summary'], p['warnings'])" | tee -a logs.txt
       - uses: actions/upload-artifact@v4
         with:

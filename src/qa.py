@@ -87,6 +87,8 @@ if ar:
 else: gate('SFX thud ±1 frame of contact', 'NOT CHECKED', 'no audio reports')
 det = json.load(open(os.path.join(WORK, 'determinism.json')))
 gate('deterministic sample re-bake', ok(det['pass']), f"{det['sample']}: {det['frames']} final frame hashes compared")
+ty = json.load(open(os.path.join(WORK, 'typography.json')))
+gate('Typography width + headline regression', ok(ty['pass']), f"{ty['scenes']} scene layouts; Overwhelming fitted at {ty['width_regression_font']}px; failures {ty['failures']}")
 # 10: Shorts specifics
 for S in P['shorts']:
     p = os.path.join(DIST, f"{S['id']}.mp4")

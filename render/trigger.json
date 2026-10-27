@@ -1,1 +1,1 @@
-{"episode": "why-intelligent-people-enjoy-being-alone", "request": "full package v1", "attempt": 3, "note": "Fix reviewed envelope clipping and P07 background blocks; add deterministic re-bake, all-frame edge checks and release hold for missing playback review"}
+{"episode": "why-intelligent-people-enjoy-being-alone", "request": "full package v1", "attempt": 4, "note": "Fix comparison-card word clipping, audit all scene typography; supersede prior render while preserving framing/crop and review-gate fixes"}

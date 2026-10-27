@@ -52,8 +52,9 @@ def _cur(s, t):
     return c
 def fit(txt, size, width, weight='ExtraBold', min_size=22, max_lines=2):
     while size > min_size:
-        g = glyph(txt, size, INK, width, weight)
-        if g.shape[0] <= max_lines * round(size * 1.18) + 14: break
+        wide = max((text_w(w, size, weight) for w in txt.split()), default=0) > width
+        g = glyph(txt, size, INK, width, weight) if not wide else None
+        if not wide and g.shape[0] <= max_lines * round(size * 1.18) + 14: break
         size -= 2
     return size
 def diagram(f, s, t, x, y, w=790, h=320):
