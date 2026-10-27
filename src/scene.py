@@ -83,11 +83,13 @@ def diagram(f, s, t, x, y, w=790, h=320):
                 text(f, lb['text'], xx + 86, yy + rh / 2 - z * .72, z, WHITE if act else fg, w - 110, alpha=a)
             else:
                 keep = lb.get('keep'); rect(f, xx, yy, w - 8, rh, so, r=12, alpha=a)
-                hh, ww = text(f, lb['text'], xx + 28, yy + rh / 2 - z * .72, z, RUST if keep else fg, w - 60, alpha=a)
+                ty = yy + rh / 2 - z * .72; hh, ww = text(f, lb['text'], xx + 28, ty, z, RUST if keep else fg, w - 60, alpha=a)
                 if keep: cv2.circle(f, (int(xx + w - 40), int(yy + rh / 2)), 11, RUST, -1, cv2.LINE_AA)
                 else:
                     p = ease((t - lb['t'] - .45) / .35); ym = yy + rh / 2 + 2
-                    line(f, (xx + 20, ym + 3), (xx + 36 + ww, ym - 3), RUST, 5, p)
+                    # Mark sits just under the words (baseline + small gap), never through the letters.
+                    uy = min(yy + rh - 7, ty + z * 1.04 + 4)
+                    line(f, (xx + 20, uy + 2), (xx + 36 + ww, uy - 2), RUST, 5, p)
                     if p > .98: cv2.line(f, (int(xx + w - 50), int(ym - 12)), (int(xx + w - 26), int(ym + 12)), RUST, 5, cv2.LINE_AA); cv2.line(f, (int(xx + w - 26), int(ym - 12)), (int(xx + w - 50), int(ym + 12)), RUST, 5, cv2.LINE_AA)
     elif kind == 'chips':
         z = 40 if n <= 3 else 34; ph = round(z * 2.1); cx, cy = x, y + 10
