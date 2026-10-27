@@ -1,0 +1,151 @@
+{
+ "seconds": 92.539,
+ "workers": 3,
+ "versions": {
+  "three": "0.186.1",
+  "rapier": "0.21.0",
+  "playwright": "1.64.1",
+  "node": "v24.21.0",
+  "chromium": "156.0.8078.4"
+ },
+ "jobs": [
+  {
+   "id": "L-S05-3",
+   "frames": 112,
+   "seconds": 8.48,
+   "fps": 13.2
+  },
+  {
+   "id": "L-S01-6",
+   "frames": 114,
+   "seconds": 8.91,
+   "fps": 12.8
+  },
+  {
+   "id": "L-S04-6",
+   "frames": 160,
+   "seconds": 10.98,
+   "fps": 14.58
+  },
+  {
+   "id": "L-S06-4",
+   "frames": 136,
+   "seconds": 9.47,
+   "fps": 14.36
+  },
+  {
+   "id": "L-S08-4",
+   "frames": 109,
+   "seconds": 9.21,
+   "fps": 11.83
+  },
+  {
+   "id": "L-S07-8",
+   "frames": 233,
+   "seconds": 17.88,
+   "fps": 13.03
+  },
+  {
+   "id": "L-S08-6",
+   "frames": 113,
+   "seconds": 10.17,
+   "fps": 11.11
+  },
+  {
+   "id": "L-S11-9",
+   "frames": 118,
+   "seconds": 9.45,
+   "fps": 12.48
+  },
+  {
+   "id": "L-S10-9",
+   "frames": 213,
+   "seconds": 16.76,
+   "fps": 12.71
+  },
+  {
+   "id": "L-S12-9",
+   "frames": 239,
+   "seconds": 17.76,
+   "fps": 13.46
+  },
+  {
+   "id": "L-S17-1",
+   "frames": 118,
+   "seconds": 9.81,
+   "fps": 12.03
+  },
+  {
+   "id": "L-S17-2",
+   "frames": 97,
+   "seconds": 8.12,
+   "fps": 11.94
+  },
+  {
+   "id": "L-S19-1",
+   "frames": 98,
+   "seconds": 8.37,
+   "fps": 11.71
+  },
+  {
+   "id": "L-S15-6",
+   "frames": 267,
+   "seconds": 19.26,
+   "fps": 13.86
+  },
+  {
+   "id": "L-S26-7",
+   "frames": 196,
+   "seconds": 17.35,
+   "fps": 11.3
+  },
+  {
+   "id": "L-S26-9",
+   "frames": 252,
+   "seconds": 21.97,
+   "fps": 11.47
+  },
+  {
+   "id": "SH1-SH1C-2",
+   "frames": 77,
+   "seconds": 6.45,
+   "fps": 11.93
+  },
+  {
+   "id": "L-S26-4",
+   "frames": 383,
+   "seconds": 30.43,
+   "fps": 12.59
+  },
+  {
+   "id": "SH1-SH1A-4",
+   "frames": 163,
+   "seconds": 12.65,
+   "fps": 12.89
+  },
+  {
+   "id": "SH3-SH3A-1",
+   "frames": 71,
+   "seconds": 4.68,
+   "fps": 15.17
+  },
+  {
+   "id": "SH2-SH2B-2",
+   "frames": 97,
+   "seconds": 5.91,
+   "fps": 16.42
+  },
+  {
+   "id": "SH2-SH2B-1",
+   "frames": 118,
+   "seconds": 6.72,
+   "fps": 17.55
+  },
+  {
+   "id": "SH3-SH3A-4",
+   "frames": 91,
+   "seconds": 2.52,
+   "fps": 36.18
+  }
+ ]
+}
