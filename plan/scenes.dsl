@@ -42,7 +42,7 @@ S05-4|57|strike|More Than a Label|Introvert@introvert;Extrovert@extrovert
 S05-5|58|chips|So Much Shapes Us|Personality@personality;Environment@environment;Mood@mood;Relationships@relationships;Circumstances@circumstances
 S05-6|60|vs|Same Room, Different Experience|Same environment@environment;Different way@way
 S05-7|62|vs|Exciting or Overwhelming|Exciting@exciting;Overwhelming@overwhelming
-S05-8|64|strike|Simply Different Needs|Better@better;Smarter@smarter;More mature@mature;Different needs@needs
+S05-8|64|strike|Simply Different Needs|Better@better;Smarter@smarter;More mature@mature;+Different needs@needs
 S05-9|67|quote|When We Expect Sameness|The same amount@same
 S06-1|68|arrow|Mistaken for Rejection|Time alone@alone;Rejection?@rejection
 S06-2|69|question|Why Not Spend Time With Us?|Why not us?@us
@@ -120,7 +120,7 @@ S14-1|175|list|Time to Reflect|Reflect@reflect;Question assumptions@assumptions;
 *S14-2|177|quote|When Reflection Helps|Understand your life clearly@clearly
 S14-4|178|arrow|When Thinking Loops|The same problems@same;Rumination@rumination
 S14-5|180|quote|Rumination Hurts|Worse, not better@worse
-S14-6|181|strike|Not Endless Thinking|Thinking endlessly@endlessly;Understand your thoughts@understand
+S14-6|181|strike|Not Endless Thinking|Thinking endlessly@endlessly;+Understand your thoughts@understand
 S14-3|183|quote|Live More Intentionally|Live intentionally@intentionally
 *S14-7|184|big|The Hidden Emotional Work|Emotional work@emotional
 S14-8|186|quote|Meeting Everyone's Expectations|Other people's expectations@expectations
@@ -217,7 +217,7 @@ S24-8|310|strike|Nothing to Prove|Every gathering@gathering;Constantly entertain
 S24-9|312|big|A Quiet Afternoon Is Enough|Enough@enough
 S25-1|313|chips|Simple Pleasures|Reading a book@reading;Taking a walk@walk
 S25-2|313:working on|quote|A Meaningful Project|A meaningful project@project;Your own thoughts@thoughts
-S25-3|314|quote|Better Than a Wasted Evening|More satisfying@satisfying
+S25-3|314:can be|quote|Better Than a Wasted Evening|More satisfying@satisfying
 S25-4|316|strike|The Goal Isn't Isolation|Never needing people@never
 S25-5|317|quote|Comfortable With Yourself|Comfortable with yourself@comfortable;Greater intention@intention
 S25-6|319|vs|Whole Alone, Yourself With Others|Not incomplete@incomplete;Not someone else@else

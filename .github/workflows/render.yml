@@ -1,0 +1,303 @@
+name: render
+# All renders run here (never in the planning sandbox). Triggered by a change to render/trigger.json or manually.
+on:
+  push:
+    branches: [main]
+    paths: ['render/trigger.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: render
+  cancel-in-progress: false
+env:
+  WWB_WORK: ${{ github.workspace }}/work
+  PERF_DIR: ${{ github.workspace }}/perf
+  WWB_REQUIRE_SR: '1'
+  PYTHONUNBUFFERED: '1'
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+jobs:
+  prep:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch input branches
+        run: git fetch --no-tags --depth 1 origin '+refs/heads/inputs-*:refs/remotes/origin/inputs-*'
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Toolchain
+        run: |
+          bash ci/setup_tools.sh
+          pip install -q opencv-contrib-python-headless==4.10.0.84 numpy==2.1.3 pillow==11.0.0
+      - name: Reassemble + verify locked inputs
+        run: python3 ci/inputs.py "$WWB_WORK" 2>&1 | tee -a logs.txt
+      - name: Align, plan, captions, panel extraction
+        env:
+          DEEPGRAM_API_KEY: ${{ secrets.DEEPGRAM_API_KEY }}
+        run: |
+          set -o pipefail
+          mkdir -p "$WWB_WORK/assets" "$PERF_DIR"
+          curl -fsSL --retry 5 -o "$WWB_WORK/assets/subscribe-end-card.jpeg" https://raw.githubusercontent.com/xoloteach/why-we-become-everyone-else-living-better/main/assets/subscribe-end-card.jpeg
+          echo "ad94c68ce9302180b90e9342ebd7eab0c1e8ef1e60408d0c35ad1e931e83e8dc  $WWB_WORK/assets/subscribe-end-card.jpeg" | sha256sum -c -
+          python3 ci/perf.py prep -- bash -c 'python3 src/align.py "$WWB_WORK/narration_processed.flac" && python3 src/plan.py && python3 src/captions.py && python3 src/extract.py' 2>&1 | tee -a logs.txt
+          python3 -c "import json;p=json.load(open('$WWB_WORK/plan.json'));print('plan', p['total'], p['fx_summary'], p['warnings'])" | tee -a logs.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prep
+          retention-days: 7
+          path: |
+            work/
+            !work/native/
+            !work/flow_images.zip
+            !work/narration_processed.flac
+            perf/
+      - name: Diagnostics
+        if: always()
+        run: bash ci/push_logs.sh prep logs.txt work/plan.json work/align.json work/captions_report.json work/upscale_report.json work/qa_grid || true
+  fx:
+    needs: prep
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: prep, path: . }
+      - uses: actions/setup-node@v4
+        with: { node-version: '24' }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Toolchain
+        run: |
+          pip install -q opencv-python-headless==4.10.0.84 numpy==2.1.3
+          cd fx && npm ci && npx playwright install --with-deps chromium
+      - name: Bake 3D effects (Three.js + Rapier, <=3 workers)
+        run: |
+          set -o pipefail
+          cd fx && python3 ../ci/perf.py fx --workers 3 -- node bake/bake.mjs --out "$WWB_WORK/fx_out" --workers 3 "$WWB_WORK"/fx_jobs/*.json 2>&1 | tee -a ../logs.txt
+          cd .. && python3 src/fx_post.py "$WWB_WORK"/fx_out/*/ 2>&1 | tee -a logs.txt
+          rm -rf "$WWB_WORK"/fx_out/*/raw
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fx
+          retention-days: 7
+          path: |
+            work/fx_out/
+            perf/
+      - name: Diagnostics
+        if: always()
+        run: bash ci/push_logs.sh fx logs.txt work/fx_out/bake-perf.json || true
+  style:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '24' }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Toolchain
+        run: |
+          pip install -q opencv-python-headless==4.10.0.84 numpy==2.1.3
+          cd fx && npm ci && npx playwright install --with-deps chromium
+      - name: Style tests (paper + obsidian, front + three-quarter) and library previews
+        run: |
+          set -o pipefail
+          python3 fx/tests/make_style_jobs.py /tmp/style/jobs
+          cd fx && python3 ../ci/perf.py style --workers 3 -- node bake/bake.mjs --out /tmp/style/out --workers 3 /tmp/style/jobs/*.json 2>&1 | tee -a ../logs.txt; cd ..
+          python3 src/fx_style_sheet.py /tmp/style/out library/sheets 2>&1 | tee -a logs.txt
+          python3 ci/library_previews.py /tmp/style/out library 2>&1 | tee -a logs.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: style
+          retention-days: 14
+          path: |
+            library/
+            perf/
+      - name: Publish previews + diagnostics
+        if: always()
+        run: bash ci/push_logs.sh style logs.txt library /tmp/style/out/bake-perf.json || true
+  audio:
+    needs: [prep, fx]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: prep, path: . }
+      - uses: actions/download-artifact@v4
+        with: { name: fx, path: . }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Toolchain
+        run: |
+          bash ci/setup_tools.sh
+          pip install -q opencv-python-headless==4.10.0.84 numpy==2.1.3 pillow==11.0.0
+      - name: Music bed + SFX + loudness
+        run: |
+          set -o pipefail
+          python3 ci/perf.py audio -- python3 src/audio.py all 2>&1 | tee -a logs.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio
+          retention-days: 7
+          path: |
+            work/mix.wav
+            work/mix_SH*.wav
+            work/audio_report_all.json
+            perf/
+      - name: Diagnostics
+        if: always()
+        run: bash ci/push_logs.sh audio logs.txt work/audio_report_all.json || true
+  render:
+    needs: [prep, fx]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: true
+      matrix:
+        seg: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: prep, path: . }
+      - uses: actions/download-artifact@v4
+        with: { name: fx, path: . }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Toolchain
+        run: |
+          bash ci/setup_tools.sh
+          pip install -q opencv-python-headless==4.10.0.84 numpy==2.1.3 pillow==11.0.0
+      - name: Render landscape segment
+        run: |
+          set -o pipefail
+          N=$(python3 -c "import json;print(round(json.load(open('$WWB_WORK/plan.json'))['total']*30))")
+          A=$(( N * ${{ matrix.seg }} / 6 )); B=$(( N * (${{ matrix.seg }} + 1) / 6 ))
+          mkdir -p "$WWB_WORK/segments"
+          python3 ci/perf.py render-${{ matrix.seg }} -- python3 src/render.py segment $A $B "$WWB_WORK/segments/seg${{ matrix.seg }}.mp4" 2>&1 | tee -a logs.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: seg${{ matrix.seg }}
+          retention-days: 7
+          path: |
+            work/segments/
+            perf/
+      - name: Diagnostics
+        if: failure()
+        run: bash ci/push_logs.sh render-${{ matrix.seg }} logs.txt || true
+  shorts:
+    needs: [prep, fx, audio]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    strategy:
+      fail-fast: true
+      matrix:
+        sid: [SH1, SH2, SH3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: prep, path: . }
+      - uses: actions/download-artifact@v4
+        with: { name: fx, path: . }
+      - uses: actions/download-artifact@v4
+        with: { name: audio, path: . }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Toolchain
+        run: |
+          bash ci/setup_tools.sh
+          pip install -q opencv-python-headless==4.10.0.84 numpy==2.1.3 pillow==11.0.0
+      - name: Render Short (native 1080x1920)
+        run: |
+          set -o pipefail
+          mkdir -p dist
+          python3 ci/perf.py short-${{ matrix.sid }} -- python3 src/render_shorts.py ${{ matrix.sid }} video dist/${{ matrix.sid }}.mp4 2>&1 | tee -a logs.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: short-${{ matrix.sid }}
+          retention-days: 7
+          path: |
+            dist/
+            perf/
+      - name: Diagnostics
+        if: failure()
+        run: bash ci/push_logs.sh short-${{ matrix.sid }} logs.txt || true
+  assemble:
+    needs: [prep, fx, audio, render, shorts, style]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    outputs:
+      tag: ${{ steps.qa.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: art }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Toolchain
+        run: |
+          bash ci/setup_tools.sh
+          pip install -q opencv-python-headless==4.10.0.84 numpy==2.1.3 pillow==11.0.0
+          sudo apt-get install -y -qq imagemagick >/dev/null
+      - name: Merge artifacts
+        run: |
+          mkdir -p work dist perf library
+          cp -r art/prep/work/. work/; cp -r art/fx/work/. work/; cp -r art/audio/work/. work/
+          for s in 0 1 2 3 4 5; do cp -r art/seg$s/work/. work/; cp -r art/seg$s/perf/. perf/ 2>/dev/null || true; done
+          for s in SH1 SH2 SH3; do cp art/short-$s/dist/* dist/; cp -r art/short-$s/perf/. perf/ 2>/dev/null || true; done
+          for a in prep fx audio style; do cp -r art/$a/perf/. perf/ 2>/dev/null || true; done
+          cp -r art/style/library/. library/
+          mkdir -p fxlogs && cp work/segments/*.fxlog.json dist/*.fxlog.json fxlogs/ 2>/dev/null || true; rm -f dist/*.fxlog.json
+          ls -la work/segments dist
+      - name: Assemble final.mp4
+        run: |
+          set -o pipefail
+          T=$(python3 -c "import json;print(json.load(open('work/plan.json'))['total'])")
+          for s in 0 1 2 3 4 5; do echo "file '$PWD/work/segments/seg$s.mp4'"; done > concat.txt
+          python3 ci/perf.py assemble -- ffmpeg -y -hide_banner -loglevel error -f concat -safe 0 -i concat.txt -i work/mix.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -ar 44100 -t "$T" -movflags +faststart dist/final.mp4 2>&1 | tee -a logs.txt
+      - name: Thumbnail, covers, SEO, transcript
+        run: |
+          set -o pipefail
+          python3 src/thumbs.py dist 2>&1 | tee -a logs.txt
+          python3 ci/make_seo.py dist 2>&1 | tee -a logs.txt
+          cp transcript.txt dist/transcript.txt; cp work/captions.ass dist/captions_landscape.ass
+          for s in SH1 SH2 SH3; do cp work/captions_$s.ass dist/; done
+          python3 ci/srt.py work/align.json dist/final.srt
+      - name: QA gates
+        id: qa
+        run: |
+          set -o pipefail
+          mkdir -p work/segments && cp fxlogs/*.json work/segments/ 2>/dev/null || true
+          python3 src/qa.py dist 2>&1 | tee -a logs.txt
+          echo "tag=v1.0.0-run${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dist
+          retention-days: 14
+          path: dist/
+      - name: Diagnostics
+        if: always()
+        run: bash ci/push_logs.sh assemble logs.txt dist/qa_report.md dist/qa_report.json dist/qa_contact_landscape.jpg dist/qa_contact_shorts.jpg dist/thumbnail.jpg dist/cover_SH1.jpg dist/cover_SH2.jpg dist/cover_SH3.jpg dist/seo.md perf || true
+  publish:
+    needs: assemble
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist }
+      - name: Credential scan of release payload
+        run: |
+          ! grep -rIlE '(AIza[0-9A-Za-z_-]{35}|gh[pousr]_[0-9A-Za-z]{36}|github_pat_[0-9A-Za-z_]{40,}|-----BEGIN [A-Z ]*PRIVATE KEY-----)' dist/ ci/ src/ fx/objects fx/bake fx/lib fx/physics plan/ .github/
+      - name: Publish versioned release (QA passed)
+        run: |
+          TAG="${{ needs.assemble.outputs.tag }}"
+          cd dist && zip -qr qa_stills.zip qa_stills && rm -rf qa_stills && cd ..
+          python3 ci/release_notes.py dist > notes.md
+          gh release create "$TAG" --target "$GITHUB_SHA" --title "Why Intelligent People Enjoy Being Alone — $TAG" --notes-file notes.md \
+            dist/final.mp4 dist/SH1.mp4 dist/SH2.mp4 dist/SH3.mp4 dist/thumbnail.jpg dist/cover_SH1.jpg dist/cover_SH2.jpg dist/cover_SH3.jpg \
+            dist/seo.md dist/transcript.txt dist/final.srt dist/captions_landscape.ass dist/captions_SH1.ass dist/captions_SH2.ass dist/captions_SH3.ass \
+            dist/qa_report.md dist/qa_report.json dist/qa_contact_landscape.jpg dist/qa_contact_shorts.jpg dist/qa_stills.zip dist/thumbnail_160x90_check.png
+          gh release view "$TAG" --json url,assets --jq '.url, (.assets[] | .name + " " + (.size|tostring))'

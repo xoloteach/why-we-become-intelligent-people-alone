@@ -31,7 +31,7 @@ def parse_dsl(path):
         p = ln.split('|'); chap = p[0].startswith('*'); key = p[0].lstrip('*')
         labels = []
         for it in (p[4].split(';') if len(p) > 4 and p[4] else []):
-            txt, _, cue = it.rpartition('@'); labels.append({'text': txt, 'cue_word': cue})
+            txt, _, cue = it.rpartition('@'); labels.append({'text': txt.lstrip('+'), 'cue_word': cue, 'keep': txt.startswith('+')})
         r = {'key': key, 'anchor': p[1], 'kind': p[2], 'title': p[3], 'labels': labels, 'chapter_start': chap}
         (groups[-1]['rows'] if groups else rows).append(r)
     return rows, groups
@@ -47,8 +47,8 @@ def find_word(toks, word, t0, t1, after=-1.0):
     for t in toks:
         if t['start'] < t0 - 0.25 or t['start'] < after: continue
         if t['start'] > t1: break
-        n = norm(t['w'])
-        if n == w or (len(w) >= 4 and n.startswith(w)): return t
+        n = norm(t['w']); parts = [norm(x) for x in t['w'].split('-')]
+        if n == w or w in parts or (len(w) >= 4 and n.startswith(w)): return t
     return None
 def resolve_scenes(rows, toks, lines, t_begin, t_end, warn, prefix=''):
     sc = []
@@ -59,10 +59,10 @@ def resolve_scenes(rows, toks, lines, t_begin, t_end, warn, prefix=''):
     for s in sc:
         after = -1.0; cues = []
         for lb in s['labels']:
-            t = find_word(toks, lb['cue_word'], s['start'], s['end'], after)
+            t = find_word(toks, lb['cue_word'], s['start'], s['end'], after) or find_word(toks, lb['cue_word'], s['start'], s['end'])
             if t is None or t['start'] >= s['end'] - 0.04:
                 warn.append(f"{prefix}{s['key']}: cue '{lb['cue_word']}' not spoken inside scene {s['start']:.2f}-{s['end']:.2f}; label withheld"); lb['t'] = None; continue
-            lb['t'] = round(max(s['start'], t['start'] - 0.06), 3); after = t['start']; cues.append(lb['t'])
+            lb['t'] = round(max(s['start'], t['start'] - 0.06), 3); after = max(after, t['start']); cues.append(lb['t'])
         s['start'] = round(s['start'], 3); s['end'] = round(s['end'], 3)
     return sc
 def fx_job(s, spec, toks, fmt, eid, warn):
@@ -97,7 +97,9 @@ def main():
             else: s['kind'] = 'list'
     _, groups = parse_dsl(os.path.join(ROOT, 'plan', 'shorts.dsl')); shorts = []
     for g in groups:
-        sc = resolve_scenes(g['rows'], toks, lines, g['start'], g['end'], warn, g['id'] + ':')
+        prev = max([t['end'] for t in toks if t['end'] <= g['start'] + 0.01] or [0.0]); nxt = min([t['start'] for t in toks if t['start'] >= g['end'] - 0.01] or [VO_END])
+        t0 = round(max(prev, g['start'] - 0.10), 3); t1 = round(min(nxt - 0.02, g['end'] + 0.15), 3)  # clean cut points, never mid-word
+        sc = resolve_scenes(g['rows'], toks, lines, t0, t1, warn, g['id'] + ':')
         for i, s in enumerate(sc):
             s['dark'] = s['key'] in dark; s['art'] = s['key']; s['i'] = i; s['layout'] = 'portrait'
             if s['kind'] == 'fx':
@@ -105,7 +107,7 @@ def main():
                 s['fx'] = j['effect_id'] if j else None
                 if j: j['short'] = g['id']; jobs.append(j)
                 else: s['kind'] = 'list'
-        shorts.append({'id': g['id'], 'title': g['title'], 'topic': g['topic'], 'start': g['start'], 'end': g['end'], 'total': round(g['end'] - g['start'] + SHORT_END, 3), 'scenes': sc})
+        shorts.append({'id': g['id'], 'title': g['title'], 'topic': g['topic'], 'start': g['start'], 'end': g['end'], 't0': t0, 't1': t1, 'vo_dur': round(t1 - t0, 3), 'end_card': SHORT_END, 'total': round(t1 - t0 + SHORT_END, 3), 'scenes': sc})
     # 3D distribution check (thirds, max two in a row)
     fx_idx = [s['i'] for s in L if s.get('fx')]; thirds = [sum(1 for s in L if s.get('fx') and k * VO_END / 3 <= s['start'] < (k + 1) * VO_END / 3) for k in range(3)]
     run = mx = 0

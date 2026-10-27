@@ -60,20 +60,54 @@ def upscale(a):
     l = cv2.resize(a, (a.shape[1] * 4, a.shape[0] * 4), interpolation=cv2.INTER_LANCZOS4)
     if not _sr: return l, 'lanczos-test'
     b = _sr.upsample(a); b = cv2.addWeighted(b, .78, l, .22, 0); b = cv2.addWeighted(b, 1.12, cv2.GaussianBlur(b, (0, 0), .8), -.12, 0); return b, 'fsrcnn-x4'
+def strip_frame_lines(a8):
+    """Remove Flow panel border strokes: thin straight runs (>=50% of the side, <=1.4% thick) in the outer 14% band
+    that are ISOLATED (both flanks mostly empty along the run) - so edges of filled shapes (chair sides, walls, door
+    frames) are never cut. Anything outside a full-length isolated border (>=80% of the side, outer 8%) is margin."""
+    H, W = a8.shape; m = (a8 > 40).astype(np.uint8); K = cv2.getStructuringElement; out = a8.copy(); occ = (a8 > 150).astype(np.float32)  # strong matte only: pale gutters/margins (white vs paper) do not count as art
+    hl = cv2.morphologyEx(m, cv2.MORPH_OPEN, K(cv2.MORPH_RECT, (max(3, int(W * .5)), 1)))
+    vl = cv2.morphologyEx(m, cv2.MORPH_OPEN, K(cv2.MORPH_RECT, (1, max(3, int(H * .5)))))
+    hl &= ~cv2.dilate(cv2.morphologyEx(hl, cv2.MORPH_OPEN, K(cv2.MORPH_RECT, (1, max(3, int(H * .014))))), K(cv2.MORPH_RECT, (5, 5))) & 1
+    vl &= ~cv2.dilate(cv2.morphologyEx(vl, cv2.MORPH_OPEN, K(cv2.MORPH_RECT, (max(3, int(W * .014)), 1))), K(cv2.MORPH_RECT, (5, 5))) & 1
+    by, bx = int(H * .14), int(W * .14); hl[by:H - by, :] = 0; vl[:, bx:W - bx] = 0
+    keep = np.zeros_like(m); cuts = {'top': [], 'bot': [], 'lf': [], 'rt': []}; off = 14
+    for mask, horiz in ((hl, True), (vl, False)):
+        n, lab, st, _ = cv2.connectedComponentsWithStats(mask, 8)
+        for k in range(1, n):
+            x, y, w, h = st[k, :4]
+            if horiz:
+                ya, yb = y - off, y + h + off; fl = (occ[ya, x:x + w].mean() if ya >= 0 else 0.0, occ[yb, x:x + w].mean() if yb < H else 0.0); L = w / W; pos = y + h / 2; side = 'top' if pos < H / 2 else 'bot'; edge = min(y, H - y - h) < H * .08
+            else:
+                xa, xb = x - off, x + w + off; fl = (occ[y:y + h, xa].mean() if xa >= 0 else 0.0, occ[y:y + h, xb].mean() if xb < W else 0.0); L = h / H; pos = x + w / 2; side = 'lf' if pos < W / 2 else 'rt'; edge = min(x, W - x - w) < W * .08
+            if max(fl) < .35:  # isolated stroke, not the edge of a drawn shape
+                keep[lab == k] = 1
+                if L >= .8 and edge: cuts[side].append((y, y + h) if horiz else (x, x + w))
+    out[cv2.dilate(keep, K(cv2.MORPH_RECT, (9, 9))) > 0] = 0; pad = 6
+    if cuts['top']: out[:max(b for a, b in cuts['top']) + pad] = 0
+    if cuts['bot']: out[min(a for a, b in cuts['bot']) - pad:] = 0
+    if cuts['lf']: out[:, :max(b for a, b in cuts['lf']) + pad] = 0
+    if cuts['rt']: out[:, min(a for a, b in cuts['rt']) - pad:] = 0
+    return out
 def matte(b, dark):
-    sample = np.median(np.concatenate([b[:20].reshape(-1, 3), b[-20:].reshape(-1, 3), b[:, :20].reshape(-1, 3), b[:, -20:].reshape(-1, 3)]), axis=0)
+    hh, ww = b.shape[:2]; o = int(.03 * min(hh, ww)); t = max(8, int(.05 * min(hh, ww)))  # inner band: skips gutters and border strokes
+    sample = np.median(np.concatenate([b[o:o + t, o:ww - o].reshape(-1, 3), b[hh - o - t:hh - o, o:ww - o].reshape(-1, 3), b[o:hh - o, o:o + t].reshape(-1, 3), b[o:hh - o, ww - o - t:ww - o].reshape(-1, 3)]), axis=0)
     delta = np.max(np.abs(b.astype(np.float32) - sample), axis=2); alpha = np.clip((delta - 9) / 35, 0, 1).astype(np.float32)
+    e = max(6, int(.015 * min(hh, ww))); alpha[:e] = 0; alpha[-e:] = 0; alpha[:, :e] = 0; alpha[:, -e:] = 0  # Flow panel frame strokes hug the trimmed cell edge
+    alpha = strip_frame_lines((alpha * 255).astype(np.uint8)).astype(np.float32) / 255  # strip borders BEFORE hull fill (closed frame = full fill)
     solid = (alpha > .4).astype(np.uint8) * 255; ct, _ = cv2.findContours(solid, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE); hull = np.zeros_like(solid)
     for x in ct:
         if cv2.contourArea(x) > 120 * 4: cv2.drawContours(hull, [x], -1, 255, -1)
     alpha = np.maximum(alpha, cv2.GaussianBlur(hull, (5, 5), 0) / 255)
-    a8 = (alpha * 255).astype(np.uint8); ns, lab, st, _ = cv2.connectedComponentsWithStats((a8 > 80).astype(np.uint8), 8)
+    a8 = strip_frame_lines((alpha * 255).astype(np.uint8)); ns, lab, st, _ = cv2.connectedComponentsWithStats((a8 > 80).astype(np.uint8), 8)
     for j in range(1, ns):
         if st[j, cv2.CC_STAT_AREA] < 110: a8[lab == j] = 0
     return a8, sample.tolist()
 def bbox(a8):
-    yy, xx = np.where(a8 > 128)
-    return [int(xx.min()), int(yy.min()), int(xx.max() + 1), int(yy.max() + 1)] if len(xx) else [0, 0, a8.shape[1], a8.shape[0]]
+    """Robust content box: ignore rows/columns with only a few stray matte pixels (edge specks, leftover border dots)."""
+    m = cv2.morphologyEx((a8 > 128).astype(np.uint8), cv2.MORPH_OPEN, np.ones((7, 7), np.uint8)); H, W = m.shape  # opening drops hairline strokes/borders
+    m = m > 0
+    rows = np.where(m.sum(1) >= max(3, int(W * .006)))[0]; cols = np.where(m.sum(0) >= max(3, int(H * .006)))[0]
+    return [max(0, int(cols.min()) - 10), max(0, int(rows.min()) - 10), min(W, int(cols.max()) + 11), min(H, int(rows.max()) + 11)] if len(rows) and len(cols) else [0, 0, W, H]
 def darkset():
     """Dark panels from the beat plans (D: prefix)."""
     d = set(); sheet = None

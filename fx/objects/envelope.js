@@ -3,6 +3,7 @@ export const meta = { id: 'wwb-3d-v1-envelope', version: 1, name: 'envelope', ta
   metaphor: 'An invitation being turned down or set aside.', physics: true,
   view: { center: [0, 0.16, 0], height: 0.78, elev: 36, azim: -8 } };
 const DIM = { w: 0.36, t: 0.014, d: 0.24 };
+export const viewFor = (P) => ((P.count || 1) === 1 ? { center: [0, 0.15, 0], height: 0.56 } : (P.count === 2 ? { center: [0, 0.15, 0], height: 0.68 } : {}));
 function xs(P) { const n = P.count || 1; return Array.from({ length: n }, (_, i) => (i - (n - 1) / 2) * (P.spacing || 0.42)); }
 export function build(T, S, P) {
   const root = new T.Group(); const parts = {};

@@ -35,6 +35,6 @@ SH3B-2|162|vs|Enjoyment or Habit?|Enjoy it?@enjoy;Just used to it?@accustomed
 SH3B-3|164|quote|Uncomfortable Answers|Not always comfortable@comfortable
 SH3B-4|165|quote|A Path You Never Chose|Never consciously chose@chose
 SH3C-1|166|quote|Pretending It's Fine|Pretending it's fine@pretending
-SH3C-2|168|vs|The Life You Actually Want|The life you want@want;The life that impresses@impress
-SH3C-3|169|quote|Very Different From the Show|Looks very different@different
+SH3C-2|168|quote|The Life You Actually Want|The life you genuinely want@want
+SH3C-3|169|vs|Very Different From the Show|Looks very different@different;Trying to impress@impress
 # SH3C-4 (walking the trail toward sunrise) intentionally unused: no remaining narration beat in the 40.7 s window.
