@@ -1,0 +1,138 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat ExtraBold,60,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,4,1.5,2,80,200,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.20,Default,,0,0,0,,{\c&H003C62C8&}When{\c&H00FFFFFF&} you're alone,
+Dialogue: 0,0:00:00.20,0:00:00.34,Default,,0,0,0,,When {\c&H003C62C8&}you're{\c&H00FFFFFF&} alone,
+Dialogue: 0,0:00:00.34,0:00:01.02,Default,,0,0,0,,When you're {\c&H003C62C8&}alone,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.02,0:00:01.16,Default,,0,0,0,,{\c&H003C62C8&}you{\c&H00FFFFFF&} can ask yourself questions
+Dialogue: 0,0:00:01.16,0:00:01.30,Default,,0,0,0,,you {\c&H003C62C8&}can{\c&H00FFFFFF&} ask yourself questions
+Dialogue: 0,0:00:01.30,0:00:01.52,Default,,0,0,0,,you can {\c&H003C62C8&}ask{\c&H00FFFFFF&} yourself questions
+Dialogue: 0,0:00:01.52,0:00:01.82,Default,,0,0,0,,you can ask {\c&H003C62C8&}yourself{\c&H00FFFFFF&} questions
+Dialogue: 0,0:00:01.82,0:00:02.26,Default,,0,0,0,,you can ask yourself {\c&H003C62C8&}questions{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.26,0:00:02.56,Default,,0,0,0,,{\c&H003C62C8&}you{\c&H00FFFFFF&} might otherwise avoid.
+Dialogue: 0,0:00:02.56,0:00:02.74,Default,,0,0,0,,you {\c&H003C62C8&}might{\c&H00FFFFFF&} otherwise avoid.
+Dialogue: 0,0:00:02.74,0:00:03.22,Default,,0,0,0,,you might {\c&H003C62C8&}otherwise{\c&H00FFFFFF&} avoid.
+Dialogue: 0,0:00:03.22,0:00:03.95,Default,,0,0,0,,you might otherwise {\c&H003C62C8&}avoid.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.14,0:00:04.22,Default,,0,0,0,,{\c&H003C62C8&}Do{\c&H00FFFFFF&} I actually want this
+Dialogue: 0,0:00:04.22,0:00:04.40,Default,,0,0,0,,Do {\c&H003C62C8&}I{\c&H00FFFFFF&} actually want this
+Dialogue: 0,0:00:04.40,0:00:04.86,Default,,0,0,0,,Do I {\c&H003C62C8&}actually{\c&H00FFFFFF&} want this
+Dialogue: 0,0:00:04.86,0:00:05.26,Default,,0,0,0,,Do I actually {\c&H003C62C8&}want{\c&H00FFFFFF&} this
+Dialogue: 0,0:00:05.26,0:00:05.56,Default,,0,0,0,,Do I actually want {\c&H003C62C8&}this{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.56,0:00:06.18,Default,,0,0,0,,{\c&H003C62C8&}career?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.18,0:00:06.32,Default,,0,0,0,,{\c&H003C62C8&}Or{\c&H00FFFFFF&} do I want the
+Dialogue: 0,0:00:06.32,0:00:06.62,Default,,0,0,0,,Or {\c&H003C62C8&}do{\c&H00FFFFFF&} I want the
+Dialogue: 0,0:00:06.62,0:00:06.78,Default,,0,0,0,,Or do {\c&H003C62C8&}I{\c&H00FFFFFF&} want the
+Dialogue: 0,0:00:06.78,0:00:06.98,Default,,0,0,0,,Or do I {\c&H003C62C8&}want{\c&H00FFFFFF&} the
+Dialogue: 0,0:00:06.98,0:00:07.12,Default,,0,0,0,,Or do I want {\c&H003C62C8&}the{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.12,0:00:07.56,Default,,0,0,0,,{\c&H003C62C8&}respect{\c&H00FFFFFF&} that comes with it?
+Dialogue: 0,0:00:07.56,0:00:07.94,Default,,0,0,0,,respect {\c&H003C62C8&}that{\c&H00FFFFFF&} comes with it?
+Dialogue: 0,0:00:07.94,0:00:08.16,Default,,0,0,0,,respect that {\c&H003C62C8&}comes{\c&H00FFFFFF&} with it?
+Dialogue: 0,0:00:08.16,0:00:08.40,Default,,0,0,0,,respect that comes {\c&H003C62C8&}with{\c&H00FFFFFF&} it?
+Dialogue: 0,0:00:08.40,0:00:08.99,Default,,0,0,0,,respect that comes with {\c&H003C62C8&}it?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.08,0:00:09.20,Default,,0,0,0,,{\c&H003C62C8&}Am{\c&H00FFFFFF&} I pursuing this goal
+Dialogue: 0,0:00:09.20,0:00:09.38,Default,,0,0,0,,Am {\c&H003C62C8&}I{\c&H00FFFFFF&} pursuing this goal
+Dialogue: 0,0:00:09.38,0:00:09.76,Default,,0,0,0,,Am I {\c&H003C62C8&}pursuing{\c&H00FFFFFF&} this goal
+Dialogue: 0,0:00:09.76,0:00:10.10,Default,,0,0,0,,Am I pursuing {\c&H003C62C8&}this{\c&H00FFFFFF&} goal
+Dialogue: 0,0:00:10.10,0:00:10.36,Default,,0,0,0,,Am I pursuing this {\c&H003C62C8&}goal{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.36,0:00:10.68,Default,,0,0,0,,{\c&H003C62C8&}because{\c&H00FFFFFF&} it matters to me?
+Dialogue: 0,0:00:10.68,0:00:10.86,Default,,0,0,0,,because {\c&H003C62C8&}it{\c&H00FFFFFF&} matters to me?
+Dialogue: 0,0:00:10.86,0:00:11.20,Default,,0,0,0,,because it {\c&H003C62C8&}matters{\c&H00FFFFFF&} to me?
+Dialogue: 0,0:00:11.20,0:00:11.44,Default,,0,0,0,,because it matters {\c&H003C62C8&}to{\c&H00FFFFFF&} me?
+Dialogue: 0,0:00:11.44,0:00:11.80,Default,,0,0,0,,because it matters to {\c&H003C62C8&}me?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.80,0:00:11.94,Default,,0,0,0,,{\c&H003C62C8&}Or{\c&H00FFFFFF&} because I don't want
+Dialogue: 0,0:00:11.94,0:00:12.36,Default,,0,0,0,,Or {\c&H003C62C8&}because{\c&H00FFFFFF&} I don't want
+Dialogue: 0,0:00:12.36,0:00:12.50,Default,,0,0,0,,Or because {\c&H003C62C8&}I{\c&H00FFFFFF&} don't want
+Dialogue: 0,0:00:12.50,0:00:12.62,Default,,0,0,0,,Or because I {\c&H003C62C8&}don't{\c&H00FFFFFF&} want
+Dialogue: 0,0:00:12.62,0:00:12.76,Default,,0,0,0,,Or because I don't {\c&H003C62C8&}want{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.76,0:00:12.90,Default,,0,0,0,,{\c&H003C62C8&}to{\c&H00FFFFFF&} feel left behind?
+Dialogue: 0,0:00:12.90,0:00:13.04,Default,,0,0,0,,to {\c&H003C62C8&}feel{\c&H00FFFFFF&} left behind?
+Dialogue: 0,0:00:13.04,0:00:13.36,Default,,0,0,0,,to feel {\c&H003C62C8&}left{\c&H00FFFFFF&} behind?
+Dialogue: 0,0:00:13.36,0:00:14.21,Default,,0,0,0,,to feel left {\c&H003C62C8&}behind?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.56,0:00:14.72,Default,,0,0,0,,{\c&H003C62C8&}Do{\c&H00FFFFFF&} I genuinely enjoy the
+Dialogue: 0,0:00:14.72,0:00:14.88,Default,,0,0,0,,Do {\c&H003C62C8&}I{\c&H00FFFFFF&} genuinely enjoy the
+Dialogue: 0,0:00:14.88,0:00:15.42,Default,,0,0,0,,Do I {\c&H003C62C8&}genuinely{\c&H00FFFFFF&} enjoy the
+Dialogue: 0,0:00:15.42,0:00:16.08,Default,,0,0,0,,Do I genuinely {\c&H003C62C8&}enjoy{\c&H00FFFFFF&} the
+Dialogue: 0,0:00:16.08,0:00:16.32,Default,,0,0,0,,Do I genuinely enjoy {\c&H003C62C8&}the{\c&H00FFFFFF&}
+Dialogue: 0,0:00:16.32,0:00:16.48,Default,,0,0,0,,{\c&H003C62C8&}way{\c&H00FFFFFF&} I'm living?
+Dialogue: 0,0:00:16.48,0:00:16.74,Default,,0,0,0,,way {\c&H003C62C8&}I'm{\c&H00FFFFFF&} living?
+Dialogue: 0,0:00:16.74,0:00:17.34,Default,,0,0,0,,way I'm {\c&H003C62C8&}living?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:17.34,0:00:17.60,Default,,0,0,0,,{\c&H003C62C8&}Or{\c&H00FFFFFF&} have I simply become
+Dialogue: 0,0:00:17.60,0:00:17.84,Default,,0,0,0,,Or {\c&H003C62C8&}have{\c&H00FFFFFF&} I simply become
+Dialogue: 0,0:00:17.84,0:00:18.00,Default,,0,0,0,,Or have {\c&H003C62C8&}I{\c&H00FFFFFF&} simply become
+Dialogue: 0,0:00:18.00,0:00:18.26,Default,,0,0,0,,Or have I {\c&H003C62C8&}simply{\c&H00FFFFFF&} become
+Dialogue: 0,0:00:18.26,0:00:18.62,Default,,0,0,0,,Or have I simply {\c&H003C62C8&}become{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.62,0:00:19.04,Default,,0,0,0,,{\c&H003C62C8&}accustomed{\c&H00FFFFFF&} to it?
+Dialogue: 0,0:00:19.04,0:00:19.48,Default,,0,0,0,,accustomed {\c&H003C62C8&}to{\c&H00FFFFFF&} it?
+Dialogue: 0,0:00:19.48,0:00:19.64,Default,,0,0,0,,accustomed to {\c&H003C62C8&}it?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.64,0:00:20.32,Default,,0,0,0,,{\c&H003C62C8&}These{\c&H00FFFFFF&} questions don't always produce
+Dialogue: 0,0:00:20.32,0:00:20.74,Default,,0,0,0,,These {\c&H003C62C8&}questions{\c&H00FFFFFF&} don't always produce
+Dialogue: 0,0:00:20.74,0:00:21.10,Default,,0,0,0,,These questions {\c&H003C62C8&}don't{\c&H00FFFFFF&} always produce
+Dialogue: 0,0:00:21.10,0:00:21.38,Default,,0,0,0,,These questions don't {\c&H003C62C8&}always{\c&H00FFFFFF&} produce
+Dialogue: 0,0:00:21.38,0:00:21.76,Default,,0,0,0,,These questions don't always {\c&H003C62C8&}produce{\c&H00FFFFFF&}
+Dialogue: 0,0:00:21.76,0:00:22.34,Default,,0,0,0,,{\c&H003C62C8&}comfortable{\c&H00FFFFFF&} answers.
+Dialogue: 0,0:00:22.34,0:00:23.17,Default,,0,0,0,,comfortable {\c&H003C62C8&}answers.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:23.46,0:00:23.94,Default,,0,0,0,,{\c&H003C62C8&}Sometimes,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:23.94,0:00:24.06,Default,,0,0,0,,{\c&H003C62C8&}they{\c&H00FFFFFF&} reveal that you've been
+Dialogue: 0,0:00:24.06,0:00:24.32,Default,,0,0,0,,they {\c&H003C62C8&}reveal{\c&H00FFFFFF&} that you've been
+Dialogue: 0,0:00:24.32,0:00:24.56,Default,,0,0,0,,they reveal {\c&H003C62C8&}that{\c&H00FFFFFF&} you've been
+Dialogue: 0,0:00:24.56,0:00:24.78,Default,,0,0,0,,they reveal that {\c&H003C62C8&}you've{\c&H00FFFFFF&} been
+Dialogue: 0,0:00:24.78,0:00:24.92,Default,,0,0,0,,they reveal that you've {\c&H003C62C8&}been{\c&H00FFFFFF&}
+Dialogue: 0,0:00:24.92,0:00:25.34,Default,,0,0,0,,{\c&H003C62C8&}following{\c&H00FFFFFF&} a path you never
+Dialogue: 0,0:00:25.34,0:00:25.60,Default,,0,0,0,,following {\c&H003C62C8&}a{\c&H00FFFFFF&} path you never
+Dialogue: 0,0:00:25.60,0:00:25.86,Default,,0,0,0,,following a {\c&H003C62C8&}path{\c&H00FFFFFF&} you never
+Dialogue: 0,0:00:25.86,0:00:26.12,Default,,0,0,0,,following a path {\c&H003C62C8&}you{\c&H00FFFFFF&} never
+Dialogue: 0,0:00:26.12,0:00:26.46,Default,,0,0,0,,following a path you {\c&H003C62C8&}never{\c&H00FFFFFF&}
+Dialogue: 0,0:00:26.46,0:00:26.94,Default,,0,0,0,,{\c&H003C62C8&}consciously{\c&H00FFFFFF&} chose.
+Dialogue: 0,0:00:26.94,0:00:27.73,Default,,0,0,0,,consciously {\c&H003C62C8&}chose.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:28.18,0:00:28.68,Default,,0,0,0,,{\c&H003C62C8&}Sometimes,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:28.68,0:00:28.82,Default,,0,0,0,,{\c&H003C62C8&}they{\c&H00FFFFFF&} force you to acknowledge
+Dialogue: 0,0:00:28.82,0:00:29.02,Default,,0,0,0,,they {\c&H003C62C8&}force{\c&H00FFFFFF&} you to acknowledge
+Dialogue: 0,0:00:29.02,0:00:29.24,Default,,0,0,0,,they force {\c&H003C62C8&}you{\c&H00FFFFFF&} to acknowledge
+Dialogue: 0,0:00:29.24,0:00:29.36,Default,,0,0,0,,they force you {\c&H003C62C8&}to{\c&H00FFFFFF&} acknowledge
+Dialogue: 0,0:00:29.36,0:00:29.70,Default,,0,0,0,,they force you to {\c&H003C62C8&}acknowledge{\c&H00FFFFFF&}
+Dialogue: 0,0:00:29.70,0:00:30.02,Default,,0,0,0,,{\c&H003C62C8&}that{\c&H00FFFFFF&} you're unhappy with something
+Dialogue: 0,0:00:30.02,0:00:30.22,Default,,0,0,0,,that {\c&H003C62C8&}you're{\c&H00FFFFFF&} unhappy with something
+Dialogue: 0,0:00:30.22,0:00:30.64,Default,,0,0,0,,that you're {\c&H003C62C8&}unhappy{\c&H00FFFFFF&} with something
+Dialogue: 0,0:00:30.64,0:00:30.96,Default,,0,0,0,,that you're unhappy {\c&H003C62C8&}with{\c&H00FFFFFF&} something
+Dialogue: 0,0:00:30.96,0:00:31.26,Default,,0,0,0,,that you're unhappy with {\c&H003C62C8&}something{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.26,0:00:31.52,Default,,0,0,0,,{\c&H003C62C8&}you've{\c&H00FFFFFF&} been pretending is fine.
+Dialogue: 0,0:00:31.52,0:00:31.62,Default,,0,0,0,,you've {\c&H003C62C8&}been{\c&H00FFFFFF&} pretending is fine.
+Dialogue: 0,0:00:31.62,0:00:32.10,Default,,0,0,0,,you've been {\c&H003C62C8&}pretending{\c&H00FFFFFF&} is fine.
+Dialogue: 0,0:00:32.10,0:00:32.40,Default,,0,0,0,,you've been pretending {\c&H003C62C8&}is{\c&H00FFFFFF&} fine.
+Dialogue: 0,0:00:32.40,0:00:33.15,Default,,0,0,0,,you've been pretending is {\c&H003C62C8&}fine.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:33.42,0:00:33.60,Default,,0,0,0,,{\c&H003C62C8&}And{\c&H00FFFFFF&} sometimes,
+Dialogue: 0,0:00:33.60,0:00:34.32,Default,,0,0,0,,And {\c&H003C62C8&}sometimes,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:34.32,0:00:34.42,Default,,0,0,0,,{\c&H003C62C8&}they{\c&H00FFFFFF&} help you realize that
+Dialogue: 0,0:00:34.42,0:00:34.58,Default,,0,0,0,,they {\c&H003C62C8&}help{\c&H00FFFFFF&} you realize that
+Dialogue: 0,0:00:34.58,0:00:34.78,Default,,0,0,0,,they help {\c&H003C62C8&}you{\c&H00FFFFFF&} realize that
+Dialogue: 0,0:00:34.78,0:00:35.10,Default,,0,0,0,,they help you {\c&H003C62C8&}realize{\c&H00FFFFFF&} that
+Dialogue: 0,0:00:35.10,0:00:35.34,Default,,0,0,0,,they help you realize {\c&H003C62C8&}that{\c&H00FFFFFF&}
+Dialogue: 0,0:00:35.34,0:00:35.54,Default,,0,0,0,,{\c&H003C62C8&}the{\c&H00FFFFFF&} life you genuinely want
+Dialogue: 0,0:00:35.54,0:00:35.72,Default,,0,0,0,,the {\c&H003C62C8&}life{\c&H00FFFFFF&} you genuinely want
+Dialogue: 0,0:00:35.72,0:00:35.94,Default,,0,0,0,,the life {\c&H003C62C8&}you{\c&H00FFFFFF&} genuinely want
+Dialogue: 0,0:00:35.94,0:00:36.48,Default,,0,0,0,,the life you {\c&H003C62C8&}genuinely{\c&H00FFFFFF&} want
+Dialogue: 0,0:00:36.48,0:00:36.98,Default,,0,0,0,,the life you genuinely {\c&H003C62C8&}want{\c&H00FFFFFF&}
+Dialogue: 0,0:00:36.98,0:00:37.32,Default,,0,0,0,,{\c&H003C62C8&}looks{\c&H00FFFFFF&} very different from the
+Dialogue: 0,0:00:37.32,0:00:37.80,Default,,0,0,0,,looks {\c&H003C62C8&}very{\c&H00FFFFFF&} different from the
+Dialogue: 0,0:00:37.80,0:00:38.24,Default,,0,0,0,,looks very {\c&H003C62C8&}different{\c&H00FFFFFF&} from the
+Dialogue: 0,0:00:38.24,0:00:38.48,Default,,0,0,0,,looks very different {\c&H003C62C8&}from{\c&H00FFFFFF&} the
+Dialogue: 0,0:00:38.48,0:00:38.62,Default,,0,0,0,,looks very different from {\c&H003C62C8&}the{\c&H00FFFFFF&}
+Dialogue: 0,0:00:38.62,0:00:38.84,Default,,0,0,0,,{\c&H003C62C8&}life{\c&H00FFFFFF&} you've been trying to
+Dialogue: 0,0:00:38.84,0:00:39.06,Default,,0,0,0,,life {\c&H003C62C8&}you've{\c&H00FFFFFF&} been trying to
+Dialogue: 0,0:00:39.06,0:00:39.18,Default,,0,0,0,,life you've {\c&H003C62C8&}been{\c&H00FFFFFF&} trying to
+Dialogue: 0,0:00:39.18,0:00:39.44,Default,,0,0,0,,life you've been {\c&H003C62C8&}trying{\c&H00FFFFFF&} to
+Dialogue: 0,0:00:39.44,0:00:39.60,Default,,0,0,0,,life you've been trying {\c&H003C62C8&}to{\c&H00FFFFFF&}
+Dialogue: 0,0:00:39.60,0:00:39.94,Default,,0,0,0,,{\c&H003C62C8&}impress{\c&H00FFFFFF&} other people with.
+Dialogue: 0,0:00:39.94,0:00:40.20,Default,,0,0,0,,impress {\c&H003C62C8&}other{\c&H00FFFFFF&} people with.
+Dialogue: 0,0:00:40.20,0:00:40.46,Default,,0,0,0,,impress other {\c&H003C62C8&}people{\c&H00FFFFFF&} with.
+Dialogue: 0,0:00:40.46,0:00:40.97,Default,,0,0,0,,impress other people {\c&H003C62C8&}with.{\c&H00FFFFFF&}

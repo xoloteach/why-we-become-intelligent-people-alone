@@ -1,0 +1,172 @@
+{
+ "schema": "wwb-review-export/1",
+ "run_id": "40500406007",
+ "sha": "ff79eed1fe0d16210d47c0a85b16028f9a08d821",
+ "files": {
+  "SH1.mp4": {
+   "bytes": 7294370,
+   "sha256": "926e54e154a1ebf7e20808b1030ddf0775b20865497d1bbfa576dd7ea9d0cfcb",
+   "parts": [
+    "SH1.mp4"
+   ]
+  },
+  "SH2.mp4": {
+   "bytes": 7528904,
+   "sha256": "bd62a2f464985b161a35528ed252c0bb21f5b88c64709bb5ccdc3e97ae29e8a9",
+   "parts": [
+    "SH2.mp4"
+   ]
+  },
+  "SH3.mp4": {
+   "bytes": 6322818,
+   "sha256": "e89fbac68d3559bc057005d36cc39dfd976746e5748528ec28ee0acb54bd1b40",
+   "parts": [
+    "SH3.mp4"
+   ]
+  },
+  "captions_SH1.ass": {
+   "bytes": 14145,
+   "sha256": "1e7cef8ea51f795f831e4202fdc445a375a5e6eecd97ff01ed0c52d8a025e112",
+   "parts": [
+    "captions_SH1.ass"
+   ]
+  },
+  "captions_SH2.ass": {
+   "bytes": 11394,
+   "sha256": "e6a3f0fb581ab562babce6758b9d124a5d9f57f2ab148e547577771c0aec0153",
+   "parts": [
+    "captions_SH2.ass"
+   ]
+  },
+  "captions_SH3.ass": {
+   "bytes": 13795,
+   "sha256": "d2a2655046b64919658abf94aee0c3bc38879e8e40daba49ae6d1762f1b8d673",
+   "parts": [
+    "captions_SH3.ass"
+   ]
+  },
+  "captions_landscape.ass": {
+   "bytes": 387749,
+   "sha256": "8d35a43a98e8d116c4b2c3b94a1a01213106eab77a15ea55e22db035317504a4",
+   "parts": [
+    "captions_landscape.ass"
+   ]
+  },
+  "cover_SH1.jpg": {
+   "bytes": 177248,
+   "sha256": "2877eadf956ca42edf5d32cf4c61935e2a0bb5be20ae6c551c25e84cae956881",
+   "parts": [
+    "cover_SH1.jpg"
+   ]
+  },
+  "cover_SH2.jpg": {
+   "bytes": 236431,
+   "sha256": "b9ab127376761e84b0ce3fa6782ebf019aa62fe69a803bac407a4ff1dc037d04",
+   "parts": [
+    "cover_SH2.jpg"
+   ]
+  },
+  "cover_SH3.jpg": {
+   "bytes": 192660,
+   "sha256": "fdf1e06c56df0d894f131e214f2933288c250bdd3228d03d663617c2143b0170",
+   "parts": [
+    "cover_SH3.jpg"
+   ]
+  },
+  "final.mp4": {
+   "bytes": 188663202,
+   "sha256": "0204b0c4d881c4fd8364dcf351caaa3346541a8fcaf3215e04583d6addb64cdd",
+   "parts": [
+    "final.mp4.part000",
+    "final.mp4.part001",
+    "final.mp4.part002",
+    "final.mp4.part003",
+    "final.mp4.part004",
+    "final.mp4.part005",
+    "final.mp4.part006",
+    "final.mp4.part007",
+    "final.mp4.part008",
+    "final.mp4.part009",
+    "final.mp4.part010",
+    "final.mp4.part011"
+   ]
+  },
+  "final.srt": {
+   "bytes": 37486,
+   "sha256": "93896944de4ab7020c67722835cfc076b5c09764ad4cec9b22080420334dfc05",
+   "parts": [
+    "final.srt"
+   ]
+  },
+  "qa_contact_landscape.jpg": {
+   "bytes": 293043,
+   "sha256": "35734bfda76886f8e127851318004d10ad1fd12dfcc6b0ab8301d1ea5ef73b73",
+   "parts": [
+    "qa_contact_landscape.jpg"
+   ]
+  },
+  "qa_contact_shorts.jpg": {
+   "bytes": 80008,
+   "sha256": "0426dd2ed79267a847089cc43f1342268785cbd1285ae83dbdcbe22260e05129",
+   "parts": [
+    "qa_contact_shorts.jpg"
+   ]
+  },
+  "qa_report.json": {
+   "bytes": 7846,
+   "sha256": "b6124945c6ed3030fd27da724e2b1ca15545314943b091b228cfc2f7ffa31687",
+   "parts": [
+    "qa_report.json"
+   ]
+  },
+  "qa_report.md": {
+   "bytes": 5172,
+   "sha256": "eb62139928a530b20faf8baed49fa642c1e9eda5e74cda8a8aac3db5d23dc688",
+   "parts": [
+    "qa_report.md"
+   ]
+  },
+  "qa_stills.zip": {
+   "bytes": 2393305,
+   "sha256": "80da30b1bbed2ca0f761bfff28578f6baf7abe43f6c6094e44235c0c435f94be",
+   "parts": [
+    "qa_stills.zip"
+   ]
+  },
+  "seo.md": {
+   "bytes": 4846,
+   "sha256": "e4b459484ae88b3899af9d78215d938a1d44f2dae06ef9b98577369f2dc9df42",
+   "parts": [
+    "seo.md"
+   ]
+  },
+  "source.zip": {
+   "bytes": 201146,
+   "sha256": "fe78295d24f34614ed3f5ec620e13c49ee77c16560a88e3525e6f860234da6d3",
+   "parts": [
+    "source.zip"
+   ]
+  },
+  "thumbnail.jpg": {
+   "bytes": 124776,
+   "sha256": "0189050e28743fa4df88af0622c7149235d5711d6b4d3f8f796776de46451213",
+   "parts": [
+    "thumbnail.jpg"
+   ]
+  },
+  "thumbnail_160x90_check.png": {
+   "bytes": 16098,
+   "sha256": "7bf6f13a86c19f8bd911df88cafd50ec49ace3174cf16399ef2710f6f99928e6",
+   "parts": [
+    "thumbnail_160x90_check.png"
+   ]
+  },
+  "transcript.txt": {
+   "bytes": 21038,
+   "sha256": "a74ca4ff57ff2a5bac48f9e16e77ba8433e6b3eae9b325e692ec5e5b367d3662",
+   "parts": [
+    "transcript.txt"
+   ]
+  }
+ }
+}

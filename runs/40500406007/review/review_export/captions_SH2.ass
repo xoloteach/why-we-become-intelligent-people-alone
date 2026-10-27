@@ -1,0 +1,115 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat ExtraBold,60,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,4,1.5,2,80,200,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.64,Default,,0,0,0,,{\c&H003C62C8&}Enjoying{\c&H00FFFFFF&} the freedom to be
+Dialogue: 0,0:00:00.64,0:00:00.76,Default,,0,0,0,,Enjoying {\c&H003C62C8&}the{\c&H00FFFFFF&} freedom to be
+Dialogue: 0,0:00:00.76,0:00:01.08,Default,,0,0,0,,Enjoying the {\c&H003C62C8&}freedom{\c&H00FFFFFF&} to be
+Dialogue: 0,0:00:01.08,0:00:01.26,Default,,0,0,0,,Enjoying the freedom {\c&H003C62C8&}to{\c&H00FFFFFF&} be
+Dialogue: 0,0:00:01.26,0:00:01.36,Default,,0,0,0,,Enjoying the freedom to {\c&H003C62C8&}be{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.36,0:00:01.78,Default,,0,0,0,,{\c&H003C62C8&}yourself{\c&H00FFFFFF&} is healthy.
+Dialogue: 0,0:00:01.78,0:00:02.38,Default,,0,0,0,,yourself {\c&H003C62C8&}is{\c&H00FFFFFF&} healthy.
+Dialogue: 0,0:00:02.38,0:00:03.19,Default,,0,0,0,,yourself is {\c&H003C62C8&}healthy.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.38,0:00:03.96,Default,,0,0,0,,{\c&H003C62C8&}Avoiding{\c&H00FFFFFF&} every situation where you
+Dialogue: 0,0:00:03.96,0:00:04.36,Default,,0,0,0,,Avoiding {\c&H003C62C8&}every{\c&H00FFFFFF&} situation where you
+Dialogue: 0,0:00:04.36,0:00:04.90,Default,,0,0,0,,Avoiding every {\c&H003C62C8&}situation{\c&H00FFFFFF&} where you
+Dialogue: 0,0:00:04.90,0:00:05.24,Default,,0,0,0,,Avoiding every situation {\c&H003C62C8&}where{\c&H00FFFFFF&} you
+Dialogue: 0,0:00:05.24,0:00:05.40,Default,,0,0,0,,Avoiding every situation where {\c&H003C62C8&}you{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.40,0:00:05.58,Default,,0,0,0,,{\c&H003C62C8&}might{\c&H00FFFFFF&} be misunderstood is
+Dialogue: 0,0:00:05.58,0:00:05.78,Default,,0,0,0,,might {\c&H003C62C8&}be{\c&H00FFFFFF&} misunderstood is
+Dialogue: 0,0:00:05.78,0:00:06.52,Default,,0,0,0,,might be {\c&H003C62C8&}misunderstood{\c&H00FFFFFF&} is
+Dialogue: 0,0:00:06.52,0:00:07.02,Default,,0,0,0,,might be misunderstood {\c&H003C62C8&}is{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.02,0:00:07.42,Default,,0,0,0,,{\c&H003C62C8&}something{\c&H00FFFFFF&} different.
+Dialogue: 0,0:00:07.42,0:00:07.82,Default,,0,0,0,,something {\c&H003C62C8&}different.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.82,0:00:08.46,Default,,0,0,0,,{\c&H003C62C8&}If{\c&H00FFFFFF&} you withdraw because you
+Dialogue: 0,0:00:08.46,0:00:08.62,Default,,0,0,0,,If {\c&H003C62C8&}you{\c&H00FFFFFF&} withdraw because you
+Dialogue: 0,0:00:08.62,0:00:09.08,Default,,0,0,0,,If you {\c&H003C62C8&}withdraw{\c&H00FFFFFF&} because you
+Dialogue: 0,0:00:09.08,0:00:09.46,Default,,0,0,0,,If you withdraw {\c&H003C62C8&}because{\c&H00FFFFFF&} you
+Dialogue: 0,0:00:09.46,0:00:09.76,Default,,0,0,0,,If you withdraw because {\c&H003C62C8&}you{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.76,0:00:10.18,Default,,0,0,0,,{\c&H003C62C8&}genuinely{\c&H00FFFFFF&} enjoy solitude,
+Dialogue: 0,0:00:10.18,0:00:10.68,Default,,0,0,0,,genuinely {\c&H003C62C8&}enjoy{\c&H00FFFFFF&} solitude,
+Dialogue: 0,0:00:10.68,0:00:11.69,Default,,0,0,0,,genuinely enjoy {\c&H003C62C8&}solitude,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.86,0:00:12.06,Default,,0,0,0,,{\c&H003C62C8&}that's{\c&H00FFFFFF&} one thing.
+Dialogue: 0,0:00:12.06,0:00:12.24,Default,,0,0,0,,that's {\c&H003C62C8&}one{\c&H00FFFFFF&} thing.
+Dialogue: 0,0:00:12.24,0:00:12.87,Default,,0,0,0,,that's one {\c&H003C62C8&}thing.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.00,0:00:13.06,Default,,0,0,0,,{\c&H003C62C8&}If{\c&H00FFFFFF&} you withdraw because you're
+Dialogue: 0,0:00:13.06,0:00:13.22,Default,,0,0,0,,If {\c&H003C62C8&}you{\c&H00FFFFFF&} withdraw because you're
+Dialogue: 0,0:00:13.22,0:00:13.64,Default,,0,0,0,,If you {\c&H003C62C8&}withdraw{\c&H00FFFFFF&} because you're
+Dialogue: 0,0:00:13.64,0:00:13.98,Default,,0,0,0,,If you withdraw {\c&H003C62C8&}because{\c&H00FFFFFF&} you're
+Dialogue: 0,0:00:13.98,0:00:14.28,Default,,0,0,0,,If you withdraw because {\c&H003C62C8&}you're{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.28,0:00:14.78,Default,,0,0,0,,{\c&H003C62C8&}terrified{\c&H00FFFFFF&} of rejection,
+Dialogue: 0,0:00:14.78,0:00:15.00,Default,,0,0,0,,terrified {\c&H003C62C8&}of{\c&H00FFFFFF&} rejection,
+Dialogue: 0,0:00:15.00,0:00:15.97,Default,,0,0,0,,terrified of {\c&H003C62C8&}rejection,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:16.18,0:00:16.89,Default,,0,0,0,,{\c&H003C62C8&}criticism,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:16.90,0:00:17.02,Default,,0,0,0,,{\c&H003C62C8&}or{\c&H00FFFFFF&} embarrassment,
+Dialogue: 0,0:00:17.02,0:00:18.03,Default,,0,0,0,,or {\c&H003C62C8&}embarrassment,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.40,0:00:18.48,Default,,0,0,0,,{\c&H003C62C8&}the{\c&H00FFFFFF&} experience may be driven
+Dialogue: 0,0:00:18.48,0:00:19.06,Default,,0,0,0,,the {\c&H003C62C8&}experience{\c&H00FFFFFF&} may be driven
+Dialogue: 0,0:00:19.06,0:00:19.32,Default,,0,0,0,,the experience {\c&H003C62C8&}may{\c&H00FFFFFF&} be driven
+Dialogue: 0,0:00:19.32,0:00:19.50,Default,,0,0,0,,the experience may {\c&H003C62C8&}be{\c&H00FFFFFF&} driven
+Dialogue: 0,0:00:19.50,0:00:19.72,Default,,0,0,0,,the experience may be {\c&H003C62C8&}driven{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.72,0:00:20.08,Default,,0,0,0,,{\c&H003C62C8&}more{\c&H00FFFFFF&} by fear than by
+Dialogue: 0,0:00:20.08,0:00:20.34,Default,,0,0,0,,more {\c&H003C62C8&}by{\c&H00FFFFFF&} fear than by
+Dialogue: 0,0:00:20.34,0:00:20.76,Default,,0,0,0,,more by {\c&H003C62C8&}fear{\c&H00FFFFFF&} than by
+Dialogue: 0,0:00:20.76,0:00:21.02,Default,,0,0,0,,more by fear {\c&H003C62C8&}than{\c&H00FFFFFF&} by
+Dialogue: 0,0:00:21.02,0:00:21.26,Default,,0,0,0,,more by fear than {\c&H003C62C8&}by{\c&H00FFFFFF&}
+Dialogue: 0,0:00:21.26,0:00:22.03,Default,,0,0,0,,{\c&H003C62C8&}preference.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:22.22,0:00:22.36,Default,,0,0,0,,{\c&H003C62C8&}From{\c&H00FFFFFF&} the outside,
+Dialogue: 0,0:00:22.36,0:00:22.48,Default,,0,0,0,,From {\c&H003C62C8&}the{\c&H00FFFFFF&} outside,
+Dialogue: 0,0:00:22.48,0:00:23.30,Default,,0,0,0,,From the {\c&H003C62C8&}outside,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:23.30,0:00:23.48,Default,,0,0,0,,{\c&H003C62C8&}both{\c&H00FFFFFF&} people might look exactly
+Dialogue: 0,0:00:23.48,0:00:23.82,Default,,0,0,0,,both {\c&H003C62C8&}people{\c&H00FFFFFF&} might look exactly
+Dialogue: 0,0:00:23.82,0:00:24.08,Default,,0,0,0,,both people {\c&H003C62C8&}might{\c&H00FFFFFF&} look exactly
+Dialogue: 0,0:00:24.08,0:00:24.34,Default,,0,0,0,,both people might {\c&H003C62C8&}look{\c&H00FFFFFF&} exactly
+Dialogue: 0,0:00:24.34,0:00:24.84,Default,,0,0,0,,both people might look {\c&H003C62C8&}exactly{\c&H00FFFFFF&}
+Dialogue: 0,0:00:24.84,0:00:25.08,Default,,0,0,0,,{\c&H003C62C8&}the{\c&H00FFFFFF&} same.
+Dialogue: 0,0:00:25.08,0:00:25.73,Default,,0,0,0,,the {\c&H003C62C8&}same.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:25.84,0:00:25.96,Default,,0,0,0,,{\c&H003C62C8&}They{\c&H00FFFFFF&} spend time alone.
+Dialogue: 0,0:00:25.96,0:00:26.18,Default,,0,0,0,,They {\c&H003C62C8&}spend{\c&H00FFFFFF&} time alone.
+Dialogue: 0,0:00:26.18,0:00:26.44,Default,,0,0,0,,They spend {\c&H003C62C8&}time{\c&H00FFFFFF&} alone.
+Dialogue: 0,0:00:26.44,0:00:27.15,Default,,0,0,0,,They spend time {\c&H003C62C8&}alone.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:27.30,0:00:27.40,Default,,0,0,0,,{\c&H003C62C8&}They{\c&H00FFFFFF&} decline invitations.
+Dialogue: 0,0:00:27.40,0:00:27.76,Default,,0,0,0,,They {\c&H003C62C8&}decline{\c&H00FFFFFF&} invitations.
+Dialogue: 0,0:00:27.76,0:00:28.69,Default,,0,0,0,,They decline {\c&H003C62C8&}invitations.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:28.76,0:00:28.86,Default,,0,0,0,,{\c&H003C62C8&}They{\c&H00FFFFFF&} keep their social circles
+Dialogue: 0,0:00:28.86,0:00:29.10,Default,,0,0,0,,They {\c&H003C62C8&}keep{\c&H00FFFFFF&} their social circles
+Dialogue: 0,0:00:29.10,0:00:29.28,Default,,0,0,0,,They keep {\c&H003C62C8&}their{\c&H00FFFFFF&} social circles
+Dialogue: 0,0:00:29.28,0:00:29.66,Default,,0,0,0,,They keep their {\c&H003C62C8&}social{\c&H00FFFFFF&} circles
+Dialogue: 0,0:00:29.66,0:00:30.04,Default,,0,0,0,,They keep their social {\c&H003C62C8&}circles{\c&H00FFFFFF&}
+Dialogue: 0,0:00:30.04,0:00:30.89,Default,,0,0,0,,{\c&H003C62C8&}small.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:31.16,0:00:31.30,Default,,0,0,0,,{\c&H003C62C8&}But{\c&H00FFFFFF&} internally,
+Dialogue: 0,0:00:31.30,0:00:32.26,Default,,0,0,0,,But {\c&H003C62C8&}internally,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:32.26,0:00:32.46,Default,,0,0,0,,{\c&H003C62C8&}their{\c&H00FFFFFF&} experiences can be very
+Dialogue: 0,0:00:32.46,0:00:33.02,Default,,0,0,0,,their {\c&H003C62C8&}experiences{\c&H00FFFFFF&} can be very
+Dialogue: 0,0:00:33.02,0:00:33.34,Default,,0,0,0,,their experiences {\c&H003C62C8&}can{\c&H00FFFFFF&} be very
+Dialogue: 0,0:00:33.34,0:00:33.58,Default,,0,0,0,,their experiences can {\c&H003C62C8&}be{\c&H00FFFFFF&} very
+Dialogue: 0,0:00:33.58,0:00:33.88,Default,,0,0,0,,their experiences can be {\c&H003C62C8&}very{\c&H00FFFFFF&}
+Dialogue: 0,0:00:33.88,0:00:34.65,Default,,0,0,0,,{\c&H003C62C8&}different.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:34.76,0:00:34.98,Default,,0,0,0,,{\c&H003C62C8&}One{\c&H00FFFFFF&} feels peaceful and fulfilled.
+Dialogue: 0,0:00:34.98,0:00:35.28,Default,,0,0,0,,One {\c&H003C62C8&}feels{\c&H00FFFFFF&} peaceful and fulfilled.
+Dialogue: 0,0:00:35.28,0:00:35.74,Default,,0,0,0,,One feels {\c&H003C62C8&}peaceful{\c&H00FFFFFF&} and fulfilled.
+Dialogue: 0,0:00:35.74,0:00:36.16,Default,,0,0,0,,One feels peaceful {\c&H003C62C8&}and{\c&H00FFFFFF&} fulfilled.
+Dialogue: 0,0:00:36.16,0:00:36.50,Default,,0,0,0,,One feels peaceful and {\c&H003C62C8&}fulfilled.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:36.50,0:00:37.20,Default,,0,0,0,,{\c&H003C62C8&}The{\c&H00FFFFFF&} other wants connection but
+Dialogue: 0,0:00:37.20,0:00:37.42,Default,,0,0,0,,The {\c&H003C62C8&}other{\c&H00FFFFFF&} wants connection but
+Dialogue: 0,0:00:37.42,0:00:37.80,Default,,0,0,0,,The other {\c&H003C62C8&}wants{\c&H00FFFFFF&} connection but
+Dialogue: 0,0:00:37.80,0:00:38.28,Default,,0,0,0,,The other wants {\c&H003C62C8&}connection{\c&H00FFFFFF&} but
+Dialogue: 0,0:00:38.28,0:00:38.66,Default,,0,0,0,,The other wants connection {\c&H003C62C8&}but{\c&H00FFFFFF&}
+Dialogue: 0,0:00:38.66,0:00:39.10,Default,,0,0,0,,{\c&H003C62C8&}doesn't{\c&H00FFFFFF&} know how to approach
+Dialogue: 0,0:00:39.10,0:00:39.26,Default,,0,0,0,,doesn't {\c&H003C62C8&}know{\c&H00FFFFFF&} how to approach
+Dialogue: 0,0:00:39.26,0:00:39.42,Default,,0,0,0,,doesn't know {\c&H003C62C8&}how{\c&H00FFFFFF&} to approach
+Dialogue: 0,0:00:39.42,0:00:39.56,Default,,0,0,0,,doesn't know how {\c&H003C62C8&}to{\c&H00FFFFFF&} approach
+Dialogue: 0,0:00:39.56,0:00:39.88,Default,,0,0,0,,doesn't know how to {\c&H003C62C8&}approach{\c&H00FFFFFF&}
+Dialogue: 0,0:00:39.88,0:00:40.12,Default,,0,0,0,,{\c&H003C62C8&}it{\c&H00FFFFFF&} without feeling anxious.
+Dialogue: 0,0:00:40.12,0:00:40.40,Default,,0,0,0,,it {\c&H003C62C8&}without{\c&H00FFFFFF&} feeling anxious.
+Dialogue: 0,0:00:40.40,0:00:40.78,Default,,0,0,0,,it without {\c&H003C62C8&}feeling{\c&H00FFFFFF&} anxious.
+Dialogue: 0,0:00:40.78,0:00:41.41,Default,,0,0,0,,it without feeling {\c&H003C62C8&}anxious.{\c&H00FFFFFF&}
