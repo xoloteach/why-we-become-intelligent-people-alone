@@ -1,0 +1,13 @@
+{
+  "run_id": 40505550791,
+  "sha": "b39b137d0c60cead2e650413a4ad7805ea8e8af1",
+  "all_layouts": "PASS",
+  "all_effect_states": "PASS",
+  "finished_motion_with_sound": "PASS",
+  "reviewers": {
+    "all_layouts": "Notion AI agent: all 269 encoded scene-end frames extracted from this run's exports and diffed against run 40500406007; only the 37 cross-out scenes changed, each inspected with the mark under the words.",
+    "all_effect_states": "Notion AI agent: 138 encoded effect states from this run diffed against run 40500406007; effects identical, only transition frames carrying the corrected cross-out mark differ.",
+    "finished_motion_with_sound": "Channel owner (requesting user) after watching the delivered review files, in chat: \"It's brilliant release it\". The agent did not perform playback/listening."
+  },
+  "notes": "Change vs 40500406007: cross-out marks moved just under the words in 37 landscape scenes. Plan identical; narration PCM unchanged; QA 47 PASS / 0 FAIL / 0 NOT CHECKED. Known disclosed gaps remain: Anime.js, Paper.js, Matter.js, tsParticles, Tone.js unbuilt; provisional alignment; performance budgets not fully enforced."
+}
