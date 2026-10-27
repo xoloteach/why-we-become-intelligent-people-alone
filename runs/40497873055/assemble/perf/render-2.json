@@ -1,0 +1,18 @@
+{
+ "job": "render-2",
+ "cmd": "python3 src/render.py segment 12315 18472 /home/runner/work/why-we-become-intelligent-people-alone/why-we-become-intelligent-people-alone/work/segments/seg2.mp4",
+ "rc": 0,
+ "seconds": 161.7,
+ "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+ "cores": 4,
+ "ram_gb": 15.6,
+ "max_rss_mb": 369.2,
+ "user_s": 281.6,
+ "sys_s": 20.9,
+ "bake_workers": null,
+ "ffmpeg": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+ "python": "3.12.15",
+ "node": "v22.23.3",
+ "runner": "GitHub Actions 1000000407",
+ "run_id": "40497873055"
+}
