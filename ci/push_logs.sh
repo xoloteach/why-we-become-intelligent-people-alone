@@ -5,7 +5,13 @@ JOB="$1"; shift; ABS=(); for f in "$@"; do ABS+=("$(realpath -m "$f")"); done
 D=$(mktemp -d); git -C "$D" init -q; cd "$D"
 git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 for i in 1 2 3 4 5 6; do
-  rm -rf "$D"/* ; (git fetch -q --depth 1 origin ci-logs && git checkout -q -B ci-logs FETCH_HEAD) || git checkout -q --orphan ci-logs
+  if git fetch -q --depth 1 origin ci-logs; then
+    git checkout -q -B ci-logs FETCH_HEAD
+    git reset --hard -q FETCH_HEAD
+    git clean -fdq
+  else
+    git checkout -q --orphan ci-logs
+  fi
   mkdir -p "runs/${GITHUB_RUN_ID}/${JOB}"
   for f in "${ABS[@]}"; do [ -e "$f" ] && cp -r "$f" "runs/${GITHUB_RUN_ID}/${JOB}/" ; done
   git add -A && git -c user.name=wwb-ci -c user.email=ci@localhost commit -qm "logs ${GITHUB_RUN_ID} ${JOB}" || exit 0
