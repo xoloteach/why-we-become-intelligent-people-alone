@@ -53,6 +53,7 @@ for eid, s, fmt in fx_scenes:
     if len(files) != job['frames'] or len(m.get('final_sha256', [])) != job['frames']: bad.append(f'{eid}: {len(files)}/{job["frames"]} frames'); continue
     hs = [hashlib.sha256(open(f, 'rb').read()).hexdigest() for f in files]
     if hs != m['final_sha256']: bad.append(f'{eid}: frame hash mismatch')
+    if m.get('edge_violations'): bad.append(f'{eid}: object alpha touches bake boundary in {len(m["edge_violations"])} frames')
     if m.get('alpha_peak', 0) < 200: bad.append(f'{eid}: alpha peak {m.get("alpha_peak")}')
     ce = (m.get('physics') or {}).get('cueError') or {}
     for b, e in ce.items():
@@ -84,6 +85,8 @@ if ar:
     gate('SFX thud ±1 frame of contact', ok(worst <= 1 / FPS + 1e-3), f'{n} contacts, worst offset {worst * 1000:.1f} ms (Python/ffmpeg SFX set; Tone.js stem not built)')
     gate('mix loudness reports', ok(all(-17.5 <= v['integrated_lufs'] <= -14.5 for v in ar.values())), ', '.join(f"{k} {v['integrated_lufs']}" for k, v in ar.items()))
 else: gate('SFX thud ±1 frame of contact', 'NOT CHECKED', 'no audio reports')
+det = json.load(open(os.path.join(WORK, 'determinism.json')))
+gate('deterministic sample re-bake', ok(det['pass']), f"{det['sample']}: {det['frames']} final frame hashes compared")
 # 10: Shorts specifics
 for S in P['shorts']:
     p = os.path.join(DIST, f"{S['id']}.mp4")

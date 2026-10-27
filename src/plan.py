@@ -80,7 +80,7 @@ def fx_job(s, spec, toks, fmt, eid, warn):
     dur = s['end'] - s['start']; frames = int(math.ceil((dur + 0.3) * FPS))
     return {'schema': 'wwb-fx-job/1', 'effect_id': eid, 'object': spec['object'], 'fps': FPS, 'frames': frames, 'region': REGION[fmt], 'supersample': 2,
             'seed': sum(map(ord, eid)) % 997, 'params': P, 'format': fmt, 'scene_key': s['key'], 'scene_start': s['start'],
-            'cue_words': spec['cues'], 'cue_times_abs': [round(c, 3) for c in cues]}
+            'cue_words': spec['cues'], 'cue_times_abs': [round(c, 3) for c in cues], 'view': spec.get('view', {})}
 def main():
     toks, lines, A = load_align(); warn = []; dark = darkset(); sides = open_sides(); specs = json.load(open(os.path.join(ROOT, 'plan', 'fx_specs.json')))
     rows, _ = parse_dsl(os.path.join(ROOT, 'plan', 'scenes.dsl'))

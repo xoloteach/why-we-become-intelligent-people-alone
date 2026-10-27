@@ -19,12 +19,15 @@ def shadow(bg, s, ox=0, oy=0):
     cv2.ellipse(lay, (int(ox + s['x']), int(oy + s['y'])), (int(w), max(3, int(w * .16))), 0, 0, 360, 1.0, -1, cv2.LINE_AA)
     lay = cv2.GaussianBlur(lay, (0, 0), 3.5) * s['op']; bg[:] = (bg * (1 - lay[:, :, None]) + np.array(OBS) * lay[:, :, None]).astype(np.uint8)
 def post(effect_dir):
-    m = json.load(open(os.path.join(effect_dir, 'bake.json'))); ss = m['supersample']; hashes = []; alpha_peak = 0
+    m = json.load(open(os.path.join(effect_dir, 'bake.json'))); ss = m['supersample']; hashes = []; alpha_peak = 0; edge_violations = []
     for k in range(m['frames']):
         src = os.path.join(effect_dir, 'raw', f'f{k:04d}.png'); dst = os.path.join(effect_dir, f'f{k:04d}.png')
         im = load_rgba_1x(src, ss); alpha_peak = max(alpha_peak, int(im[:, :, 3].max()))
+        a = im[:, :, 3]
+        if max(int(a[:2].max()), int(a[-2:].max()), int(a[:, :2].max()), int(a[:, -2:].max())) > 64:
+            edge_violations.append(k)
         ok, buf = cv2.imencode('.png', im); open(dst + '.tmp', 'wb').write(buf.tobytes()); os.replace(dst + '.tmp', dst); hashes.append(hashlib.sha256(buf.tobytes()).hexdigest())
-    m['final_sha256'] = hashes; m['final_size'] = list(im.shape[:2][::-1]); m['alpha_peak'] = alpha_peak
+    m['final_sha256'] = hashes; m['final_size'] = list(im.shape[:2][::-1]); m['alpha_peak'] = alpha_peak; m['edge_violations'] = edge_violations
     json.dump(m, open(os.path.join(effect_dir, 'bake.json'), 'w'), indent=1); return m
 def strip(effect_dir, frames, out, dark=False):
     m = json.load(open(os.path.join(effect_dir, 'bake.json'))); tiles = []

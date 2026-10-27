@@ -140,8 +140,25 @@ def main(only=None):
         img = load(fk); cells, xs, ys = grid(img, rows, cols, 40)
         qa_overlay(img, cells, os.path.join(WORK, 'qa_grid', f'{key}.jpg'))
         for p, (x0, y0, x1, y1) in enumerate(cells, 1):
-            name = f'{key}-{p}'; a = trim_cell(img[y0:y1, x0:x1]); cv2.imwrite(os.path.join(WORK, 'native', name + '.png'), a)
+            name = f'{key}-{p}'
+            # Reviewed subject crops from the locked 768x1376 P07 sheet. Remove disconnected
+            # dark floor/blank wall blocks, not connected people, desks, lamps or windows.
+            reviewed = {'SH2B-1': (65, 310, 330, 490), 'SH2B-2': (402, 276, 737, 611)}
+            if name in reviewed:
+                x0, y0, x1, y1 = reviewed[name]
+            a = img[y0:y1, x0:x1].copy() if name in reviewed else trim_cell(img[y0:y1, x0:x1]); cv2.imwrite(os.path.join(WORK, 'native', name + '.png'), a)
             b, method = upscale(a); a8, bg = matte(b, name in dark)
+            if name in reviewed:
+                # These supplied cells have dark backgrounds with grey floors/walls.
+                # Subject-only brightness mask avoids turning those backgrounds into blocks.
+                fg = (np.max(b, axis=2) > 75).astype(np.uint8) * 255
+                fg = cv2.morphologyEx(fg, cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8))
+                ct, _ = cv2.findContours(fg, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+                a8 = np.zeros_like(fg)
+                for contour in ct:
+                    if cv2.contourArea(contour) > 500: cv2.drawContours(a8, [contour], -1, 255, -1)
+                a8 = cv2.dilate(a8, np.ones((17, 17), np.uint8))
+                a8 = cv2.GaussianBlur(a8, (5, 5), 0)
             s = keep / 4.0; size = (round(b.shape[1] * s), round(b.shape[0] * s))
             lay = np.dstack([cv2.resize(b, size, interpolation=cv2.INTER_AREA), cv2.resize(a8, size, interpolation=cv2.INTER_AREA)])
             atomic_write_png(os.path.join(WORK, 'layers', name + '.png'), lay)

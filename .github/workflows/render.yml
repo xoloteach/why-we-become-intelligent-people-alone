@@ -76,6 +76,9 @@ jobs:
           set -o pipefail
           cd fx && python3 ../ci/perf.py fx --workers 3 -- node bake/bake.mjs --out "$WWB_WORK/fx_out" --workers 3 "$WWB_WORK"/fx_jobs/*.json 2>&1 | tee -a ../logs.txt
           cd .. && python3 src/fx_post.py "$WWB_WORK"/fx_out/*/ 2>&1 | tee -a logs.txt
+          cd fx && node bake/bake.mjs --out /tmp/rebake --workers 1 "$WWB_WORK/fx_jobs/L-S01-6.json" 2>&1 | tee -a ../logs.txt
+          cd .. && python3 src/fx_post.py /tmp/rebake/L-S01-6
+          python3 ci/check_determinism.py "$WWB_WORK"
           rm -rf "$WWB_WORK"/fx_out/*/raw
       - uses: actions/upload-artifact@v4
         with:
@@ -83,6 +86,7 @@ jobs:
           retention-days: 7
           path: |
             work/fx_out/
+            work/determinism.json
             perf/
       - name: Diagnostics
         if: always()
@@ -270,6 +274,12 @@ jobs:
           mkdir -p work/segments && cp fxlogs/*.json work/segments/ 2>/dev/null || true
           python3 src/qa.py dist 2>&1 | tee -a logs.txt
           echo "tag=v1.0.0-run${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
+      - name: Export runner review files
+        run: |
+          python3 ci/export_review.py dist work/review_export
+          bash ci/push_logs.sh review work/review_export
+      - name: Required delivery review
+        run: python3 ci/review_gate.py dist
       - uses: actions/upload-artifact@v4
         if: always()
         with:
