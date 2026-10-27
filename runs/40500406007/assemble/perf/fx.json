@@ -1,0 +1,18 @@
+{
+ "job": "fx",
+ "cmd": "node bake/bake.mjs --out /home/runner/work/why-we-become-intelligent-people-alone/why-we-become-intelligent-people-alone/work/fx_out --workers 3 /home/runner/work/why-we-become-intelligent-people-alone/why-we-become-intelligent-people-alone/work/fx_jobs/L-S01-6.json /home/runner/work/why-we-become-i",
+ "rc": 0,
+ "seconds": 92.9,
+ "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+ "cores": 4,
+ "ram_gb": 15.6,
+ "max_rss_mb": 607.6,
+ "user_s": 10.0,
+ "sys_s": 2.1,
+ "bake_workers": 3,
+ "ffmpeg": null,
+ "python": "3.12.15",
+ "node": "v24.21.0",
+ "runner": "GitHub Actions 1000000418",
+ "run_id": "40500406007"
+}
