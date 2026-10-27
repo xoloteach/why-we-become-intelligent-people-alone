@@ -1,0 +1,140 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat ExtraBold,60,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,4,1.5,2,80,200,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.28,Default,,0,0,0,,{\c&H003C62C8&}Being{\c&H00FFFFFF&} alone and being lonely
+Dialogue: 0,0:00:00.28,0:00:00.66,Default,,0,0,0,,Being {\c&H003C62C8&}alone{\c&H00FFFFFF&} and being lonely
+Dialogue: 0,0:00:00.66,0:00:01.02,Default,,0,0,0,,Being alone {\c&H003C62C8&}and{\c&H00FFFFFF&} being lonely
+Dialogue: 0,0:00:01.02,0:00:01.30,Default,,0,0,0,,Being alone and {\c&H003C62C8&}being{\c&H00FFFFFF&} lonely
+Dialogue: 0,0:00:01.30,0:00:01.88,Default,,0,0,0,,Being alone and being {\c&H003C62C8&}lonely{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.88,0:00:02.26,Default,,0,0,0,,{\c&H003C62C8&}are{\c&H00FFFFFF&} not the same thing.
+Dialogue: 0,0:00:02.26,0:00:02.58,Default,,0,0,0,,are {\c&H003C62C8&}not{\c&H00FFFFFF&} the same thing.
+Dialogue: 0,0:00:02.58,0:00:02.78,Default,,0,0,0,,are not {\c&H003C62C8&}the{\c&H00FFFFFF&} same thing.
+Dialogue: 0,0:00:02.78,0:00:03.04,Default,,0,0,0,,are not the {\c&H003C62C8&}same{\c&H00FFFFFF&} thing.
+Dialogue: 0,0:00:03.04,0:00:03.73,Default,,0,0,0,,are not the same {\c&H003C62C8&}thing.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.80,0:00:03.96,Default,,0,0,0,,{\c&H003C62C8&}You{\c&H00FFFFFF&} can be surrounded by
+Dialogue: 0,0:00:03.96,0:00:04.06,Default,,0,0,0,,You {\c&H003C62C8&}can{\c&H00FFFFFF&} be surrounded by
+Dialogue: 0,0:00:04.06,0:00:04.20,Default,,0,0,0,,You can {\c&H003C62C8&}be{\c&H00FFFFFF&} surrounded by
+Dialogue: 0,0:00:04.20,0:00:04.56,Default,,0,0,0,,You can be {\c&H003C62C8&}surrounded{\c&H00FFFFFF&} by
+Dialogue: 0,0:00:04.56,0:00:04.90,Default,,0,0,0,,You can be surrounded {\c&H003C62C8&}by{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.90,0:00:05.12,Default,,0,0,0,,{\c&H003C62C8&}dozens{\c&H00FFFFFF&} of people and still
+Dialogue: 0,0:00:05.12,0:00:05.44,Default,,0,0,0,,dozens {\c&H003C62C8&}of{\c&H00FFFFFF&} people and still
+Dialogue: 0,0:00:05.44,0:00:05.66,Default,,0,0,0,,dozens of {\c&H003C62C8&}people{\c&H00FFFFFF&} and still
+Dialogue: 0,0:00:05.66,0:00:05.98,Default,,0,0,0,,dozens of people {\c&H003C62C8&}and{\c&H00FFFFFF&} still
+Dialogue: 0,0:00:05.98,0:00:06.26,Default,,0,0,0,,dozens of people and {\c&H003C62C8&}still{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.26,0:00:06.50,Default,,0,0,0,,{\c&H003C62C8&}feel{\c&H00FFFFFF&} completely misunderstood.
+Dialogue: 0,0:00:06.50,0:00:07.06,Default,,0,0,0,,feel {\c&H003C62C8&}completely{\c&H00FFFFFF&} misunderstood.
+Dialogue: 0,0:00:07.06,0:00:08.05,Default,,0,0,0,,feel completely {\c&H003C62C8&}misunderstood.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:08.62,0:00:08.76,Default,,0,0,0,,{\c&H003C62C8&}You{\c&H00FFFFFF&} can laugh with friends,
+Dialogue: 0,0:00:08.76,0:00:08.88,Default,,0,0,0,,You {\c&H003C62C8&}can{\c&H00FFFFFF&} laugh with friends,
+Dialogue: 0,0:00:08.88,0:00:09.12,Default,,0,0,0,,You can {\c&H003C62C8&}laugh{\c&H00FFFFFF&} with friends,
+Dialogue: 0,0:00:09.12,0:00:09.32,Default,,0,0,0,,You can laugh {\c&H003C62C8&}with{\c&H00FFFFFF&} friends,
+Dialogue: 0,0:00:09.32,0:00:09.96,Default,,0,0,0,,You can laugh with {\c&H003C62C8&}friends,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.96,0:00:10.32,Default,,0,0,0,,{\c&H003C62C8&}participate{\c&H00FFFFFF&} in conversations,
+Dialogue: 0,0:00:10.32,0:00:10.56,Default,,0,0,0,,participate {\c&H003C62C8&}in{\c&H00FFFFFF&} conversations,
+Dialogue: 0,0:00:10.56,0:00:11.43,Default,,0,0,0,,participate in {\c&H003C62C8&}conversations,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.68,0:00:11.80,Default,,0,0,0,,{\c&H003C62C8&}and{\c&H00FFFFFF&} appear perfectly happy while
+Dialogue: 0,0:00:11.80,0:00:12.04,Default,,0,0,0,,and {\c&H003C62C8&}appear{\c&H00FFFFFF&} perfectly happy while
+Dialogue: 0,0:00:12.04,0:00:12.64,Default,,0,0,0,,and appear {\c&H003C62C8&}perfectly{\c&H00FFFFFF&} happy while
+Dialogue: 0,0:00:12.64,0:00:13.06,Default,,0,0,0,,and appear perfectly {\c&H003C62C8&}happy{\c&H00FFFFFF&} while
+Dialogue: 0,0:00:13.06,0:00:13.36,Default,,0,0,0,,and appear perfectly happy {\c&H003C62C8&}while{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.36,0:00:13.74,Default,,0,0,0,,{\c&H003C62C8&}feeling{\c&H00FFFFFF&} like nobody really knows
+Dialogue: 0,0:00:13.74,0:00:14.00,Default,,0,0,0,,feeling {\c&H003C62C8&}like{\c&H00FFFFFF&} nobody really knows
+Dialogue: 0,0:00:14.00,0:00:14.32,Default,,0,0,0,,feeling like {\c&H003C62C8&}nobody{\c&H00FFFFFF&} really knows
+Dialogue: 0,0:00:14.32,0:00:14.66,Default,,0,0,0,,feeling like nobody {\c&H003C62C8&}really{\c&H00FFFFFF&} knows
+Dialogue: 0,0:00:14.66,0:00:14.92,Default,,0,0,0,,feeling like nobody really {\c&H003C62C8&}knows{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.92,0:00:15.59,Default,,0,0,0,,{\c&H003C62C8&}you.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:15.62,0:00:15.86,Default,,0,0,0,,{\c&H003C62C8&}And{\c&H00FFFFFF&} you can sit alone
+Dialogue: 0,0:00:15.86,0:00:15.98,Default,,0,0,0,,And {\c&H003C62C8&}you{\c&H00FFFFFF&} can sit alone
+Dialogue: 0,0:00:15.98,0:00:16.14,Default,,0,0,0,,And you {\c&H003C62C8&}can{\c&H00FFFFFF&} sit alone
+Dialogue: 0,0:00:16.14,0:00:16.32,Default,,0,0,0,,And you can {\c&H003C62C8&}sit{\c&H00FFFFFF&} alone
+Dialogue: 0,0:00:16.32,0:00:16.68,Default,,0,0,0,,And you can sit {\c&H003C62C8&}alone{\c&H00FFFFFF&}
+Dialogue: 0,0:00:16.68,0:00:16.88,Default,,0,0,0,,{\c&H003C62C8&}in{\c&H00FFFFFF&} a quiet room with
+Dialogue: 0,0:00:16.88,0:00:16.98,Default,,0,0,0,,in {\c&H003C62C8&}a{\c&H00FFFFFF&} quiet room with
+Dialogue: 0,0:00:16.98,0:00:17.22,Default,,0,0,0,,in a {\c&H003C62C8&}quiet{\c&H00FFFFFF&} room with
+Dialogue: 0,0:00:17.22,0:00:17.58,Default,,0,0,0,,in a quiet {\c&H003C62C8&}room{\c&H00FFFFFF&} with
+Dialogue: 0,0:00:17.58,0:00:18.08,Default,,0,0,0,,in a quiet room {\c&H003C62C8&}with{\c&H00FFFFFF&}
+Dialogue: 0,0:00:18.08,0:00:18.58,Default,,0,0,0,,{\c&H003C62C8&}nobody{\c&H00FFFFFF&} around you and feel
+Dialogue: 0,0:00:18.58,0:00:18.94,Default,,0,0,0,,nobody {\c&H003C62C8&}around{\c&H00FFFFFF&} you and feel
+Dialogue: 0,0:00:18.94,0:00:19.20,Default,,0,0,0,,nobody around {\c&H003C62C8&}you{\c&H00FFFFFF&} and feel
+Dialogue: 0,0:00:19.20,0:00:19.46,Default,,0,0,0,,nobody around you {\c&H003C62C8&}and{\c&H00FFFFFF&} feel
+Dialogue: 0,0:00:19.46,0:00:19.70,Default,,0,0,0,,nobody around you and {\c&H003C62C8&}feel{\c&H00FFFFFF&}
+Dialogue: 0,0:00:19.70,0:00:20.22,Default,,0,0,0,,{\c&H003C62C8&}completely{\c&H00FFFFFF&} at peace.
+Dialogue: 0,0:00:20.22,0:00:20.44,Default,,0,0,0,,completely {\c&H003C62C8&}at{\c&H00FFFFFF&} peace.
+Dialogue: 0,0:00:20.44,0:00:20.74,Default,,0,0,0,,completely at {\c&H003C62C8&}peace.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:20.74,0:00:21.42,Default,,0,0,0,,{\c&H003C62C8&}The{\c&H00FFFFFF&} difference isn't simply how
+Dialogue: 0,0:00:21.42,0:00:21.76,Default,,0,0,0,,The {\c&H003C62C8&}difference{\c&H00FFFFFF&} isn't simply how
+Dialogue: 0,0:00:21.76,0:00:22.32,Default,,0,0,0,,The difference {\c&H003C62C8&}isn't{\c&H00FFFFFF&} simply how
+Dialogue: 0,0:00:22.32,0:00:22.72,Default,,0,0,0,,The difference isn't {\c&H003C62C8&}simply{\c&H00FFFFFF&} how
+Dialogue: 0,0:00:22.72,0:00:23.00,Default,,0,0,0,,The difference isn't simply {\c&H003C62C8&}how{\c&H00FFFFFF&}
+Dialogue: 0,0:00:23.00,0:00:23.24,Default,,0,0,0,,{\c&H003C62C8&}many{\c&H00FFFFFF&} people are present.
+Dialogue: 0,0:00:23.24,0:00:23.56,Default,,0,0,0,,many {\c&H003C62C8&}people{\c&H00FFFFFF&} are present.
+Dialogue: 0,0:00:23.56,0:00:23.78,Default,,0,0,0,,many people {\c&H003C62C8&}are{\c&H00FFFFFF&} present.
+Dialogue: 0,0:00:23.78,0:00:24.49,Default,,0,0,0,,many people are {\c&H003C62C8&}present.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:24.72,0:00:24.84,Default,,0,0,0,,{\c&H003C62C8&}It's{\c&H00FFFFFF&} how you experience your
+Dialogue: 0,0:00:24.84,0:00:24.96,Default,,0,0,0,,It's {\c&H003C62C8&}how{\c&H00FFFFFF&} you experience your
+Dialogue: 0,0:00:24.96,0:00:25.16,Default,,0,0,0,,It's how {\c&H003C62C8&}you{\c&H00FFFFFF&} experience your
+Dialogue: 0,0:00:25.16,0:00:25.78,Default,,0,0,0,,It's how you {\c&H003C62C8&}experience{\c&H00FFFFFF&} your
+Dialogue: 0,0:00:25.78,0:00:26.06,Default,,0,0,0,,It's how you experience {\c&H003C62C8&}your{\c&H00FFFFFF&}
+Dialogue: 0,0:00:26.06,0:00:26.24,Default,,0,0,0,,{\c&H003C62C8&}own{\c&H00FFFFFF&} company and your connection
+Dialogue: 0,0:00:26.24,0:00:26.70,Default,,0,0,0,,own {\c&H003C62C8&}company{\c&H00FFFFFF&} and your connection
+Dialogue: 0,0:00:26.70,0:00:27.08,Default,,0,0,0,,own company {\c&H003C62C8&}and{\c&H00FFFFFF&} your connection
+Dialogue: 0,0:00:27.08,0:00:27.24,Default,,0,0,0,,own company and {\c&H003C62C8&}your{\c&H00FFFFFF&} connection
+Dialogue: 0,0:00:27.24,0:00:27.64,Default,,0,0,0,,own company and your {\c&H003C62C8&}connection{\c&H00FFFFFF&}
+Dialogue: 0,0:00:27.64,0:00:28.04,Default,,0,0,0,,{\c&H003C62C8&}with{\c&H00FFFFFF&} others.
+Dialogue: 0,0:00:28.04,0:00:28.73,Default,,0,0,0,,with {\c&H003C62C8&}others.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:29.02,0:00:29.26,Default,,0,0,0,,{\c&H003C62C8&}Loneliness{\c&H00FFFFFF&} is the feeling that
+Dialogue: 0,0:00:29.26,0:00:29.74,Default,,0,0,0,,Loneliness {\c&H003C62C8&}is{\c&H00FFFFFF&} the feeling that
+Dialogue: 0,0:00:29.74,0:00:29.96,Default,,0,0,0,,Loneliness is {\c&H003C62C8&}the{\c&H00FFFFFF&} feeling that
+Dialogue: 0,0:00:29.96,0:00:30.24,Default,,0,0,0,,Loneliness is the {\c&H003C62C8&}feeling{\c&H00FFFFFF&} that
+Dialogue: 0,0:00:30.24,0:00:30.52,Default,,0,0,0,,Loneliness is the feeling {\c&H003C62C8&}that{\c&H00FFFFFF&}
+Dialogue: 0,0:00:30.52,0:00:30.66,Default,,0,0,0,,{\c&H003C62C8&}the{\c&H00FFFFFF&} connection you need is
+Dialogue: 0,0:00:30.66,0:00:31.04,Default,,0,0,0,,the {\c&H003C62C8&}connection{\c&H00FFFFFF&} you need is
+Dialogue: 0,0:00:31.04,0:00:31.30,Default,,0,0,0,,the connection {\c&H003C62C8&}you{\c&H00FFFFFF&} need is
+Dialogue: 0,0:00:31.30,0:00:31.70,Default,,0,0,0,,the connection you {\c&H003C62C8&}need{\c&H00FFFFFF&} is
+Dialogue: 0,0:00:31.70,0:00:32.08,Default,,0,0,0,,the connection you need {\c&H003C62C8&}is{\c&H00FFFFFF&}
+Dialogue: 0,0:00:32.08,0:00:32.89,Default,,0,0,0,,{\c&H003C62C8&}missing.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:33.28,0:00:33.54,Default,,0,0,0,,{\c&H003C62C8&}Solitude{\c&H00FFFFFF&} is the experience of
+Dialogue: 0,0:00:33.54,0:00:33.90,Default,,0,0,0,,Solitude {\c&H003C62C8&}is{\c&H00FFFFFF&} the experience of
+Dialogue: 0,0:00:33.90,0:00:34.08,Default,,0,0,0,,Solitude is {\c&H003C62C8&}the{\c&H00FFFFFF&} experience of
+Dialogue: 0,0:00:34.08,0:00:34.68,Default,,0,0,0,,Solitude is the {\c&H003C62C8&}experience{\c&H00FFFFFF&} of
+Dialogue: 0,0:00:34.68,0:00:34.90,Default,,0,0,0,,Solitude is the experience {\c&H003C62C8&}of{\c&H00FFFFFF&}
+Dialogue: 0,0:00:34.90,0:00:35.06,Default,,0,0,0,,{\c&H003C62C8&}being{\c&H00FFFFFF&} alone.
+Dialogue: 0,0:00:35.06,0:00:35.75,Default,,0,0,0,,being {\c&H003C62C8&}alone.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:36.00,0:00:36.42,Default,,0,0,0,,{\c&H003C62C8&}Sometimes{\c&H00FFFFFF&} solitude feels peaceful,
+Dialogue: 0,0:00:36.42,0:00:36.96,Default,,0,0,0,,Sometimes {\c&H003C62C8&}solitude{\c&H00FFFFFF&} feels peaceful,
+Dialogue: 0,0:00:36.96,0:00:37.38,Default,,0,0,0,,Sometimes solitude {\c&H003C62C8&}feels{\c&H00FFFFFF&} peaceful,
+Dialogue: 0,0:00:37.38,0:00:38.21,Default,,0,0,0,,Sometimes solitude feels {\c&H003C62C8&}peaceful,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:38.34,0:00:38.64,Default,,0,0,0,,{\c&H003C62C8&}sometimes{\c&H00FFFFFF&} loneliness hurts,
+Dialogue: 0,0:00:38.64,0:00:39.10,Default,,0,0,0,,sometimes {\c&H003C62C8&}loneliness{\c&H00FFFFFF&} hurts,
+Dialogue: 0,0:00:39.10,0:00:39.81,Default,,0,0,0,,sometimes loneliness {\c&H003C62C8&}hurts,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:39.88,0:00:40.08,Default,,0,0,0,,{\c&H003C62C8&}and{\c&H00FFFFFF&} sometimes the two exist
+Dialogue: 0,0:00:40.08,0:00:40.56,Default,,0,0,0,,and {\c&H003C62C8&}sometimes{\c&H00FFFFFF&} the two exist
+Dialogue: 0,0:00:40.56,0:00:40.74,Default,,0,0,0,,and sometimes {\c&H003C62C8&}the{\c&H00FFFFFF&} two exist
+Dialogue: 0,0:00:40.74,0:00:40.92,Default,,0,0,0,,and sometimes the {\c&H003C62C8&}two{\c&H00FFFFFF&} exist
+Dialogue: 0,0:00:40.92,0:00:41.28,Default,,0,0,0,,and sometimes the two {\c&H003C62C8&}exist{\c&H00FFFFFF&}
+Dialogue: 0,0:00:41.28,0:00:42.05,Default,,0,0,0,,{\c&H003C62C8&}together.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:42.14,0:00:42.30,Default,,0,0,0,,{\c&H003C62C8&}A{\c&H00FFFFFF&} person can enjoy spending
+Dialogue: 0,0:00:42.30,0:00:42.50,Default,,0,0,0,,A {\c&H003C62C8&}person{\c&H00FFFFFF&} can enjoy spending
+Dialogue: 0,0:00:42.50,0:00:42.78,Default,,0,0,0,,A person {\c&H003C62C8&}can{\c&H00FFFFFF&} enjoy spending
+Dialogue: 0,0:00:42.78,0:00:43.18,Default,,0,0,0,,A person can {\c&H003C62C8&}enjoy{\c&H00FFFFFF&} spending
+Dialogue: 0,0:00:43.18,0:00:43.56,Default,,0,0,0,,A person can enjoy {\c&H003C62C8&}spending{\c&H00FFFFFF&}
+Dialogue: 0,0:00:43.56,0:00:43.88,Default,,0,0,0,,{\c&H003C62C8&}time{\c&H00FFFFFF&} alone and still need
+Dialogue: 0,0:00:43.88,0:00:44.22,Default,,0,0,0,,time {\c&H003C62C8&}alone{\c&H00FFFFFF&} and still need
+Dialogue: 0,0:00:44.22,0:00:44.46,Default,,0,0,0,,time alone {\c&H003C62C8&}and{\c&H00FFFFFF&} still need
+Dialogue: 0,0:00:44.46,0:00:44.76,Default,,0,0,0,,time alone and {\c&H003C62C8&}still{\c&H00FFFFFF&} need
+Dialogue: 0,0:00:44.76,0:00:45.02,Default,,0,0,0,,time alone and still {\c&H003C62C8&}need{\c&H00FFFFFF&}
+Dialogue: 0,0:00:45.02,0:00:45.60,Default,,0,0,0,,{\c&H003C62C8&}love,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:45.60,0:00:46.08,Default,,0,0,0,,{\c&H003C62C8&}friendship,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:46.08,0:00:46.22,Default,,0,0,0,,{\c&H003C62C8&}and{\c&H00FFFFFF&} meaningful relationships.
+Dialogue: 0,0:00:46.22,0:00:46.74,Default,,0,0,0,,and {\c&H003C62C8&}meaningful{\c&H00FFFFFF&} relationships.
+Dialogue: 0,0:00:46.74,0:00:47.38,Default,,0,0,0,,and meaningful {\c&H003C62C8&}relationships.{\c&H00FFFFFF&}

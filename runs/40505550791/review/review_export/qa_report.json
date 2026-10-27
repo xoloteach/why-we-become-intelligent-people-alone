@@ -1,0 +1,266 @@
+{
+ "schema": "wwb-qa/1",
+ "run_id": "40505550791",
+ "sha": "b39b137d0c60cead2e650413a4ad7805ea8e8af1",
+ "pass": true,
+ "counts": {
+  "PASS": 47,
+  "FAIL": 0,
+  "NOT CHECKED": 0
+ },
+ "gates": [
+  {
+   "gate": "final.mp4 geometry",
+   "status": "PASS",
+   "detail": "h264 1920x1080 30.000fps yuv420p"
+  },
+  {
+   "gate": "final.mp4 duration",
+   "status": "PASS",
+   "detail": "1231.515s vs plan 1231.515s"
+  },
+  {
+   "gate": "final.mp4 audio stream",
+   "status": "PASS",
+   "detail": "aac 44100 2ch"
+  },
+  {
+   "gate": "final.mp4 loudness",
+   "status": "PASS",
+   "detail": "-16.0 LUFS integrated, true peak -3.9 dBFS (target -16, -17.5..-14.5, TP<=-1)"
+  },
+  {
+   "gate": "final.mp4 faststart",
+   "status": "PASS",
+   "detail": "moov atom at file start"
+  },
+  {
+   "gate": "SH1.mp4 geometry",
+   "status": "PASS",
+   "detail": "h264 1080x1920 30.000fps yuv420p"
+  },
+  {
+   "gate": "SH1.mp4 duration",
+   "status": "PASS",
+   "detail": "49.880s vs plan 49.880s"
+  },
+  {
+   "gate": "SH1.mp4 audio stream",
+   "status": "PASS",
+   "detail": "aac 44100 2ch"
+  },
+  {
+   "gate": "SH1.mp4 loudness",
+   "status": "PASS",
+   "detail": "-16.0 LUFS integrated, true peak -4.3 dBFS (target -16, -17.5..-14.5, TP<=-1)"
+  },
+  {
+   "gate": "SH1.mp4 faststart",
+   "status": "PASS",
+   "detail": "moov atom at file start"
+  },
+  {
+   "gate": "SH2.mp4 geometry",
+   "status": "PASS",
+   "detail": "h264 1080x1920 30.000fps yuv420p"
+  },
+  {
+   "gate": "SH2.mp4 duration",
+   "status": "PASS",
+   "detail": "43.910s vs plan 43.910s"
+  },
+  {
+   "gate": "SH2.mp4 audio stream",
+   "status": "PASS",
+   "detail": "aac 44100 2ch"
+  },
+  {
+   "gate": "SH2.mp4 loudness",
+   "status": "PASS",
+   "detail": "-16.1 LUFS integrated, true peak -4.4 dBFS (target -16, -17.5..-14.5, TP<=-1)"
+  },
+  {
+   "gate": "SH2.mp4 faststart",
+   "status": "PASS",
+   "detail": "moov atom at file start"
+  },
+  {
+   "gate": "SH3.mp4 geometry",
+   "status": "PASS",
+   "detail": "h264 1080x1920 30.000fps yuv420p"
+  },
+  {
+   "gate": "SH3.mp4 duration",
+   "status": "PASS",
+   "detail": "43.470s vs plan 43.470s"
+  },
+  {
+   "gate": "SH3.mp4 audio stream",
+   "status": "PASS",
+   "detail": "aac 44100 2ch"
+  },
+  {
+   "gate": "SH3.mp4 loudness",
+   "status": "PASS",
+   "detail": "-16.2 LUFS integrated, true peak -4.4 dBFS (target -16, -17.5..-14.5, TP<=-1)"
+  },
+  {
+   "gate": "SH3.mp4 faststart",
+   "status": "PASS",
+   "detail": "moov atom at file start"
+  },
+  {
+   "gate": "narration PCM hash",
+   "status": "PASS",
+   "detail": "bc51fe9a8064c669… vs manifest bc51fe9a8064c669… (user Google AI Studio take, processed chain; script/audio unchanged)"
+  },
+  {
+   "gate": "narration duration",
+   "status": "PASS",
+   "detail": "vo_end 1226.515s"
+  },
+  {
+   "gate": "captions landscape",
+   "status": "PASS",
+   "detail": "3332 events, 686 groups, max 7 words, last end 1226.41s ≤ 1231.52s"
+  },
+  {
+   "gate": "captions SH1",
+   "status": "PASS",
+   "detail": "127 events, 33 groups, max 5 words, last end 47.38s ≤ 49.88s"
+  },
+  {
+   "gate": "captions SH2",
+   "status": "PASS",
+   "detail": "102 events, 29 groups, max 5 words, last end 41.41s ≤ 43.91s"
+  },
+  {
+   "gate": "captions SH3",
+   "status": "PASS",
+   "detail": "125 events, 31 groups, max 5 words, last end 40.97s ≤ 43.47s"
+  },
+  {
+   "gate": "word alignment",
+   "status": "PASS",
+   "detail": "faster-whisper-small.en (provisional): 3331/3332 exact (99.97%), 0 interpolated"
+  },
+  {
+   "gate": "3D bakes complete + hashed",
+   "status": "PASS",
+   "detail": "23 effects, objects ['battery', 'books', 'briefcase', 'clock', 'door', 'envelope', 'globe', 'phone', 'scale', 'stairs', 'window']; all frame counts and sha256 manifests match"
+  },
+  {
+   "gate": "3D toolchain versions",
+   "status": "PASS",
+   "detail": "{\"chromium\": \"156.0.8078.4\", \"node\": \"v24.21.0\", \"playwright\": \"1.64.1\", \"rapier\": \"0.21.0\", \"three\": \"0.186.1\"}"
+  },
+  {
+   "gate": "physics cue error ≤ ±1 frame",
+   "status": "PASS",
+   "detail": "all contact targets hit on cue"
+  },
+  {
+   "gate": "3D scene spread (§3G/§4I)",
+   "status": "PASS",
+   "detail": "landscape 17 (thirds [7, 6, 4], max run 2); shorts {'SH1': 2, 'SH2': 2, 'SH3': 2}"
+  },
+  {
+   "gate": "3D alpha clear of caption band",
+   "status": "PASS",
+   "detail": "2354 sampled fx frames across 18 renders, 0 with alpha inside the caption band"
+  },
+  {
+   "gate": "SFX thud ±1 frame of contact",
+   "status": "PASS",
+   "detail": "27 contacts, worst offset 0.3 ms (Python/ffmpeg SFX set; Tone.js stem not built)"
+  },
+  {
+   "gate": "mix loudness reports",
+   "status": "PASS",
+   "detail": "landscape -16.0, SH1 -16.0, SH2 -16.1, SH3 -16.1"
+  },
+  {
+   "gate": "deterministic sample re-bake",
+   "status": "PASS",
+   "detail": "L-S01-6: 114 final frame hashes compared"
+  },
+  {
+   "gate": "Typography width + headline regression",
+   "status": "PASS",
+   "detail": "269 scene layouts; Overwhelming fitted at 38px; failures []"
+  },
+  {
+   "gate": "SH1 first frame carries hook",
+   "status": "PASS",
+   "detail": "headline ink coverage 12.6% in frame 0 (\"Alone Is Not Lonely\")"
+  },
+  {
+   "gate": "SH1 length",
+   "status": "PASS",
+   "detail": "49.88s incl. end card 2.5s"
+  },
+  {
+   "gate": "SH2 first frame carries hook",
+   "status": "PASS",
+   "detail": "headline ink coverage 9.0% in frame 0 (\"Peace or Fear?\")"
+  },
+  {
+   "gate": "SH2 length",
+   "status": "PASS",
+   "detail": "43.91s incl. end card 2.5s"
+  },
+  {
+   "gate": "SH3 first frame carries hook",
+   "status": "PASS",
+   "detail": "headline ink coverage 12.6% in frame 0 (\"Whose Life Is This?\")"
+  },
+  {
+   "gate": "SH3 length",
+   "status": "PASS",
+   "detail": "43.47s incl. end card 2.5s"
+  },
+  {
+   "gate": "YouTube chapters",
+   "status": "PASS",
+   "detail": "15 chapters from processed-narration alignment, first 00:00, min gap 25s"
+  },
+  {
+   "gate": "bake workers ≤ 3",
+   "status": "PASS",
+   "detail": "workers [3, 3]"
+  },
+  {
+   "gate": "perf recorded",
+   "status": "PASS",
+   "detail": "assemble: 53.1s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 52.2 MB; audio: 56.0s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 2330.4 MB; fx: 76.4s, AMD EPYC 9V45 96-Core Processor, 15.6 GB, maxrss 518.5 MB; prep: 242.7s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 665.9 MB; render-0: 167.4s, Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz, 15.6 GB, maxrss 332.7 MB; render-1: 77.0s, AMD EPYC 9V45 96-Core Processor, 15.6 GB, maxrss 344.1 MB; render-2: 149.0s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 372.5 MB; render-3: 121.6s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 372.8 MB; render-4: 143.0s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 358.3 MB; render-5: 123.4s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 490.5 MB; short-SH1: 28.3s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 485.3 MB; short-SH2: 22.5s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 470.9 MB; short-SH3: 25.2s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 393.6 MB; style: 107.4s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 543.4 MB"
+  },
+  {
+   "gate": "credential scan",
+   "status": "PASS",
+   "detail": "no key patterns or secret values in repo or release files"
+  },
+  {
+   "gate": "QA stills from final renders",
+   "status": "PASS",
+   "detail": "30 stills extracted from the released files"
+  }
+ ],
+ "files": {
+  "final.mp4": {
+   "bytes": 188799421,
+   "sha256": "487542e73ae6c0a5a751afade9585c0011ae545ac5ec942c6a2bd0f81635b895"
+  },
+  "SH1.mp4": {
+   "bytes": 7295720,
+   "sha256": "dec1198aff1e2ec395dbf0dcc138811415625727ffb55fc9c9d34ee6dffa5717"
+  },
+  "SH2.mp4": {
+   "bytes": 7530720,
+   "sha256": "d9e2236e37bdc99e1a219dad054e76e9c73eb26cb7eb6d140fd553932e4e3be3"
+  },
+  "SH3.mp4": {
+   "bytes": 6323448,
+   "sha256": "0d025ff50bffda39baabab33d22aef626b056c271bbc51d5eacdb5fa8d868230"
+  }
+ }
+}
