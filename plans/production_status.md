@@ -2,26 +2,31 @@
 
 ## Current delivery status
 
-**Corrected review build queued: run 40497873055 @ c1a5d6bd31b37dcd991b1098d1b722646f023aff. Final publication is held for required review.**
+**Corrected review files ready — NOT final-approved.**
 
-The first technical release (`v1.0.0-run40492903025`, SHA `8569a43`) rendered successfully and passed its 45 automated checks. It is **not final-approved**: the subsequent still review found clipped object/text regions and isolated source-background blocks. Superseding runs were cancelled to avoid rendering obsolete corrections. See `reviews/agent-still-review.md`.
+Render run 40500406007 @ ff79eed1fe0d16210d47c0a85b16028f9a08d821 produced the master and all three native Shorts on GitHub Actions. Automated technical QA: **47 PASS, 0 FAIL, 0 NOT CHECKED** (technical criteria only). All 22 runner exports were restored and SHA-256 verified. The workflow's Required delivery review step held publication; the publish job was skipped. No replacement final release was made.
 
-| Stage | Status | Evidence |
-| --- | --- | --- |
-| Supplied narration + vocal chain | Locked | Processed narration 1226.515 s; first technical exports match the input-manifest PCM hash; no script or voice regeneration |
-| Word alignment | Provisional | faster-whisper-small.en, 3331/3332 exact token matches; not a verified Deepgram pass |
-| User Flow artwork | Received | 234 landscape + 35 selected Shorts cells; source-file hashes verified in CI |
-| Extraction and upscaling | Implemented | FSRCNN ×4 on runners; reviewed source-only crops for four Short 2 cells; sandbox Lanczos was still-test-only |
-| 3D style tests | Agent still-inspected | 11 ink-and-paper objects, paper/obsidian and front/three-quarter previews; not full-motion approval |
-| Three.js + Rapier | Technical execution passed in first build | 23 effect bakes, 17 landscape + 2 per Short; reported contact targets within ±1 frame; no failed-test 2D substitution |
-| Other five JS tools | Not built/tested | Anime.js, Paper.js, Matter.js, tsParticles, Tone.js remain unimplemented; Python graphics, easing and SFX used; not full seven-tool compliance |
-| First technical outputs | Restored and hash-verified | 1920×1080 master 1231.515 s; native 1080×1920 Shorts 49.880 / 43.910 / 43.470 s, 30 fps H.264/AAC; −16.0 to −16.2 LUFS |
-| Whole-plan still layout review | Completed on first technical files | All 269 scene-end layouts and six encoded states per 23 effects inspected; discovered defects corrected in source, final corrected files must be rechecked |
-| Typography regression | Local still test passed; runner pending | All 269 layouts; long words now fit before rasterization; comparison-card regression `Overwhelming` fits at 38 px |
-| Corrected render | Pending GitHub Actions | run 40497873055 @ c1a5d6b; every video render remains on GitHub |
-| Full playback/listening | NOT CHECKED | Current agent tools have not established a full motion-with-sound review; do not infer it from screenshots, hashes or loudness |
-| Final release | HOLD | `ci/review_gate.py`; committing genuine exact-run review PASS triggers `publish-reviewed.yml` |
+| Stage | Status | Evidence / remaining work |
+|---|---|---|
+| Supplied narration and artwork | Preserved | Script/take unchanged; processed narration PCM hash matches locked input; supplied Flow art retained with reviewed crops |
+| Master | Review export ready | 1920×1080, 30 fps, H.264/AAC, 20:31.515, −16.0 LUFS |
+| Native Shorts | Review exports ready | 1080×1920; SH1 49.880 s, SH2 43.910 s, SH3 43.470 s; −16.0 / −16.1 / −16.2 LUFS |
+| Three.js + Rapier | Prototype with technical checks | 11 objects, 23 effect bakes; contact targets within ±1 frame; no failed-test 2D substitution |
+| Bake-boundary verification | PASS | All frames of 23 episode effects; 34 style bakes / 3,080 style frames; original threshold preserved |
+| Typography regression | PASS | All 269 layouts; long words fit before rasterization |
+| Static layout review | Completed within stated scope | Baseline 234 landscape + 35 Shorts layouts inspected; all corrected scene-end stills compared; 15 materially changed layouts visually re-inspected |
+| Effect-state still review | Completed | Six encoded states per 23 effects (138 frames); layout/framing inspection only |
+| Finished motion with sound | NOT CHECKED | Current tools did not establish playback/listening; stills/metrics are not a substitute |
+| Other five JS tools | NOT built/tested | Anime.js, Paper.js, Matter.js, tsParticles and Tone.js remain unfinished; Python graphics/easing/SFX are used; not full seven-tool compliance |
+| Alignment | Provisional | faster-whisper-small.en; not a verified Deepgram pass |
+| Performance | Measured, not fully budget-enforced | Stage timings/memory recorded; complete budget enforcement remains unfinished |
+| Final release | HOLD | Requires genuine supported playback review and resolution of unfinished toolkit scope |
 
-## Known limits
+## Review evidence
 
-The object registry is saved in the user's Notion 3D library with source, parameters, physics, inspected previews and honest prototype status. No object is production-verified. Three-envelope style sample has no detected settle. Runner timings and memory are recorded, but budget enforcement and full seven-tool implementation are not complete.
+- `reviews/40500406007-agent-review.md`: exact-build review scope and measurements.
+- `reviews/40500406007-playback-guide.md`: effect intervals and listening checklist.
+- Runner export: `ci-logs` branch, `runs/40500406007/review/review_export/manifest.json`; immutable source SHA above.
+- Earlier technical release `v1.0.0-run40492903025` contains defects corrected by this build; it is superseded and NOT final-approved.
+
+No object is production-verified. The three-envelope style sample has no detected settle. Preserve prior releases and exact-run provenance. Do not mark playback PASS from stills or technical metrics.
