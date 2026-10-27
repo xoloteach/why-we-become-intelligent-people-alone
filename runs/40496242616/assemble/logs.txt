@@ -1,0 +1,1 @@
+[perf] assemble: rc=0 52.8s maxrss=50MB on AMD EPYC 7763 64-Core Processor x4

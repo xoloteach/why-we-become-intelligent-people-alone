@@ -1,0 +1,18 @@
+{
+ "job": "short-SH3",
+ "cmd": "python3 src/render_shorts.py SH3 video dist/SH3.mp4",
+ "rc": 0,
+ "seconds": 24.5,
+ "cpu": "AMD EPYC 7763 64-Core Processor",
+ "cores": 4,
+ "ram_gb": 15.6,
+ "max_rss_mb": 478.7,
+ "user_s": 51.9,
+ "sys_s": 2.0,
+ "bake_workers": null,
+ "ffmpeg": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+ "python": "3.12.15",
+ "node": "v22.23.3",
+ "runner": "GitHub Actions 1000000398",
+ "run_id": "40496242616"
+}
