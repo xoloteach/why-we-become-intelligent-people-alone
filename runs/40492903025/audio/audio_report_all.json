@@ -1,0 +1,1015 @@
+{
+ "landscape": {
+  "integrated_lufs": -16.0,
+  "true_peak_dbfs": -4.5,
+  "total": 1231.515,
+  "events": [
+   {
+    "kind": "whoosh",
+    "t": 17.32,
+    "note": "paper wipe S01-5"
+   },
+   {
+    "kind": "thud",
+    "t": 22.187,
+    "note": "L-S01-6:env0 contact f26"
+   },
+   {
+    "kind": "tick",
+    "t": 33.19,
+    "note": "S01-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 34.79,
+    "note": "S01-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 35.65,
+    "note": "S01-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 50.97,
+    "note": "S02-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 52.53,
+    "note": "S02-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 54.65,
+    "note": "S02-1 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 64.6,
+    "note": "chapter 2"
+   },
+   {
+    "kind": "whoosh",
+    "t": 89.22,
+    "note": "paper wipe S02-8"
+   },
+   {
+    "kind": "whoosh",
+    "t": 100.5,
+    "note": "paper wipe S03-3"
+   },
+   {
+    "kind": "tick",
+    "t": 109.61,
+    "note": "S03-4 item"
+   },
+   {
+    "kind": "tick",
+    "t": 110.19,
+    "note": "S03-4 item"
+   },
+   {
+    "kind": "tick",
+    "t": 111.33,
+    "note": "S03-4 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 122.52,
+    "note": "paper wipe S03-7"
+   },
+   {
+    "kind": "whoosh",
+    "t": 134.02,
+    "note": "chapter 3"
+   },
+   {
+    "kind": "tick",
+    "t": 141.01,
+    "note": "S04-1 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 143.08,
+    "note": "paper wipe S04-2"
+   },
+   {
+    "kind": "tick",
+    "t": 145.87,
+    "note": "S04-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 146.99,
+    "note": "S04-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 148.49,
+    "note": "S04-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 149.11,
+    "note": "S04-3 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 162.8,
+    "note": "paper wipe S04-6"
+   },
+   {
+    "kind": "tick",
+    "t": 165.32,
+    "note": "L-S04-6: deliberate onset"
+   },
+   {
+    "kind": "whoosh",
+    "t": 183.86,
+    "note": "paper wipe S05-1"
+   },
+   {
+    "kind": "tick",
+    "t": 185.35,
+    "note": "S05-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 186.83,
+    "note": "S05-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 187.79,
+    "note": "S05-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 188.85,
+    "note": "S05-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 197.58,
+    "note": "L-S05-3: deliberate onset"
+   },
+   {
+    "kind": "whoosh",
+    "t": 204.34,
+    "note": "paper wipe S05-5"
+   },
+   {
+    "kind": "tick",
+    "t": 204.51,
+    "note": "S05-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 205.55,
+    "note": "S05-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 206.57,
+    "note": "S05-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 207.79,
+    "note": "S05-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 208.19,
+    "note": "S05-5 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 250.32,
+    "note": "paper wipe S06-4"
+   },
+   {
+    "kind": "thud",
+    "t": 252.52,
+    "note": "L-S06-4:w0 contact f66"
+   },
+   {
+    "kind": "thud",
+    "t": 253.453,
+    "note": "L-S06-4:w1 contact f94"
+   },
+   {
+    "kind": "whoosh",
+    "t": 259.34,
+    "note": "chapter 4"
+   },
+   {
+    "kind": "whoosh",
+    "t": 269.32,
+    "note": "paper wipe S06-8"
+   },
+   {
+    "kind": "tick",
+    "t": 282.71,
+    "note": "S07-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 283.67,
+    "note": "S07-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 284.77,
+    "note": "S07-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 286.23,
+    "note": "S07-1 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 307.94,
+    "note": "chapter 5"
+   },
+   {
+    "kind": "whoosh",
+    "t": 314.76,
+    "note": "paper wipe S07-7"
+   },
+   {
+    "kind": "thud",
+    "t": 323.933,
+    "note": "L-S07-8:b0 contact f103"
+   },
+   {
+    "kind": "thud",
+    "t": 324.9,
+    "note": "L-S07-8:b1 contact f132"
+   },
+   {
+    "kind": "thud",
+    "t": 326.167,
+    "note": "L-S07-8:b2 contact f170"
+   },
+   {
+    "kind": "thud",
+    "t": 327.367,
+    "note": "L-S07-8:b3 contact f206"
+   },
+   {
+    "kind": "whoosh",
+    "t": 333.0,
+    "note": "paper wipe S08-2"
+   },
+   {
+    "kind": "thud",
+    "t": 342.587,
+    "note": "L-S08-4:phone contact f17"
+   },
+   {
+    "kind": "buzz",
+    "t": 342.6,
+    "note": "L-S08-4: notification buzz"
+   },
+   {
+    "kind": "whoosh",
+    "t": 346.98,
+    "note": "paper wipe S08-6"
+   },
+   {
+    "kind": "tick",
+    "t": 348.6,
+    "note": "L-S08-6: deliberate onset"
+   },
+   {
+    "kind": "tick",
+    "t": 368.27,
+    "note": "S08-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 371.49,
+    "note": "S08-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 374.99,
+    "note": "S08-9 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 379.08,
+    "note": "paper wipe S09-1"
+   },
+   {
+    "kind": "whoosh",
+    "t": 405.68,
+    "note": "chapter 6"
+   },
+   {
+    "kind": "whoosh",
+    "t": 417.86,
+    "note": "paper wipe S09-9"
+   },
+   {
+    "kind": "tick",
+    "t": 429.35,
+    "note": "S10-2 item"
+   },
+   {
+    "kind": "tick",
+    "t": 430.13,
+    "note": "S10-2 item"
+   },
+   {
+    "kind": "tick",
+    "t": 431.01,
+    "note": "S10-2 item"
+   },
+   {
+    "kind": "tick",
+    "t": 431.65,
+    "note": "S10-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 432.65,
+    "note": "S10-3 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 434.18,
+    "note": "paper wipe S10-4"
+   },
+   {
+    "kind": "whoosh",
+    "t": 453.62,
+    "note": "paper wipe S10-8"
+   },
+   {
+    "kind": "tick",
+    "t": 457.55,
+    "note": "S10-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 459.69,
+    "note": "S10-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 463.69,
+    "note": "S10-8 item"
+   },
+   {
+    "kind": "thud",
+    "t": 467.187,
+    "note": "L-S10-9:s0 contact f20"
+   },
+   {
+    "kind": "thud",
+    "t": 467.953,
+    "note": "L-S10-9:s1 contact f43"
+   },
+   {
+    "kind": "thud",
+    "t": 468.653,
+    "note": "L-S10-9:s2 contact f64"
+   },
+   {
+    "kind": "thud",
+    "t": 471.487,
+    "note": "L-S10-9:s3 contact f149"
+   },
+   {
+    "kind": "whoosh",
+    "t": 479.06,
+    "note": "paper wipe S11-2"
+   },
+   {
+    "kind": "whoosh",
+    "t": 499.84,
+    "note": "chapter 7"
+   },
+   {
+    "kind": "tick",
+    "t": 511.43,
+    "note": "S11-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 513.81,
+    "note": "S11-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 515.42,
+    "note": "L-S11-9: deliberate onset"
+   },
+   {
+    "kind": "tick",
+    "t": 519.39,
+    "note": "S12-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 520.53,
+    "note": "S12-1 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 522.3,
+    "note": "paper wipe S12-2"
+   },
+   {
+    "kind": "whoosh",
+    "t": 539.32,
+    "note": "paper wipe S12-6"
+   },
+   {
+    "kind": "thud",
+    "t": 559.973,
+    "note": "L-S12-9:case contact f46"
+   },
+   {
+    "kind": "whoosh",
+    "t": 566.1,
+    "note": "paper wipe S13-1"
+   },
+   {
+    "kind": "whoosh",
+    "t": 606.64,
+    "note": "paper wipe S13-9"
+   },
+   {
+    "kind": "tick",
+    "t": 614.89,
+    "note": "S14-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 616.41,
+    "note": "S14-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 617.43,
+    "note": "S14-1 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 619.22,
+    "note": "chapter 8"
+   },
+   {
+    "kind": "whoosh",
+    "t": 644.12,
+    "note": "chapter 9"
+   },
+   {
+    "kind": "whoosh",
+    "t": 652.6,
+    "note": "paper wipe S14-8"
+   },
+   {
+    "kind": "whoosh",
+    "t": 665.08,
+    "note": "paper wipe S15-3"
+   },
+   {
+    "kind": "tick",
+    "t": 665.67,
+    "note": "S15-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 667.07,
+    "note": "S15-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 677.47,
+    "note": "S15-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 678.91,
+    "note": "S15-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 679.97,
+    "note": "S15-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 683.62,
+    "note": "L-S15-6: deliberate onset"
+   },
+   {
+    "kind": "tick",
+    "t": 699.79,
+    "note": "S15-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 701.07,
+    "note": "S15-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 702.11,
+    "note": "S15-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 703.39,
+    "note": "S15-9 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 714.42,
+    "note": "paper wipe S16-2"
+   },
+   {
+    "kind": "whoosh",
+    "t": 729.58,
+    "note": "chapter 10"
+   },
+   {
+    "kind": "tick",
+    "t": 746.25,
+    "note": "S16-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 747.43,
+    "note": "S16-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 748.27,
+    "note": "S16-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 753.74,
+    "note": "L-S17-1: deliberate onset"
+   },
+   {
+    "kind": "tick",
+    "t": 756.34,
+    "note": "L-S17-1: deliberate onset"
+   },
+   {
+    "kind": "thud",
+    "t": 758.667,
+    "note": "L-S17-2:env0 contact f50"
+   },
+   {
+    "kind": "thud",
+    "t": 759.033,
+    "note": "L-S17-2:env1 contact f61"
+   },
+   {
+    "kind": "tick",
+    "t": 785.95,
+    "note": "S17-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 788.47,
+    "note": "S17-8 item"
+   },
+   {
+    "kind": "tick",
+    "t": 793.25,
+    "note": "S17-8 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 794.74,
+    "note": "paper wipe S17-9"
+   },
+   {
+    "kind": "whoosh",
+    "t": 802.62,
+    "note": "chapter 11"
+   },
+   {
+    "kind": "whoosh",
+    "t": 818.7,
+    "note": "paper wipe S18-4"
+   },
+   {
+    "kind": "whoosh",
+    "t": 837.78,
+    "note": "paper wipe S18-8"
+   },
+   {
+    "kind": "tick",
+    "t": 843.13,
+    "note": "S18-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 844.75,
+    "note": "S18-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 849.99,
+    "note": "S18-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 851.98,
+    "note": "L-S19-1: deliberate onset"
+   },
+   {
+    "kind": "whoosh",
+    "t": 859.38,
+    "note": "paper wipe S19-4"
+   },
+   {
+    "kind": "whoosh",
+    "t": 880.8,
+    "note": "paper wipe S19-7"
+   },
+   {
+    "kind": "whoosh",
+    "t": 900.76,
+    "note": "chapter 12"
+   },
+   {
+    "kind": "whoosh",
+    "t": 904.78,
+    "note": "paper wipe S20-2"
+   },
+   {
+    "kind": "tick",
+    "t": 921.17,
+    "note": "S20-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 922.05,
+    "note": "S20-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 923.71,
+    "note": "S20-3 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 924.68,
+    "note": "paper wipe S20-7"
+   },
+   {
+    "kind": "whoosh",
+    "t": 941.82,
+    "note": "paper wipe S21-1"
+   },
+   {
+    "kind": "tick",
+    "t": 954.51,
+    "note": "S21-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 955.85,
+    "note": "S21-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 956.99,
+    "note": "S21-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 957.81,
+    "note": "S21-3 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 962.0,
+    "note": "paper wipe S21-5"
+   },
+   {
+    "kind": "tick",
+    "t": 963.57,
+    "note": "S21-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 964.69,
+    "note": "S21-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 965.93,
+    "note": "S21-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 969.97,
+    "note": "S21-7 item"
+   },
+   {
+    "kind": "tick",
+    "t": 971.55,
+    "note": "S21-7 item"
+   },
+   {
+    "kind": "tick",
+    "t": 975.21,
+    "note": "S21-7 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 982.94,
+    "note": "paper wipe S21-9"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1006.2,
+    "note": "chapter 13"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1027.76,
+    "note": "paper wipe S22-8"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1042.02,
+    "note": "chapter 14"
+   },
+   {
+    "kind": "tick",
+    "t": 1062.19,
+    "note": "S23-6 item"
+   },
+   {
+    "kind": "tick",
+    "t": 1066.79,
+    "note": "S23-6 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1067.74,
+    "note": "paper wipe S23-7"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1088.74,
+    "note": "paper wipe S24-2"
+   },
+   {
+    "kind": "tick",
+    "t": 1104.67,
+    "note": "S24-5 item"
+   },
+   {
+    "kind": "tick",
+    "t": 1108.99,
+    "note": "S24-5 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1110.56,
+    "note": "paper wipe S24-6"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1129.96,
+    "note": "paper wipe S25-1"
+   },
+   {
+    "kind": "tick",
+    "t": 1130.37,
+    "note": "S25-1 item"
+   },
+   {
+    "kind": "tick",
+    "t": 1132.25,
+    "note": "S25-1 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1145.72,
+    "note": "paper wipe S25-5"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1160.42,
+    "note": "chapter 15"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1172.22,
+    "note": "paper wipe S25-9"
+   },
+   {
+    "kind": "tick",
+    "t": 1176.61,
+    "note": "S25-9 item"
+   },
+   {
+    "kind": "tick",
+    "t": 1177.89,
+    "note": "S25-9 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 1190.88,
+    "note": "paper wipe S26-4"
+   },
+   {
+    "kind": "thud",
+    "t": 1199.88,
+    "note": "L-S26-4:w0 contact f270"
+   },
+   {
+    "kind": "thud",
+    "t": 1201.413,
+    "note": "L-S26-4:w1 contact f316"
+   },
+   {
+    "kind": "thud",
+    "t": 1202.113,
+    "note": "L-S26-4:w2 contact f337"
+   },
+   {
+    "kind": "thud",
+    "t": 1202.613,
+    "note": "L-S26-4:w3 contact f352"
+   },
+   {
+    "kind": "tick",
+    "t": 1209.26,
+    "note": "L-S26-7: deliberate onset"
+   },
+   {
+    "kind": "tick",
+    "t": 1220.24,
+    "note": "L-S26-9: deliberate onset"
+   },
+   {
+    "kind": "thud",
+    "t": 1226.615,
+    "note": "end card"
+   }
+  ]
+ },
+ "SH1": {
+  "integrated_lufs": -16.0,
+  "true_peak_dbfs": -4.5,
+  "total": 49.88,
+  "events": [
+   {
+    "kind": "tick",
+    "t": 16.98,
+    "note": "SH1-SH1A-4: deliberate onset"
+   },
+   {
+    "kind": "whoosh",
+    "t": 20.64,
+    "note": "paper wipe SH1B-1"
+   },
+   {
+    "kind": "tick",
+    "t": 26.23,
+    "note": "SH1B-2 item"
+   },
+   {
+    "kind": "tick",
+    "t": 27.23,
+    "note": "SH1B-2 item"
+   },
+   {
+    "kind": "whoosh",
+    "t": 35.9,
+    "note": "paper wipe SH1C-1"
+   },
+   {
+    "kind": "thud",
+    "t": 40.747,
+    "note": "SH1-SH1C-2:w0 contact f29"
+   },
+   {
+    "kind": "thud",
+    "t": 41.28,
+    "note": "SH1-SH1C-2:w1 contact f45"
+   },
+   {
+    "kind": "tick",
+    "t": 45.01,
+    "note": "SH1C-3 item"
+   },
+   {
+    "kind": "tick",
+    "t": 45.59,
+    "note": "SH1C-3 item"
+   },
+   {
+    "kind": "thud",
+    "t": 47.48,
+    "note": "end card"
+   }
+  ]
+ },
+ "SH2": {
+  "integrated_lufs": -16.1,
+  "true_peak_dbfs": -4.5,
+  "total": 43.91,
+  "events": [
+   {
+    "kind": "tick",
+    "t": 14.99,
+    "note": "SH2A-4 item"
+   },
+   {
+    "kind": "tick",
+    "t": 16.17,
+    "note": "SH2A-4 item"
+   },
+   {
+    "kind": "tick",
+    "t": 17.01,
+    "note": "SH2A-4 item"
+   },
+   {
+    "kind": "tick",
+    "t": 22.48,
+    "note": "SH2-SH2B-1: deliberate onset"
+   },
+   {
+    "kind": "tick",
+    "t": 25.08,
+    "note": "SH2-SH2B-1: deliberate onset"
+   },
+   {
+    "kind": "thud",
+    "t": 27.407,
+    "note": "SH2-SH2B-2:env0 contact f50"
+   },
+   {
+    "kind": "thud",
+    "t": 27.773,
+    "note": "SH2-SH2B-2:env1 contact f61"
+   },
+   {
+    "kind": "whoosh",
+    "t": 31.06,
+    "note": "paper wipe SH2B-4"
+   },
+   {
+    "kind": "thud",
+    "t": 41.51,
+    "note": "end card"
+   }
+  ]
+ },
+ "SH3": {
+  "integrated_lufs": -16.1,
+  "true_peak_dbfs": -4.5,
+  "total": 43.47,
+  "events": [
+   {
+    "kind": "thud",
+    "t": 5.573,
+    "note": "SH3-SH3A-1:case contact f46"
+   },
+   {
+    "kind": "thud",
+    "t": 9.38,
+    "note": "SH3-SH3A-4:s0 contact f12"
+   },
+   {
+    "kind": "thud",
+    "t": 10.113,
+    "note": "SH3-SH3A-4:s1 contact f34"
+   },
+   {
+    "kind": "thud",
+    "t": 10.847,
+    "note": "SH3-SH3A-4:s2 contact f56"
+   },
+   {
+    "kind": "whoosh",
+    "t": 11.7,
+    "note": "paper wipe SH3B-1"
+   },
+   {
+    "kind": "thud",
+    "t": 41.07,
+    "note": "end card"
+   }
+  ]
+ }
+}
