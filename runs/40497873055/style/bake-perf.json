@@ -1,0 +1,217 @@
+{
+ "seconds": 108.393,
+ "workers": 3,
+ "versions": {
+  "three": "0.186.1",
+  "rapier": "0.21.0",
+  "playwright": "1.64.1",
+  "node": "v24.22.1",
+  "chromium": "156.0.8078.4"
+ },
+ "jobs": [
+  {
+   "id": "style-battery-drain-f",
+   "frames": 75,
+   "seconds": 7.18,
+   "fps": 10.44
+  },
+  {
+   "id": "style-battery-charge-q",
+   "frames": 75,
+   "seconds": 7.41,
+   "fps": 10.12
+  },
+  {
+   "id": "style-battery-charge-f",
+   "frames": 75,
+   "seconds": 8.3,
+   "fps": 9.03
+  },
+  {
+   "id": "style-battery-drain-q",
+   "frames": 75,
+   "seconds": 9.71,
+   "fps": 7.72
+  },
+  {
+   "id": "style-books-4-f",
+   "frames": 120,
+   "seconds": 13.92,
+   "fps": 8.62
+  },
+  {
+   "id": "style-books-4-q",
+   "frames": 120,
+   "seconds": 14.89,
+   "fps": 8.06
+  },
+  {
+   "id": "style-briefcase-f",
+   "frames": 75,
+   "seconds": 8.47,
+   "fps": 8.86
+  },
+  {
+   "id": "style-briefcase-q",
+   "frames": 75,
+   "seconds": 7.81,
+   "fps": 9.6
+  },
+  {
+   "id": "style-clock-f",
+   "frames": 90,
+   "seconds": 10.2,
+   "fps": 8.82
+  },
+  {
+   "id": "style-clock-q",
+   "frames": 90,
+   "seconds": 10.45,
+   "fps": 8.62
+  },
+  {
+   "id": "style-door-f",
+   "frames": 75,
+   "seconds": 8.88,
+   "fps": 8.45
+  },
+  {
+   "id": "style-door-q",
+   "frames": 75,
+   "seconds": 8.01,
+   "fps": 9.36
+  },
+  {
+   "id": "style-envelope-1-f",
+   "frames": 60,
+   "seconds": 6.22,
+   "fps": 9.65
+  },
+  {
+   "id": "style-envelope-1-q",
+   "frames": 60,
+   "seconds": 5.72,
+   "fps": 10.49
+  },
+  {
+   "id": "style-envelope-2-f",
+   "frames": 90,
+   "seconds": 6.45,
+   "fps": 13.95
+  },
+  {
+   "id": "style-envelope-2-q",
+   "frames": 90,
+   "seconds": 7.02,
+   "fps": 12.82
+  },
+  {
+   "id": "style-envelope-3-f",
+   "frames": 80,
+   "seconds": 6.5,
+   "fps": 12.31
+  },
+  {
+   "id": "style-envelope-3-q",
+   "frames": 80,
+   "seconds": 7.84,
+   "fps": 10.2
+  },
+  {
+   "id": "style-globe-grow-f",
+   "frames": 90,
+   "seconds": 9.96,
+   "fps": 9.04
+  },
+  {
+   "id": "style-globe-grow-q",
+   "frames": 90,
+   "seconds": 11.04,
+   "fps": 8.15
+  },
+  {
+   "id": "style-globe-shrink-f",
+   "frames": 90,
+   "seconds": 11.21,
+   "fps": 8.03
+  },
+  {
+   "id": "style-globe-shrink-q",
+   "frames": 90,
+   "seconds": 10.35,
+   "fps": 8.69
+  },
+  {
+   "id": "style-phone-drop-f",
+   "frames": 90,
+   "seconds": 9.62,
+   "fps": 9.35
+  },
+  {
+   "id": "style-phone-drop-q",
+   "frames": 90,
+   "seconds": 8.87,
+   "fps": 10.15
+  },
+  {
+   "id": "style-phone-scroll-f",
+   "frames": 90,
+   "seconds": 9.02,
+   "fps": 9.98
+  },
+  {
+   "id": "style-phone-scroll-q",
+   "frames": 90,
+   "seconds": 9.14,
+   "fps": 9.84
+  },
+  {
+   "id": "style-scale-2-f",
+   "frames": 120,
+   "seconds": 11.67,
+   "fps": 10.29
+  },
+  {
+   "id": "style-scale-2-q",
+   "frames": 120,
+   "seconds": 11.69,
+   "fps": 10.26
+  },
+  {
+   "id": "style-scale-4-f",
+   "frames": 150,
+   "seconds": 14.13,
+   "fps": 10.62
+  },
+  {
+   "id": "style-stairs-4-f",
+   "frames": 110,
+   "seconds": 11.08,
+   "fps": 9.93
+  },
+  {
+   "id": "style-scale-4-q",
+   "frames": 150,
+   "seconds": 13.97,
+   "fps": 10.74
+  },
+  {
+   "id": "style-stairs-4-q",
+   "frames": 110,
+   "seconds": 11.78,
+   "fps": 9.34
+  },
+  {
+   "id": "style-window-2-f",
+   "frames": 60,
+   "seconds": 6.59,
+   "fps": 9.1
+  },
+  {
+   "id": "style-window-2-q",
+   "frames": 60,
+   "seconds": 6.56,
+   "fps": 9.15
+  }
+ ]
+}
