@@ -239,7 +239,6 @@ jobs:
         run: |
           bash ci/setup_tools.sh
           pip install -q opencv-python-headless==4.10.0.84 numpy==2.1.3 pillow==11.0.0
-          sudo apt-get install -y -qq imagemagick >/dev/null
       - name: Merge artifacts
         run: |
           mkdir -p work dist perf library

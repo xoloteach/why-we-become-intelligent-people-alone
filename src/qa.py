@@ -136,10 +136,17 @@ for S in P['shorts']:
 ex = [s for s in shots if os.path.exists(s)]
 gate('QA stills from final renders', ok(len(ex) == len(shots) and ex), f'{len(ex)} stills extracted from the released files')
 if ex:
-    MG = ['magick', 'montage'] if subprocess.run(['which', 'magick'], capture_output=True).returncode == 0 else ['montage']
-    for pre, tile, geo, name in (('final_', '5x', '384x216+3+3', 'qa_contact_landscape.jpg'), ('SH', '9x', '216x384+3+3', 'qa_contact_shorts.jpg')):
+    from PIL import Image as _I
+    def sheet(L, cols, w, h, out, pad=3):
+        rows = (len(L) + cols - 1) // cols; c = min(cols, len(L))
+        im = _I.new('RGB', (c * (w + 2 * pad), rows * (h + 2 * pad)), (255, 255, 255))
+        for i, f in enumerate(L):
+            t = _I.open(f).convert('RGB'); t.thumbnail((w, h)); x = (i % cols) * (w + 2 * pad) + pad + (w - t.width) // 2; y = (i // cols) * (h + 2 * pad) + pad + (h - t.height) // 2
+            im.paste(t, (x, y))
+        im.save(out, quality=88)
+    for pre, cols, w, h, name in (('final_', 5, 384, 216, 'qa_contact_landscape.jpg'), ('SH', 9, 216, 384, 'qa_contact_shorts.jpg')):
         L = [s for s in ex if os.path.basename(s).startswith(pre)]
-        if L: subprocess.run(MG + L + ['-tile', tile, '-geometry', geo, os.path.join(DIST, name)], check=False)
+        if L: sheet(L, cols, w, h, os.path.join(DIST, name))
 fails = [r for r in R if r['status'] == 'FAIL']; nc = [r for r in R if r['status'] == 'NOT CHECKED']
 rep = {'schema': 'wwb-qa/1', 'run_id': os.environ.get('GITHUB_RUN_ID'), 'sha': os.environ.get('GITHUB_SHA'), 'pass': not fails, 'counts': {'PASS': len(R) - len(fails) - len(nc), 'FAIL': len(fails), 'NOT CHECKED': len(nc)}, 'gates': R,
        'files': {f: {'bytes': os.path.getsize(os.path.join(DIST, f)), 'sha256': sha256_file(os.path.join(DIST, f))} for f in VIDEOS if os.path.exists(os.path.join(DIST, f))}}
