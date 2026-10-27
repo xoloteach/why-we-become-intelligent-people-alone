@@ -76,6 +76,7 @@ jobs:
           set -o pipefail
           cd fx && python3 ../ci/perf.py fx --workers 3 -- node bake/bake.mjs --out "$WWB_WORK/fx_out" --workers 3 "$WWB_WORK"/fx_jobs/*.json 2>&1 | tee -a ../logs.txt
           cd .. && python3 src/fx_post.py "$WWB_WORK"/fx_out/*/ 2>&1 | tee -a logs.txt
+          python3 ci/check_fx_edges.py "$WWB_WORK/fx_out"
           cd fx && node bake/bake.mjs --out /tmp/rebake --workers 1 "$WWB_WORK/fx_jobs/L-S01-6.json" 2>&1 | tee -a ../logs.txt
           cd .. && python3 src/fx_post.py /tmp/rebake/L-S01-6
           python3 ci/check_determinism.py "$WWB_WORK"
@@ -90,7 +91,7 @@ jobs:
             perf/
       - name: Diagnostics
         if: always()
-        run: bash ci/push_logs.sh fx logs.txt work/fx_out/bake-perf.json || true
+        run: bash ci/push_logs.sh fx logs.txt work/fx_out/bake-perf.json work/fx_out/edge_report.json || true
   style:
     runs-on: ubuntu-24.04
     timeout-minutes: 60
@@ -109,6 +110,8 @@ jobs:
           set -o pipefail
           python3 fx/tests/make_style_jobs.py /tmp/style/jobs
           cd fx && python3 ../ci/perf.py style --workers 3 -- node bake/bake.mjs --out /tmp/style/out --workers 3 /tmp/style/jobs/*.json 2>&1 | tee -a ../logs.txt; cd ..
+          python3 src/fx_post.py /tmp/style/out/*/
+          python3 ci/check_fx_edges.py /tmp/style/out
           python3 src/fx_style_sheet.py /tmp/style/out library/sheets 2>&1 | tee -a logs.txt
           python3 ci/library_previews.py /tmp/style/out library 2>&1 | tee -a logs.txt
       - uses: actions/upload-artifact@v4
@@ -120,7 +123,7 @@ jobs:
             perf/
       - name: Publish previews + diagnostics
         if: always()
-        run: bash ci/push_logs.sh style logs.txt library /tmp/style/out/bake-perf.json || true
+        run: bash ci/push_logs.sh style logs.txt library /tmp/style/out/bake-perf.json /tmp/style/out/edge_report.json || true
   audio:
     needs: [prep, fx]
     runs-on: ubuntu-24.04

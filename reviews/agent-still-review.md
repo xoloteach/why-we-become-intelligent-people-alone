@@ -21,3 +21,9 @@ Corrected source: c1a5d6bd31b37dcd991b1098d1b722646f023aff; replacement run 4049
 1. Recheck all corrected final layouts and effect states against the replacement encoded output, not only local isolated tests.
 2. Watch the finished videos and each effect clip with sound using a supported reviewer. Weight, smoothness, subtitle timing, narration dominance and contact/SFX sync require actual playback.
 3. Only then record exact-run review PASS in `reviews/<run>.json`; current status is **NOT CHECKED**, not PASS.
+
+## Corrected run 40497873055 — technical hold
+
+The 269-layout typography regression passed. Assembly produced all four files, but the new every-frame edge check found transient clipping in six effects (single envelope, both scale layouts, and both briefcase layouts). Technical QA: 46 PASS, 1 FAIL. Export was correctly skipped; do not deliver this run as final or approved.
+
+Per-job camera view overrides now include the full held/drop poses for those three objects. No geometry/version change, no test removal or relaxed threshold. Every-frame edge verification is moved into the bake stage before any video encoding, and also runs across all style-test frames.
