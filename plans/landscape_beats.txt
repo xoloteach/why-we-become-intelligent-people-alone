@@ -1,0 +1,261 @@
+# sheet|panel lines: "open-side|description"  (D: prefix = obsidian panel)
+== S01 Hook: some people enjoy being alone
+L|Stickman reading in armchair under warm lamp
+R|Stickman strolling calmly past chattering grey figures
+TL|Stickman alone at kitchen table with tea, relaxed
+R|Two grey figures whispering and pointing at the stickman's lit window
+T|Two doorways: empty quiet room, room packed with grey figures
+R|Stickman politely holding a blank invitation envelope, gentle half-smile
+TR|Stickman sitting on a hill, small empty thought bubbles drifting upward
+D:L|Grey crowd pinning blank paper tags onto a lone stickman
+R|Stickman opening window onto bright wide landscape
+== S02 Alone is not lonely
+R|Stickman studying a tiny seated figure through magnifying glass
+L|Stickman waving at a doorway, open notebook on a side table
+T|Balance beam holding smiling stickman's chair and empty chair
+D:TL|Stickman faded inside dense crowd, everyone turned away
+R|Stickman laughing at dinner; his wall shadow slumps sadly
+L|Stickman sitting cross-legged in a quiet room inside a soft sunbeam
+TR|Stickman counting grey heads with a pointing hand, puzzled
+L|Stickman hugging himself, small rust heart glowing
+T|Stickman linked to distant friends' houses by thin rust threads
+== S03 Loneliness vs solitude
+D:R|Stickman reaching toward a puzzle-shaped gap in a wall
+L|Stickman alone on a bench under a tree, calm
+T|Stickman standing half in warm sunlight, half in cool shadow
+R|Stickman reading as small heart floats toward friend's door
+L|Stickman, finger to lips, in quiet room
+R|Stickman putting on glasses, seeing lone figure warmly
+TL|Stickman erasing one big thought bubble and drawing a new one
+R|Stickman at lamplit desk cradling a glowing idea
+L|Stickman outside door, party noise squiggles spilling out
+== S04 How people process a party
+T|Party room with grey figures dancing, music-note doodles floating
+R|Overlapping empty speech bubbles crowding above grey heads
+TL|Grey figures laughing at one storyteller's big gestures
+R|One grey figure glowing with energy, small sparks
+L|Stickman at the party edge, smiling politely, holding a cup
+TR|Stickman slumped on the party couch later, eyelids heavy
+L|Stickman stepping relieved into quiet starry night
+R|Stickman at home placing his phone face-down inside a drawer
+TL|Stickman speaking confidently on small stage
+== S05 Energy, labels and different needs
+R|Stickman bowing on stage, audience clapping
+L|Stickman sitting tired, holding a nearly empty battery
+R|Stickman in an armchair, eyes closed, soft glow refilling around him
+T|Stickman tearing a blank paper label in half
+TL|Stickman surrounded by floating icons: sun, house, heart, cloud
+T|Two stickmen in the same busy room reacting differently
+R|Grey figure beaming in a crowd while the stickman covers his ears
+L|Level balance scale holding two different shoes
+D:R|Grey crowd pushing identical party hats onto the stickman
+== S06 Mistaken for rejection
+R|Stickman declining with palm raised while a friend's face falls
+TL|Grey friends at a table looking at one empty chair
+R|Stickman walking away as friends share an empty thought bubble
+T|Stickman standing calmly at the exact centre of a seesaw
+L|Stickman and a friend shaking hands, both smiling in sunlight
+R|Stickman looking up at a large glowing brain-shaped cloud
+TL|Curious crowd leaning toward a lone figure under a spotlight
+T|Stickman standing apart from a line of identical grey figures
+R|Tangled rope linking a brain doodle and a lone chair
+== S07 Intelligence: no universal rule
+R|Stickman flipping through a stack of research folders, curious
+T|Stickman holding a lantern where two paths diverge
+D:L|Stickman striking a giant rule book with one bold ink stroke
+R|Stickman lifting an oversized crown off his head, shrugging
+TL|Stickman on a small hilltop, shrugging humbly at people below
+R|Stickman peering curiously into a glowing open book
+T|Stickman climbing a staircase made of stacked books
+L|Stickman writing a manuscript by lamplight, pages piling up
+TR|Stickman patiently untangling a large knot of string
+== S08 Deep work needs attention
+R|Stickman focused at a desk, one lamp beam on the page
+T|Stickman digging a deep hole beside a shallow puddle
+D:L|Stickman pulled by many strings from different directions
+R|Phone buzzing on the desk next to the stickman's open book
+L|Grey figure tapping the stickman's shoulder mid-thought
+TL|Stickman staring at his phone as clock hands blur behind him
+T|Two stickmen talking warmly, a lightbulb passing between them
+R|Stickman following a floating paper lantern down a winding path
+L|Stickman rereading a book, finger on the page, unbothered
+== S09 Freedom to think
+R|Stickman dropping juggled thought bubbles in front of a bored grey audience
+T|Stickman floating happily among drifting book pages
+TL|Stickman and grey figures side by side, heads with the same gentle glow
+R|Stickman shining a flashlight beam onto one chosen idea
+D:L|Stickman sitting by a still pond, calm reflection
+R|Stickman closing a door on noise squiggles, then sitting to think
+L|Stickman smiling at his work, ignoring a row of clapping hands
+R|Stickman curled in an armchair reading a favourite book
+TL|Stickman lowering a phone camera, keeping his book to himself
+== S10 Value without witnesses
+R|Stickman walking a forest path, leaves falling, serene
+L|Stickman drawing in a sketchbook on a park step
+R|Stickman cooking, steam rising from a pot
+TL|Stickman jogging alone at dawn, empty road
+R|Stickman stepping off a spotlight stage onto quiet grass
+D:L|Stickman turning away from a wall of watching eyes
+R|Stickman holding a single flower, admiring it closely
+T|Stickman on a couch in afternoon sun, content, no audience
+L|Stickman quietly reaching the top of stairs, tiny private rust flag
+== S11 Sharing, privacy and inner voice
+R|Stickman showing a friend a photo, both smiling
+T|Stickman and friends toasting at a small table
+L|Friend hugging the stickman after a small win
+R|Stickman smiling alone while nobody looks his way
+L|Stickman tucking a glowing memory into a small wooden box
+TR|Stickman sitting in silence as grey noise clouds dissolve
+R|Stickman cupping his ear to a tiny inner voice
+D:T|Many grey pointing fingers directing the stickman different ways
+L|Stickman scrolling his phone, feed glow on his face
+== S12 Other people's expectations
+L|Large phone showing glowing beaches, cars and trophies
+R|Stickman surrounded by megaphones from every direction
+T|Grey ink swirling into the stickman's rust thought bubble
+R|Stickman reaching for the same shiny object a crowd grabs at
+T|Stickman on a running track beside lanes of faster runners
+L|Stickman at a fork taking a different path, others staring
+D:R|Stickman buried under a pile of speech bubbles, one hand visible
+L|Stickman stepping from a noisy room into a quiet garden
+R|Stickman holding a briefcase, studying it questioningly
+== S13 Uncomfortable answers
+R|Stickman running anxiously after a departing train
+T|Stickman sitting in a groove worn into the floor, looking down at it
+L|Stickman awkwardly holding a prickly cactus
+D:R|Stickman looking back at footprints on a path painted for him
+L|Stickman smiling while holding a cracked smiling mask
+T|Stickman comparing a small cabin with a showy mansion facade
+R|Stickman with many hands tugging at his attention
+L|Stickman alone at a table examining a small box of keepsakes
+TR|Stickman beside an owl, shrugging modestly
+== S14 Reflection vs rumination
+TL|Stickman by a lake studying his reflection
+R|Stickman lifting a stone to discover roots beneath
+L|Stickman placing a few chosen objects on a small shelf
+D:T|Stickman walking a worn circular track in the floor
+R|Stickman under a small raincloud of looping scribbles
+L|Stickman stepping off the circular track onto a straight path
+R|Stickman hauling a heavy backpack stuffed with masks
+T|Stickman rushing between grey figures who each hold a target
+L|Stickman turning a dial on his chest to match each listener
+== S15 The emotional work of being social
+R|Stickman weighing words on a tiny scale before speaking
+L|Stickman tiptoeing past a sleeping grey figure
+R|Stickman listening to a crying friend, hand on shoulder
+L|Stickman holding a door slightly open, peeking out
+T|Two stickmen meeting in the middle of a bridge
+D:R|Stickman under a harsh spotlight, sweating behind a smile
+L|Stickman hiding a guitar behind his back
+R|Stickman nodding while his thought bubble shakes no
+T|Stickman frantically juggling a phone, trophy, mask and clock
+== S16 Relief, freedom, or fear
+R|Stickman sinking into a sofa as a mask falls off, deep sigh
+L|Stickman sitting quietly at a window, nobody asking anything
+R|Stickman washing a painted smile off his face
+T|Stickman lying on grass, arms wide, unbothered
+L|Stickman stretching freely in an open field, birds lifting
+T|Two doors side by side: one sunlit and open, one shut with bars
+R|Stickman dancing alone in his room, joyful
+D:L|Stickman closing curtains, eyes wide with fear
+D:R|Stickman hiding under a table from giant pointing fingers
+== S17 Same outside, different inside
+T|Two identical stickmen in identical rooms, side by side
+R|Both stickmen setting invitation envelopes aside
+T|Two mirrored small circles of three friends
+TL|X-ray view: one stickman holds a calm sun inside, the other a storm
+D:R|Stickman with a hand on window glass, watching friends outside
+L|Stickman wiping glitter off a framed picture of a lone hermit
+R|Stickman resting in a hammock, content
+L|Friend offering a hand to the stickman sitting on the ground
+TR|Stickman and a friend building a small sturdy house together
+== S18 Choosing solitude vs hiding
+T|Split: stickman in a garden with an open gate, and in a bunker with a locked hatch
+R|Stickman in an armchair, front door open behind him
+L|Stickman circling a date on a wall calendar, smiling
+R|Stickman yawning under a blanket, gently declining a call
+T|Stickman walking beside a friend, each with his own backpack
+D:L|Stickman pulling shutters closed on a house
+R|Stickman's thumb hovering over a phone, not pressing
+L|Stickman turning back from a misty unknown path
+D:R|Stickman building a brick wall around himself after an argument
+== S19 When the world gets smaller
+D:T|Stickman inside a shrinking circle of light
+R|Stickman sighing with relief as he shuts a door
+L|Stickman running on a circular loop track
+R|Familiar street turning foggy and strange in front of the stickman
+T|Stickman's footprints sinking deeper into the same short path
+L|Stickman reading happily in a sunny room, nothing wrong
+R|Stickman watching a sapling grow into a tree across seasons
+T|Two pots: a lush flowering plant and a wilted grey one
+L|Stickman holding a small shield in one hand, the other hand open to a friend
+== S20 Depth over frequency
+R|Stickman connecting two plugs, small spark
+L|Stickman holding one gem beside a heap of pebbles
+T|Stickman at a small campfire with two close friends
+R|Stickman passing a long queue of waving grey figures
+L|Stickman stifling a yawn during a looping small-talk circle
+R|Stickman and a friend in honest talk over tea, leaning in
+TL|Two friends disagreeing calmly with open hands
+R|Two friends sitting silently on a bench at sunset
+L|Stickman handing a fragile paper boat to a trusted friend
+== S21 Different relationships, different purposes
+T|Small warm circle of three beside a large faded web of tiny dots
+R|Stickman holding a door open for many different people
+L|Stickman's roots reaching into several soil layers
+R|Stickman picking up a small flower someone dropped
+T|Neighbourhood street, friendly waves between houses
+L|Stickman chatting over a fence with a neighbour
+R|Stickman sharing a laugh with a colleague by a water cooler
+L|Stickman holding several keys of different sizes
+TR|Concentric circles of figures: many outer, a few inner around the stickman
+== S22 Independent and connected
+R|Stickman happily visiting a party, coat over arm
+L|Stickman reading by a lamp, framed photo of friends on the table
+T|Stickman balancing a pole: book one end, friends' photo other
+R|A lone tree whose roots connect underground to a forest
+D:TL|Grey figures drawing a line, demanding he pick a side
+R|Stickman on a bench with room for another, smiling
+L|Stickman on hill waving down to friends' village
+T|Stickman walking his own path parallel to his friends' path
+R|Stickman standing tall, holding threads to others
+== S23 Self-knowledge changes your choices
+T|Stickman in a circle dance, keeping his rust lining bright
+D:R|Stickman facing a large closed door at the end of a hall
+T|Three stickman silhouettes, young to older, each calmer
+L|Stickman holding a compass whose needle points to his chest
+R|Stickman swept along in a river of grey figures
+L|Stickman reaching for a gold trophy everyone stares at
+R|Stickman running with an overflowing stack of calendars
+TL|Stickman sorting objects into keep and leave baskets
+R|Stickman between two plugs: one charging him, one draining him
+== S24 Saying no, growing on purpose
+R|Stickman gently closing a door on a flood of envelopes
+T|Stickman walking past many glowing doors, choosing one
+L|Stickman climbing a steep rock face, determined
+R|Stickman stepping into an unfamiliar street, curious
+L|Stickman listening to someone wearing a very different hat
+TR|Stickman drawing a deliberate route on a map
+R|Stickman setting down an overfull hourglass
+L|Stickman walking past a wall covered in pinned invitations
+T|Stickman on a porch with tea in warm afternoon sun
+== S25 Choosing with intention
+R|Stickman reading under a tree, leaves drifting
+L|Stickman at a workbench building a birdhouse
+R|Stickman leaving a dull party early with a relieved smile
+T|Stickman holding hands in a small chosen circle
+L|Stickman fitting the last piece into a puzzle-shaped self-portrait
+R|Stickman among friends in his own hoodie, no mask
+L|Stickman tossing away a toolbox meant to fix him
+R|Stickman stepping down from a pedestal to rejoin others
+TL|Stickman painting a canvas in a sunlit studio
+== S26 Balance and the empty room
+R|Stickman arranging three stones by size, thoughtful
+L|Stickman napping in a hammock while a storm passes far away
+R|Stickman opening his door to two genuine friends
+T|Stickman adjusting a hanging mobile of four balanced shapes
+L|Stickman switching off a phone glowing with notifications
+R|Stickman calmly walking past a crowd demanding explanations
+L|Stickman entering an empty room filled with warm light, smiling
+D:T|Stickman sitting eyes closed, ripple rings spreading outward
+TL|Stickman stepping out of his house into the world at sunrise

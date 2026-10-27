@@ -1,0 +1,39 @@
+== SH1 Alone Isn't Lonely | 01:04.7-01:52.0
+A|T|Stickman sitting alone in a quiet lamplit room, serene
+A|D:T|Stickman faded in the middle of a dense crowd, every grey figure turned away
+A|T|Stickman laughing at a party while his wall shadow slumps sadly
+A|T|Stickman sitting cross-legged in a sunbeam, eyes closed, at peace
+B|T|Stickman counting grey heads in a crowd, puzzled
+B|T|Stickman hugging himself warmly, rust heart glowing at his chest
+B|D:T|Stickman reaching toward a puzzle-shaped gap in a wall
+B|T|Stickman alone on a bench under a tree, calm
+C|T|Stickman standing half in warm sunlight, half in cool shadow
+C|T|Stickman's shadow and a friend's shadow overlapping on the ground
+C|T|Stickman reading alone as a small heart floats toward a friend's window
+C|T|Stickman walking toward a friend's open door carrying a small gift
+== SH2 Peace or Fear? | 12:11.4-12:53.2
+A|T|Two identical stickmen in identical rooms: one sunlit, one in shadow
+A|T|Stickman stretching freely in an open field, birds lifting
+A|D:T|Stickman hiding under a table from giant pointing fingers
+A|D:T|Stickman closing curtains, eyes wide with fear
+B|T|Two identical lit windows seen from outside, a stickman in each
+B|T|Both stickmen setting blank invitation envelopes aside
+B|T|Two mirrored small circles of three friends
+B|T|X-ray view: one stickman holds a calm sun inside, the other a storm
+C|T|Stickman resting in a hammock, content
+C|D:T|Stickman with a hand on window glass, watching friends outside
+C|T|Friend offering a hand to the stickman sitting on the ground
+C|T|Two doors: one sunlit and open, one shut with bars
+== SH3 Whose Life Is This? | 09:14.5-09:55.7
+A|T|Stickman alone at a night desk, studying a briefcase questioningly
+A|T|Stickman stepping out of a noisy room into a quiet garden
+A|T|Stickman holding a briefcase while a crowd applauds behind him
+A|T|Stickman pausing halfway up a ladder toward a trophy, looking down
+B|T|Stickman running anxiously after a departing train
+B|T|Stickman sitting in a groove worn into the floor
+B|T|Stickman awkwardly holding a prickly cactus
+B|D:T|Stickman looking back at footprints on a path painted for him
+C|T|Stickman smiling while holding a cracked smiling mask
+C|T|Stickman comparing a small cabin with a showy mansion facade
+C|T|Stickman tearing a glossy facade poster to reveal a forest trail
+C|T|Stickman walking that trail toward sunrise, lighter

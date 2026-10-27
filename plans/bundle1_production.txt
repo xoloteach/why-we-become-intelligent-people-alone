@@ -1,0 +1,465 @@
+BUNDLE 1 — PRODUCTION IMAGES (Google Flow). Attach assets/stickman-reference-sheet.jpeg as the character reference for every prompt.
+
+=== A. LANDSCAPE SCENE CONTACT SHEETS (26 × 3x3 = 234 panels) ===
+
+--- SHEET 01/26 · Hook: some people enjoy being alone · save as sheet-01.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Reading in armchair under warm lamp. [L]
+P2: Strolling calmly past chattering grey figures. [R]
+P3: Alone at kitchen table with tea, relaxed. [TL]
+P4: Two grey figures whispering and pointing at stickman's lit window. [R]
+P5: Two doorways: empty quiet room, room packed with grey figures. [T]
+P6: Politely holding blank invitation envelope, gentle half-smile. [R]
+P7: Sitting on hill, small empty thought bubbles drifting upward. [TR]
+P8: Grey crowd pinning blank paper tags onto lone stickman. Obsidian. [L]
+P9: Opening window onto bright wide landscape. [R]
+
+--- SHEET 02/26 · Alone is not lonely · save as sheet-02.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Studying tiny seated figure through magnifying glass. [R]
+P2: Waving at doorway, open notebook on side table. [L]
+P3: Balance beam holding smiling stickman's chair and empty chair. [T]
+P4: Faded inside dense crowd, everyone turned away. Obsidian. [TL]
+P5: Laughing at dinner; his wall shadow slumps sadly. [R]
+P6: Sitting cross-legged in quiet room inside soft sunbeam. [L]
+P7: Counting grey heads with pointing hand, puzzled. [TR]
+P8: Hugging himself, small rust heart glowing. [L]
+P9: Linked to distant friends' houses by thin rust threads. [T]
+
+--- SHEET 03/26 · Loneliness vs solitude · save as sheet-03.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Reaching toward puzzle-shaped gap in wall. Obsidian. [R]
+P2: Alone on bench under tree, calm. [L]
+P3: Standing half in warm sunlight, half in cool shadow. [T]
+P4: Reading as small heart floats toward friend's door. [R]
+P5: Stickman, finger to lips, in quiet room. [L]
+P6: Putting on glasses, seeing lone figure warmly. [R]
+P7: Erasing one big thought bubble and drawing new one. [TL]
+P8: At lamplit desk cradling glowing idea. [R]
+P9: Outside door, party noise squiggles spilling out. [L]
+
+--- SHEET 04/26 · How people process a party · save as sheet-04.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Party room with grey figures dancing, music-note doodles floating. [T]
+P2: Overlapping empty speech bubbles crowding above grey heads. [R]
+P3: Grey figures laughing at one storyteller's big gestures. [TL]
+P4: One grey figure glowing with energy, small sparks. [R]
+P5: At party edge, smiling politely, holding cup. [L]
+P6: Slumped on party couch later, eyelids heavy. [TR]
+P7: Stepping relieved into quiet starry night. [L]
+P8: At home placing his phone face-down inside drawer. [R]
+P9: Speaking confidently on small stage. [TL]
+
+--- SHEET 05/26 · Energy, labels and different needs · save as sheet-05.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Bowing on stage, audience clapping. [R]
+P2: Sitting tired, holding nearly empty battery. [L]
+P3: In armchair, eyes closed, soft glow refilling around him. [R]
+P4: Tearing blank paper label in half. [T]
+P5: Surrounded by floating icons: sun, house, heart, cloud. [TL]
+P6: Two stickmen in same busy room reacting differently. [T]
+P7: Grey figure beaming in crowd while stickman covers his ears. [R]
+P8: Level balance scale holding two different shoes. [L]
+P9: Grey crowd pushing identical party hats onto stickman. Obsidian. [R]
+
+--- SHEET 06/26 · Mistaken for rejection · save as sheet-06.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Declining with palm raised while friend's face falls. [R]
+P2: Grey friends at table looking at one empty chair. [TL]
+P3: Walking away as friends share empty thought bubble. [R]
+P4: Standing calmly at exact centre of seesaw. [T]
+P5: And friend shaking hands, both smiling in sunlight. [L]
+P6: Looking up at large glowing brain-shaped cloud. [R]
+P7: Curious crowd leaning toward lone figure under spotlight. [TL]
+P8: Standing apart from line of identical grey figures. [T]
+P9: Tangled rope linking brain doodle and lone chair. [R]
+
+--- SHEET 07/26 · Intelligence: no universal rule · save as sheet-07.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Flipping through stack of research folders, curious. [R]
+P2: Holding lantern where two paths diverge. [T]
+P3: Striking giant rule book with one bold ink stroke. Obsidian. [L]
+P4: Lifting oversized crown off his head, shrugging. [R]
+P5: On small hilltop, shrugging humbly at people below. [TL]
+P6: Peering curiously into glowing open book. [R]
+P7: Climbing staircase made of stacked books. [T]
+P8: Writing manuscript by lamplight, pages piling up. [L]
+P9: Patiently untangling large knot of string. [TR]
+
+--- SHEET 08/26 · Deep work needs attention · save as sheet-08.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Focused at desk, one lamp beam on page. [R]
+P2: Digging deep hole beside shallow puddle. [T]
+P3: Pulled by many strings from different directions. Obsidian. [L]
+P4: Phone buzzing on desk next to stickman's open book. [R]
+P5: Grey figure tapping stickman's shoulder mid-thought. [L]
+P6: Staring at his phone as clock hands blur behind him. [TL]
+P7: Two stickmen talking warmly, lightbulb passing between them. [T]
+P8: Following floating paper lantern down winding path. [R]
+P9: Rereading book, finger on page, unbothered. [L]
+
+--- SHEET 09/26 · Freedom to think · save as sheet-09.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Dropping juggled thought bubbles in front of bored grey audience. [R]
+P2: Floating happily among drifting book pages. [T]
+P3: And grey figures side by side, heads with same gentle glow. [TL]
+P4: Shining flashlight beam onto one chosen idea. [R]
+P5: Sitting by still pond, calm reflection. Obsidian. [L]
+P6: Closing door on noise squiggles, then sitting to think. [R]
+P7: Smiling at his work, ignoring row of clapping hands. [L]
+P8: Curled in armchair reading favourite book. [R]
+P9: Lowering phone camera, keeping his book to himself. [TL]
+
+--- SHEET 10/26 · Value without witnesses · save as sheet-10.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Walking forest path, leaves falling, serene. [R]
+P2: Drawing in sketchbook on park step. [L]
+P3: Cooking, steam rising from pot. [R]
+P4: Jogging alone at dawn, empty road. [TL]
+P5: Stepping off spotlight stage onto quiet grass. [R]
+P6: Turning away from wall of watching eyes. Obsidian. [L]
+P7: Holding single flower, admiring it closely. [R]
+P8: On couch in afternoon sun, content, no audience. [T]
+P9: Quietly reaching top of stairs, tiny private rust flag. [L]
+
+--- SHEET 11/26 · Sharing, privacy and inner voice · save as sheet-11.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Showing friend photo, both smiling. [R]
+P2: And friends toasting at small table. [T]
+P3: Friend hugging stickman after small win. [L]
+P4: Smiling alone while nobody looks his way. [R]
+P5: Tucking glowing memory into small wooden box. [L]
+P6: Sitting in silence as grey noise clouds dissolve. [TR]
+P7: Cupping his ear to tiny inner voice. [R]
+P8: Many grey pointing fingers directing stickman different ways. Obsidian. [T]
+P9: Scrolling his phone, feed glow on his face. [L]
+
+--- SHEET 12/26 · Other people's expectations · save as sheet-12.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Large phone showing glowing beaches, cars and trophies. [L]
+P2: Surrounded by megaphones from every direction. [R]
+P3: Grey ink swirling into stickman's rust thought bubble. [T]
+P4: Reaching for same shiny object crowd grabs at. [R]
+P5: On running track beside lanes of faster runners. [T]
+P6: At fork taking different path, others staring. [L]
+P7: Buried under pile of speech bubbles, one hand visible. Obsidian. [R]
+P8: Stepping from noisy room into quiet garden. [L]
+P9: Holding briefcase, studying it questioningly. [R]
+
+--- SHEET 13/26 · Uncomfortable answers · save as sheet-13.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Running anxiously after departing train. [R]
+P2: Sitting in groove worn into floor, looking down at it. [T]
+P3: Awkwardly holding prickly cactus. [L]
+P4: Looking back at footprints on path painted for him. Obsidian. [R]
+P5: Smiling while holding cracked smiling mask. [L]
+P6: Comparing small cabin with showy mansion facade. [T]
+P7: With many hands tugging at his attention. [R]
+P8: Alone at table examining small box of keepsakes. [L]
+P9: Beside owl, shrugging modestly. [TR]
+
+--- SHEET 14/26 · Reflection vs rumination · save as sheet-14.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: By lake studying his reflection. [TL]
+P2: Lifting stone to discover roots beneath. [R]
+P3: Placing few chosen objects on small shelf. [L]
+P4: Walking worn circular track in floor. Obsidian. [T]
+P5: Under small raincloud of looping scribbles. [R]
+P6: Stepping off circular track onto straight path. [L]
+P7: Hauling heavy backpack stuffed with masks. [R]
+P8: Rushing between grey figures who each hold target. [T]
+P9: Turning dial on his chest to match each listener. [L]
+
+--- SHEET 15/26 · The emotional work of being social · save as sheet-15.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Weighing words on tiny scale before speaking. [R]
+P2: Tiptoeing past sleeping grey figure. [L]
+P3: Listening to crying friend, hand on shoulder. [R]
+P4: Holding door slightly open, peeking out. [L]
+P5: Two stickmen meeting in middle of bridge. [T]
+P6: Under harsh spotlight, sweating behind smile. Obsidian. [R]
+P7: Hiding guitar behind his back. [L]
+P8: Nodding while his thought bubble shakes no. [R]
+P9: Frantically juggling phone, trophy, mask and clock. [T]
+
+--- SHEET 16/26 · Relief, freedom, or fear · save as sheet-16.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Sinking into sofa as mask falls off, deep sigh. [R]
+P2: Sitting quietly at window, nobody asking anything. [L]
+P3: Washing painted smile off his face. [R]
+P4: Lying on grass, arms wide, unbothered. [T]
+P5: Stretching freely in open field, birds lifting. [L]
+P6: Two doors side by side: one sunlit and open, one shut with bars. [T]
+P7: Dancing alone in his room, joyful. [R]
+P8: Closing curtains, eyes wide with fear. Obsidian. [L]
+P9: Hiding under table from giant pointing fingers. Obsidian. [R]
+
+--- SHEET 17/26 · Same outside, different inside · save as sheet-17.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Two identical stickmen in identical rooms, side by side. [T]
+P2: Both stickmen setting invitation envelopes aside. [R]
+P3: Two mirrored small circles of three friends. [T]
+P4: X-ray view: one stickman holds calm sun inside, other storm. [TL]
+P5: With hand on window glass, watching friends outside. Obsidian. [R]
+P6: Wiping glitter off framed picture of lone hermit. [L]
+P7: Resting in hammock, content. [R]
+P8: Friend offering hand to stickman sitting on ground. [L]
+P9: And friend building small sturdy house together. [TR]
+
+--- SHEET 18/26 · Choosing solitude vs hiding · save as sheet-18.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Split: stickman in garden with open gate, and in bunker with locked hatch. [T]
+P2: In armchair, front door open behind him. [R]
+P3: Circling date on wall calendar, smiling. [L]
+P4: Yawning under blanket, gently declining call. [R]
+P5: Walking beside friend, each with his own backpack. [T]
+P6: Pulling shutters closed on house. Obsidian. [L]
+P7: His thumb hovering over phone, not pressing. [R]
+P8: Turning back from misty unknown path. [L]
+P9: Building brick wall around himself after argument. Obsidian. [R]
+
+--- SHEET 19/26 · When the world gets smaller · save as sheet-19.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Inside shrinking circle of light. Obsidian. [T]
+P2: Sighing with relief as he shuts door. [R]
+P3: Running on circular loop track. [L]
+P4: Familiar street turning foggy and strange in front of stickman. [R]
+P5: His footprints sinking deeper into same short path. [T]
+P6: Reading happily in sunny room, nothing wrong. [L]
+P7: Watching sapling grow into tree across seasons. [R]
+P8: Two pots: lush flowering plant and wilted grey one. [T]
+P9: Holding small shield in one hand, other hand open to friend. [L]
+
+--- SHEET 20/26 · Depth over frequency · save as sheet-20.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Connecting two plugs, small spark. [R]
+P2: Holding one gem beside heap of pebbles. [L]
+P3: At small campfire with two close friends. [T]
+P4: Passing long queue of waving grey figures. [R]
+P5: Stifling yawn during looping small-talk circle. [L]
+P6: And friend in honest talk over tea, leaning in. [R]
+P7: Two friends disagreeing calmly with open hands. [TL]
+P8: Two friends sitting silently on bench at sunset. [R]
+P9: Handing fragile paper boat to trusted friend. [L]
+
+--- SHEET 21/26 · Different relationships, different purposes · save as sheet-21.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Small warm circle of three beside large faded web of tiny dots. [T]
+P2: Holding door open for many different people. [R]
+P3: His roots reaching into several soil layers. [L]
+P4: Picking up small flower someone dropped. [R]
+P5: Neighbourhood street, friendly waves between houses. [T]
+P6: Chatting over fence with neighbour. [L]
+P7: Sharing laugh with colleague by water cooler. [R]
+P8: Holding several keys of different sizes. [L]
+P9: Concentric circles of figures: many outer, few inner around stickman. [TR]
+
+--- SHEET 22/26 · Independent and connected · save as sheet-22.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Happily visiting party, coat over arm. [R]
+P2: Reading by lamp, framed photo of friends on table. [L]
+P3: Balancing pole: book one end, friends' photo other. [T]
+P4: Lone tree whose roots connect underground to forest. [R]
+P5: Grey figures drawing line, demanding he pick side. Obsidian. [TL]
+P6: On bench with room for another, smiling. [R]
+P7: On hill waving down to friends' village. [L]
+P8: Walking his own path parallel to his friends' path. [T]
+P9: Standing tall, holding threads to others. [R]
+
+--- SHEET 23/26 · Self-knowledge changes your choices · save as sheet-23.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: In circle dance, keeping his rust lining bright. [T]
+P2: Facing large closed door at end of hall. Obsidian. [R]
+P3: Three stickman silhouettes, young to older, each calmer. [T]
+P4: Holding compass whose needle points to his chest. [L]
+P5: Swept along in river of grey figures. [R]
+P6: Reaching for gold trophy everyone stares at. [L]
+P7: Running with overflowing stack of calendars. [R]
+P8: Sorting objects into keep and leave baskets. [TL]
+P9: Between two plugs: one charging him, one draining him. [R]
+
+--- SHEET 24/26 · Saying no, growing on purpose · save as sheet-24.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Gently closing door on flood of envelopes. [R]
+P2: Walking past many glowing doors, choosing one. [T]
+P3: Climbing steep rock face, determined. [L]
+P4: Stepping into unfamiliar street, curious. [R]
+P5: Listening to someone wearing very different hat. [L]
+P6: Drawing deliberate route on map. [TR]
+P7: Setting down overfull hourglass. [R]
+P8: Walking past wall covered in pinned invitations. [L]
+P9: On porch with tea in warm afternoon sun. [T]
+
+--- SHEET 25/26 · Choosing with intention · save as sheet-25.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Reading under tree, leaves drifting. [R]
+P2: At workbench building birdhouse. [L]
+P3: Leaving dull party early with relieved smile. [R]
+P4: Holding hands in small chosen circle. [T]
+P5: Fitting last piece into puzzle-shaped self-portrait. [L]
+P6: Among friends in his own hoodie, no mask. [R]
+P7: Tossing away toolbox meant to fix him. [L]
+P8: Stepping down from pedestal to rejoin others. [R]
+P9: Painting canvas in sunlit studio. [TL]
+
+--- SHEET 26/26 · Balance and the empty room · save as sheet-26.png ---
+16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.
+P1: Arranging three stones by size, thoughtful. [R]
+P2: Napping in hammock while storm passes far away. [L]
+P3: Opening his door to two genuine friends. [R]
+P4: Adjusting hanging mobile of four balanced shapes. [T]
+P5: Switching off phone glowing with notifications. [L]
+P6: Calmly walking past crowd demanding explanations. [R]
+P7: Entering empty room filled with warm light, smiling. [L]
+P8: Sitting eyes closed, ripple rings spreading outward. Obsidian. [T]
+P9: Stepping out of his house into world at sunrise. [TL]
+
+=== B. THUMBNAIL CONCEPTS (pick: A) ===
+
+THUMB A — Hidden truth — hook text: "NOT EMPTY"  ★ RECOMMENDED
+Format: 16:9 landscape thumbnail, 1920x1080, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash, obsidian #16150F background with warm gold (#E8B33A) rim light.
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large on the right, about half the frame height, sitting alone on the floor of a bare dark room, eyes closed, completely calm.
+Story: the top of his round head is open like a lid, and a warm glowing miniature world rises out of it: tiny bookshelves, floating staircases, a small lit window, drifting pages. The empty room is dark; his mind is full.
+Focal detail: one open rust-orange door inside the glowing world in his head.
+Composition: high contrast, one focal story, left 35% clean empty obsidian for hook text, bottom-right corner kept plain, readable at 160x90.
+Mood: quiet, curious, a secret revealed.
+
+THUMB B — Contradiction — hook text: "CROWDED. STILL LONELY."
+Format: 16:9 landscape thumbnail, 1920x1080, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash on warm off-white paper (#F7F4EE).
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large on the right, about half the frame height, standing in the middle of a packed party of faceless grey figures who all face each other, laughing.
+Story: he holds a party cup and a forced smile, but his body is drawn as a pale hollow outline with a rust-orange hole where his chest should be; nobody notices.
+Focal detail: the rust-orange hollow in his chest.
+Composition: high contrast, crowd kept simple and grey, left 35% clean empty paper for hook text, bottom-right corner plain, readable at 160x90.
+Mood: uneasy, relatable, a truth people don't say aloud.
+
+THUMB C — Consequence — hook text: "PEACE… OR FEAR?"
+Format: 16:9 landscape thumbnail, 1920x1080, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash, obsidian #16150F background with one warm lamp glow.
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large on the right, about half the frame height, sitting relaxed in an armchair reading under a lamp, looking peaceful.
+Story: his long shadow on the wall behind him tells a different story: the shadow is curled up, hugging its knees inside a birdcage.
+Focal detail: the rust-orange cage door in the shadow.
+Composition: high contrast, one focal story, left 35% clean empty obsidian for hook text, bottom-right corner plain, readable at 160x90.
+Mood: unsettling, a question the viewer needs answered.
+
+=== C. SHORTS 2x2 SCENE SHEETS (3 per Short) ===
+
+--- SH1 · Alone Isn't Lonely · sheet A · save as sh1-sheet-A.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Sitting alone in quiet lamplit room, serene.
+P2 Top-right: Faded in middle of dense crowd, every grey figure turned away. Obsidian.
+P3 Bottom-left: Laughing at party while his wall shadow slumps sadly.
+P4 Bottom-right: Sitting cross-legged in sunbeam, eyes closed, at peace.
+
+--- SH1 · Alone Isn't Lonely · sheet B · save as sh1-sheet-B.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Counting grey heads in crowd, puzzled.
+P2 Top-right: Hugging himself warmly, rust heart glowing at his chest.
+P3 Bottom-left: Reaching toward puzzle-shaped gap in wall. Obsidian.
+P4 Bottom-right: Alone on bench under tree, calm.
+
+--- SH1 · Alone Isn't Lonely · sheet C · save as sh1-sheet-C.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Standing half in warm sunlight, half in cool shadow.
+P2 Top-right: His shadow and friend's shadow overlapping on ground.
+P3 Bottom-left: Reading alone as small heart floats toward friend's window.
+P4 Bottom-right: Walking toward friend's open door carrying small gift.
+
+--- SH2 · Peace or Fear? · sheet A · save as sh2-sheet-A.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Two identical stickmen in identical rooms: one sunlit, one in shadow.
+P2 Top-right: Stretching freely in open field, birds lifting.
+P3 Bottom-left: Hiding under table from giant pointing fingers. Obsidian.
+P4 Bottom-right: Closing curtains, eyes wide with fear. Obsidian.
+
+--- SH2 · Peace or Fear? · sheet B · save as sh2-sheet-B.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Two identical lit windows seen from outside, stickman in each.
+P2 Top-right: Both stickmen setting blank invitation envelopes aside.
+P3 Bottom-left: Two mirrored small circles of three friends.
+P4 Bottom-right: X-ray view: one stickman holds calm sun inside, other storm.
+
+--- SH2 · Peace or Fear? · sheet C · save as sh2-sheet-C.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Resting in hammock, content.
+P2 Top-right: With hand on window glass, watching friends outside. Obsidian.
+P3 Bottom-left: Friend offering hand to stickman sitting on ground.
+P4 Bottom-right: Two doors: one sunlit and open, one shut with bars.
+
+--- SH3 · Whose Life Is This? · sheet A · save as sh3-sheet-A.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Alone at night desk, studying briefcase questioningly.
+P2 Top-right: Stepping out of noisy room into quiet garden.
+P3 Bottom-left: Holding briefcase while crowd applauds behind him.
+P4 Bottom-right: Pausing halfway up ladder toward trophy, looking down.
+
+--- SH3 · Whose Life Is This? · sheet B · save as sh3-sheet-B.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Running anxiously after departing train.
+P2 Top-right: Sitting in groove worn into floor.
+P3 Bottom-left: Awkwardly holding prickly cactus.
+P4 Bottom-right: Looking back at footprints on path painted for him. Obsidian.
+
+--- SH3 · Whose Life Is This? · sheet C · save as sh3-sheet-C.png ---
+9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.
+P1 Top-left: Smiling while holding cracked smiling mask.
+P2 Top-right: Comparing small cabin with showy mansion facade.
+P3 Bottom-left: Tearing glossy facade poster to reveal forest trail.
+P4 Bottom-right: Walking that trail toward sunrise, lighter.
+
+=== D. SHORTS VERTICAL COVERS (2 per Short; pick: A for each) ===
+
+SH1 COVER A — Hidden truth — hook text: "ALONE ≠ LONELY"  ★ RECOMMENDED
+Format: 9:16 vertical cover, 1080x1920, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash on warm off-white paper (#F7F4EE).
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large in the upper-middle, about 40% of frame height, sitting alone in a small warm lamplit room, smiling with eyes closed.
+Story: his shadow on the wall is holding hands with three friends' shadows: alone in the room, connected in life.
+Focal detail: the rust-orange joined hands in the shadow.
+Composition: focal story inside the central 1080x1350 area; upper third below the platform UI kept as clean paper for hook text; bottom 25% and right-side control column plain.
+Mood: warm, surprising, reassuring.
+
+SH1 COVER B — Contradiction — hook text: "CROWDED. LONELY."
+Format: 9:16 vertical cover, 1080x1920, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash on warm off-white paper (#F7F4EE).
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large in the upper-middle, about 40% of frame height, in the middle of a tight crowd of faceless grey figures all turned away from him.
+Story: he forces a smile while a rust-orange hollow shows where his chest should be.
+Focal detail: the rust-orange hollow.
+Composition: focal story inside the central 1080x1350 area; upper third kept clean for hook text; bottom 25% and right-side column plain.
+Mood: uneasy, relatable.
+
+SH2 COVER A — Consequence — hook text: "PEACE OR FEAR?"  ★ RECOMMENDED
+Format: 9:16 vertical cover, 1080x1920, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash, obsidian #16150F background with one warm lamp glow.
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large in the upper-middle, about 40% of frame height, reading calmly in an armchair.
+Story: his shadow on the wall behind him is curled up, hugging its knees inside a birdcage.
+Focal detail: the rust-orange cage door in the shadow.
+Composition: focal story inside the central 1080x1350 area; upper third kept clean for hook text; bottom 25% and right-side column plain.
+Mood: unsettling, self-questioning.
+
+SH2 COVER B — Self-recognition — hook text: "WHICH ONE?"
+Format: 9:16 vertical cover, 1080x1920, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash, obsidian #16150F night background.
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining) shown twice, stacked in two identical lit windows of one dark building, each about 20% of frame height.
+Story: top window: he reads peacefully in warm gold light. Bottom window: he presses a hand to the glass, longing toward friends outside.
+Focal detail: the rust-orange hand on the glass.
+Composition: windows inside the central 1080x1350 area; upper third kept clean for hook text; bottom 25% and right-side column plain.
+Mood: quiet, self-recognition.
+
+SH3 COVER A — Hidden truth — hook text: "WHOSE DREAM?"  ★ RECOMMENDED
+Format: 9:16 vertical cover, 1080x1920, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash on warm off-white paper (#F7F4EE).
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large in the upper-middle, about 40% of frame height, holding a briefcase and a trophy, frozen mid-step, looking up uneasily.
+Story: thin puppet strings run from his wrists and briefcase up to many faceless grey hands above the frame edge.
+Focal detail: one rust-orange string he is starting to cut with small scissors.
+Composition: focal story inside the central 1080x1350 area; upper third kept clean for hook text; bottom 25% and right-side column plain.
+Mood: tense, a hidden truth.
+
+SH3 COVER B — Self-recognition — hook text: "WHOSE LIFE?"
+Format: 9:16 vertical cover, 1080x1920, single scene, no grid, no text, no letters.
+Style: bold editorial ink doodle, thick charcoal outlines, rust-orange (#C8623C) watercolor wash on warm off-white paper (#F7F4EE).
+Character: canonical stickman (round white head, charcoal hoodie with rust-orange lining), large in the upper-middle, about 40% of frame height, peeling back a glossy mansion-shaped cardboard facade.
+Story: behind the facade is a small cosy cabin and a forest trail that actually suits him; he looks surprised and relieved.
+Focal detail: the rust-orange curled edge of the peeled facade.
+Composition: focal story inside the central 1080x1350 area; upper third kept clean for hook text; bottom 25% and right-side column plain.
+Mood: curious, freeing.

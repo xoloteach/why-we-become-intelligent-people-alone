@@ -1,0 +1,1526 @@
+{
+ "landscape": [
+  {
+   "id": "S01",
+   "name": "Hook: some people enjoy being alone",
+   "file": "sheet-01.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Reading in armchair under warm lamp. [L]\nP2: Strolling calmly past chattering grey figures. [R]\nP3: Alone at kitchen table with tea, relaxed. [TL]\nP4: Two grey figures whispering and pointing at stickman's lit window. [R]\nP5: Two doorways: empty quiet room, room packed with grey figures. [T]\nP6: Politely holding blank invitation envelope, gentle half-smile. [R]\nP7: Sitting on hill, small empty thought bubbles drifting upward. [TR]\nP8: Grey crowd pinning blank paper tags onto lone stickman. Obsidian. [L]\nP9: Opening window onto bright wide landscape. [R]",
+   "panels": [
+    {
+     "code": "L",
+     "desc": "Stickman reading in armchair under warm lamp"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman strolling calmly past chattering grey figures"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman alone at kitchen table with tea, relaxed"
+    },
+    {
+     "code": "R",
+     "desc": "Two grey figures whispering and pointing at the stickman's lit window"
+    },
+    {
+     "code": "T",
+     "desc": "Two doorways: empty quiet room, room packed with grey figures"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman politely holding a blank invitation envelope, gentle half-smile"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman sitting on a hill, small empty thought bubbles drifting upward"
+    },
+    {
+     "code": "D:L",
+     "desc": "Grey crowd pinning blank paper tags onto a lone stickman"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman opening window onto bright wide landscape"
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "name": "Alone is not lonely",
+   "file": "sheet-02.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Studying tiny seated figure through magnifying glass. [R]\nP2: Waving at doorway, open notebook on side table. [L]\nP3: Balance beam holding smiling stickman's chair and empty chair. [T]\nP4: Faded inside dense crowd, everyone turned away. Obsidian. [TL]\nP5: Laughing at dinner; his wall shadow slumps sadly. [R]\nP6: Sitting cross-legged in quiet room inside soft sunbeam. [L]\nP7: Counting grey heads with pointing hand, puzzled. [TR]\nP8: Hugging himself, small rust heart glowing. [L]\nP9: Linked to distant friends' houses by thin rust threads. [T]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman studying a tiny seated figure through magnifying glass"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman waving at a doorway, open notebook on a side table"
+    },
+    {
+     "code": "T",
+     "desc": "Balance beam holding smiling stickman's chair and empty chair"
+    },
+    {
+     "code": "D:TL",
+     "desc": "Stickman faded inside dense crowd, everyone turned away"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman laughing at dinner; his wall shadow slumps sadly"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman sitting cross-legged in a quiet room inside a soft sunbeam"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman counting grey heads with a pointing hand, puzzled"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman hugging himself, small rust heart glowing"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman linked to distant friends' houses by thin rust threads"
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "name": "Loneliness vs solitude",
+   "file": "sheet-03.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Reaching toward puzzle-shaped gap in wall. Obsidian. [R]\nP2: Alone on bench under tree, calm. [L]\nP3: Standing half in warm sunlight, half in cool shadow. [T]\nP4: Reading as small heart floats toward friend's door. [R]\nP5: Stickman, finger to lips, in quiet room. [L]\nP6: Putting on glasses, seeing lone figure warmly. [R]\nP7: Erasing one big thought bubble and drawing new one. [TL]\nP8: At lamplit desk cradling glowing idea. [R]\nP9: Outside door, party noise squiggles spilling out. [L]",
+   "panels": [
+    {
+     "code": "D:R",
+     "desc": "Stickman reaching toward a puzzle-shaped gap in a wall"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman alone on a bench under a tree, calm"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman standing half in warm sunlight, half in cool shadow"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman reading as small heart floats toward friend's door"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman, finger to lips, in quiet room"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman putting on glasses, seeing lone figure warmly"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman erasing one big thought bubble and drawing a new one"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman at lamplit desk cradling a glowing idea"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman outside door, party noise squiggles spilling out"
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "name": "How people process a party",
+   "file": "sheet-04.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Party room with grey figures dancing, music-note doodles floating. [T]\nP2: Overlapping empty speech bubbles crowding above grey heads. [R]\nP3: Grey figures laughing at one storyteller's big gestures. [TL]\nP4: One grey figure glowing with energy, small sparks. [R]\nP5: At party edge, smiling politely, holding cup. [L]\nP6: Slumped on party couch later, eyelids heavy. [TR]\nP7: Stepping relieved into quiet starry night. [L]\nP8: At home placing his phone face-down inside drawer. [R]\nP9: Speaking confidently on small stage. [TL]",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Party room with grey figures dancing, music-note doodles floating"
+    },
+    {
+     "code": "R",
+     "desc": "Overlapping empty speech bubbles crowding above grey heads"
+    },
+    {
+     "code": "TL",
+     "desc": "Grey figures laughing at one storyteller's big gestures"
+    },
+    {
+     "code": "R",
+     "desc": "One grey figure glowing with energy, small sparks"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman at the party edge, smiling politely, holding a cup"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman slumped on the party couch later, eyelids heavy"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman stepping relieved into quiet starry night"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman at home placing his phone face-down inside a drawer"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman speaking confidently on small stage"
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "name": "Energy, labels and different needs",
+   "file": "sheet-05.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Bowing on stage, audience clapping. [R]\nP2: Sitting tired, holding nearly empty battery. [L]\nP3: In armchair, eyes closed, soft glow refilling around him. [R]\nP4: Tearing blank paper label in half. [T]\nP5: Surrounded by floating icons: sun, house, heart, cloud. [TL]\nP6: Two stickmen in same busy room reacting differently. [T]\nP7: Grey figure beaming in crowd while stickman covers his ears. [R]\nP8: Level balance scale holding two different shoes. [L]\nP9: Grey crowd pushing identical party hats onto stickman. Obsidian. [R]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman bowing on stage, audience clapping"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman sitting tired, holding a nearly empty battery"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman in an armchair, eyes closed, soft glow refilling around him"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman tearing a blank paper label in half"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman surrounded by floating icons: sun, house, heart, cloud"
+    },
+    {
+     "code": "T",
+     "desc": "Two stickmen in the same busy room reacting differently"
+    },
+    {
+     "code": "R",
+     "desc": "Grey figure beaming in a crowd while the stickman covers his ears"
+    },
+    {
+     "code": "L",
+     "desc": "Level balance scale holding two different shoes"
+    },
+    {
+     "code": "D:R",
+     "desc": "Grey crowd pushing identical party hats onto the stickman"
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "name": "Mistaken for rejection",
+   "file": "sheet-06.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Declining with palm raised while friend's face falls. [R]\nP2: Grey friends at table looking at one empty chair. [TL]\nP3: Walking away as friends share empty thought bubble. [R]\nP4: Standing calmly at exact centre of seesaw. [T]\nP5: And friend shaking hands, both smiling in sunlight. [L]\nP6: Looking up at large glowing brain-shaped cloud. [R]\nP7: Curious crowd leaning toward lone figure under spotlight. [TL]\nP8: Standing apart from line of identical grey figures. [T]\nP9: Tangled rope linking brain doodle and lone chair. [R]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman declining with palm raised while a friend's face falls"
+    },
+    {
+     "code": "TL",
+     "desc": "Grey friends at a table looking at one empty chair"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman walking away as friends share an empty thought bubble"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman standing calmly at the exact centre of a seesaw"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman and a friend shaking hands, both smiling in sunlight"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman looking up at a large glowing brain-shaped cloud"
+    },
+    {
+     "code": "TL",
+     "desc": "Curious crowd leaning toward a lone figure under a spotlight"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman standing apart from a line of identical grey figures"
+    },
+    {
+     "code": "R",
+     "desc": "Tangled rope linking a brain doodle and a lone chair"
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "name": "Intelligence: no universal rule",
+   "file": "sheet-07.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Flipping through stack of research folders, curious. [R]\nP2: Holding lantern where two paths diverge. [T]\nP3: Striking giant rule book with one bold ink stroke. Obsidian. [L]\nP4: Lifting oversized crown off his head, shrugging. [R]\nP5: On small hilltop, shrugging humbly at people below. [TL]\nP6: Peering curiously into glowing open book. [R]\nP7: Climbing staircase made of stacked books. [T]\nP8: Writing manuscript by lamplight, pages piling up. [L]\nP9: Patiently untangling large knot of string. [TR]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman flipping through a stack of research folders, curious"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman holding a lantern where two paths diverge"
+    },
+    {
+     "code": "D:L",
+     "desc": "Stickman striking a giant rule book with one bold ink stroke"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman lifting an oversized crown off his head, shrugging"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman on a small hilltop, shrugging humbly at people below"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman peering curiously into a glowing open book"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman climbing a staircase made of stacked books"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman writing a manuscript by lamplight, pages piling up"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman patiently untangling a large knot of string"
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "name": "Deep work needs attention",
+   "file": "sheet-08.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Focused at desk, one lamp beam on page. [R]\nP2: Digging deep hole beside shallow puddle. [T]\nP3: Pulled by many strings from different directions. Obsidian. [L]\nP4: Phone buzzing on desk next to stickman's open book. [R]\nP5: Grey figure tapping stickman's shoulder mid-thought. [L]\nP6: Staring at his phone as clock hands blur behind him. [TL]\nP7: Two stickmen talking warmly, lightbulb passing between them. [T]\nP8: Following floating paper lantern down winding path. [R]\nP9: Rereading book, finger on page, unbothered. [L]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman focused at a desk, one lamp beam on the page"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman digging a deep hole beside a shallow puddle"
+    },
+    {
+     "code": "D:L",
+     "desc": "Stickman pulled by many strings from different directions"
+    },
+    {
+     "code": "R",
+     "desc": "Phone buzzing on the desk next to the stickman's open book"
+    },
+    {
+     "code": "L",
+     "desc": "Grey figure tapping the stickman's shoulder mid-thought"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman staring at his phone as clock hands blur behind him"
+    },
+    {
+     "code": "T",
+     "desc": "Two stickmen talking warmly, a lightbulb passing between them"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman following a floating paper lantern down a winding path"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman rereading a book, finger on the page, unbothered"
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "name": "Freedom to think",
+   "file": "sheet-09.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Dropping juggled thought bubbles in front of bored grey audience. [R]\nP2: Floating happily among drifting book pages. [T]\nP3: And grey figures side by side, heads with same gentle glow. [TL]\nP4: Shining flashlight beam onto one chosen idea. [R]\nP5: Sitting by still pond, calm reflection. Obsidian. [L]\nP6: Closing door on noise squiggles, then sitting to think. [R]\nP7: Smiling at his work, ignoring row of clapping hands. [L]\nP8: Curled in armchair reading favourite book. [R]\nP9: Lowering phone camera, keeping his book to himself. [TL]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman dropping juggled thought bubbles in front of a bored grey audience"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman floating happily among drifting book pages"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman and grey figures side by side, heads with the same gentle glow"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman shining a flashlight beam onto one chosen idea"
+    },
+    {
+     "code": "D:L",
+     "desc": "Stickman sitting by a still pond, calm reflection"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman closing a door on noise squiggles, then sitting to think"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman smiling at his work, ignoring a row of clapping hands"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman curled in an armchair reading a favourite book"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman lowering a phone camera, keeping his book to himself"
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "name": "Value without witnesses",
+   "file": "sheet-10.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Walking forest path, leaves falling, serene. [R]\nP2: Drawing in sketchbook on park step. [L]\nP3: Cooking, steam rising from pot. [R]\nP4: Jogging alone at dawn, empty road. [TL]\nP5: Stepping off spotlight stage onto quiet grass. [R]\nP6: Turning away from wall of watching eyes. Obsidian. [L]\nP7: Holding single flower, admiring it closely. [R]\nP8: On couch in afternoon sun, content, no audience. [T]\nP9: Quietly reaching top of stairs, tiny private rust flag. [L]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman walking a forest path, leaves falling, serene"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman drawing in a sketchbook on a park step"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman cooking, steam rising from a pot"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman jogging alone at dawn, empty road"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman stepping off a spotlight stage onto quiet grass"
+    },
+    {
+     "code": "D:L",
+     "desc": "Stickman turning away from a wall of watching eyes"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman holding a single flower, admiring it closely"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman on a couch in afternoon sun, content, no audience"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman quietly reaching the top of stairs, tiny private rust flag"
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "name": "Sharing, privacy and inner voice",
+   "file": "sheet-11.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Showing friend photo, both smiling. [R]\nP2: And friends toasting at small table. [T]\nP3: Friend hugging stickman after small win. [L]\nP4: Smiling alone while nobody looks his way. [R]\nP5: Tucking glowing memory into small wooden box. [L]\nP6: Sitting in silence as grey noise clouds dissolve. [TR]\nP7: Cupping his ear to tiny inner voice. [R]\nP8: Many grey pointing fingers directing stickman different ways. Obsidian. [T]\nP9: Scrolling his phone, feed glow on his face. [L]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman showing a friend a photo, both smiling"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman and friends toasting at a small table"
+    },
+    {
+     "code": "L",
+     "desc": "Friend hugging the stickman after a small win"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman smiling alone while nobody looks his way"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman tucking a glowing memory into a small wooden box"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman sitting in silence as grey noise clouds dissolve"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman cupping his ear to a tiny inner voice"
+    },
+    {
+     "code": "D:T",
+     "desc": "Many grey pointing fingers directing the stickman different ways"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman scrolling his phone, feed glow on his face"
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "name": "Other people's expectations",
+   "file": "sheet-12.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Large phone showing glowing beaches, cars and trophies. [L]\nP2: Surrounded by megaphones from every direction. [R]\nP3: Grey ink swirling into stickman's rust thought bubble. [T]\nP4: Reaching for same shiny object crowd grabs at. [R]\nP5: On running track beside lanes of faster runners. [T]\nP6: At fork taking different path, others staring. [L]\nP7: Buried under pile of speech bubbles, one hand visible. Obsidian. [R]\nP8: Stepping from noisy room into quiet garden. [L]\nP9: Holding briefcase, studying it questioningly. [R]",
+   "panels": [
+    {
+     "code": "L",
+     "desc": "Large phone showing glowing beaches, cars and trophies"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman surrounded by megaphones from every direction"
+    },
+    {
+     "code": "T",
+     "desc": "Grey ink swirling into the stickman's rust thought bubble"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman reaching for the same shiny object a crowd grabs at"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman on a running track beside lanes of faster runners"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman at a fork taking a different path, others staring"
+    },
+    {
+     "code": "D:R",
+     "desc": "Stickman buried under a pile of speech bubbles, one hand visible"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman stepping from a noisy room into a quiet garden"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman holding a briefcase, studying it questioningly"
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "name": "Uncomfortable answers",
+   "file": "sheet-13.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Running anxiously after departing train. [R]\nP2: Sitting in groove worn into floor, looking down at it. [T]\nP3: Awkwardly holding prickly cactus. [L]\nP4: Looking back at footprints on path painted for him. Obsidian. [R]\nP5: Smiling while holding cracked smiling mask. [L]\nP6: Comparing small cabin with showy mansion facade. [T]\nP7: With many hands tugging at his attention. [R]\nP8: Alone at table examining small box of keepsakes. [L]\nP9: Beside owl, shrugging modestly. [TR]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman running anxiously after a departing train"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman sitting in a groove worn into the floor, looking down at it"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman awkwardly holding a prickly cactus"
+    },
+    {
+     "code": "D:R",
+     "desc": "Stickman looking back at footprints on a path painted for him"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman smiling while holding a cracked smiling mask"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman comparing a small cabin with a showy mansion facade"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman with many hands tugging at his attention"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman alone at a table examining a small box of keepsakes"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman beside an owl, shrugging modestly"
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "name": "Reflection vs rumination",
+   "file": "sheet-14.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: By lake studying his reflection. [TL]\nP2: Lifting stone to discover roots beneath. [R]\nP3: Placing few chosen objects on small shelf. [L]\nP4: Walking worn circular track in floor. Obsidian. [T]\nP5: Under small raincloud of looping scribbles. [R]\nP6: Stepping off circular track onto straight path. [L]\nP7: Hauling heavy backpack stuffed with masks. [R]\nP8: Rushing between grey figures who each hold target. [T]\nP9: Turning dial on his chest to match each listener. [L]",
+   "panels": [
+    {
+     "code": "TL",
+     "desc": "Stickman by a lake studying his reflection"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman lifting a stone to discover roots beneath"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman placing a few chosen objects on a small shelf"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman walking a worn circular track in the floor"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman under a small raincloud of looping scribbles"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman stepping off the circular track onto a straight path"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman hauling a heavy backpack stuffed with masks"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman rushing between grey figures who each hold a target"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman turning a dial on his chest to match each listener"
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "name": "The emotional work of being social",
+   "file": "sheet-15.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Weighing words on tiny scale before speaking. [R]\nP2: Tiptoeing past sleeping grey figure. [L]\nP3: Listening to crying friend, hand on shoulder. [R]\nP4: Holding door slightly open, peeking out. [L]\nP5: Two stickmen meeting in middle of bridge. [T]\nP6: Under harsh spotlight, sweating behind smile. Obsidian. [R]\nP7: Hiding guitar behind his back. [L]\nP8: Nodding while his thought bubble shakes no. [R]\nP9: Frantically juggling phone, trophy, mask and clock. [T]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman weighing words on a tiny scale before speaking"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman tiptoeing past a sleeping grey figure"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman listening to a crying friend, hand on shoulder"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman holding a door slightly open, peeking out"
+    },
+    {
+     "code": "T",
+     "desc": "Two stickmen meeting in the middle of a bridge"
+    },
+    {
+     "code": "D:R",
+     "desc": "Stickman under a harsh spotlight, sweating behind a smile"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman hiding a guitar behind his back"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman nodding while his thought bubble shakes no"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman frantically juggling a phone, trophy, mask and clock"
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "name": "Relief, freedom, or fear",
+   "file": "sheet-16.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Sinking into sofa as mask falls off, deep sigh. [R]\nP2: Sitting quietly at window, nobody asking anything. [L]\nP3: Washing painted smile off his face. [R]\nP4: Lying on grass, arms wide, unbothered. [T]\nP5: Stretching freely in open field, birds lifting. [L]\nP6: Two doors side by side: one sunlit and open, one shut with bars. [T]\nP7: Dancing alone in his room, joyful. [R]\nP8: Closing curtains, eyes wide with fear. Obsidian. [L]\nP9: Hiding under table from giant pointing fingers. Obsidian. [R]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman sinking into a sofa as a mask falls off, deep sigh"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman sitting quietly at a window, nobody asking anything"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman washing a painted smile off his face"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman lying on grass, arms wide, unbothered"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman stretching freely in an open field, birds lifting"
+    },
+    {
+     "code": "T",
+     "desc": "Two doors side by side: one sunlit and open, one shut with bars"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman dancing alone in his room, joyful"
+    },
+    {
+     "code": "D:L",
+     "desc": "Stickman closing curtains, eyes wide with fear"
+    },
+    {
+     "code": "D:R",
+     "desc": "Stickman hiding under a table from giant pointing fingers"
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "name": "Same outside, different inside",
+   "file": "sheet-17.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Two identical stickmen in identical rooms, side by side. [T]\nP2: Both stickmen setting invitation envelopes aside. [R]\nP3: Two mirrored small circles of three friends. [T]\nP4: X-ray view: one stickman holds calm sun inside, other storm. [TL]\nP5: With hand on window glass, watching friends outside. Obsidian. [R]\nP6: Wiping glitter off framed picture of lone hermit. [L]\nP7: Resting in hammock, content. [R]\nP8: Friend offering hand to stickman sitting on ground. [L]\nP9: And friend building small sturdy house together. [TR]",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Two identical stickmen in identical rooms, side by side"
+    },
+    {
+     "code": "R",
+     "desc": "Both stickmen setting invitation envelopes aside"
+    },
+    {
+     "code": "T",
+     "desc": "Two mirrored small circles of three friends"
+    },
+    {
+     "code": "TL",
+     "desc": "X-ray view: one stickman holds a calm sun inside, the other a storm"
+    },
+    {
+     "code": "D:R",
+     "desc": "Stickman with a hand on window glass, watching friends outside"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman wiping glitter off a framed picture of a lone hermit"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman resting in a hammock, content"
+    },
+    {
+     "code": "L",
+     "desc": "Friend offering a hand to the stickman sitting on the ground"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman and a friend building a small sturdy house together"
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "name": "Choosing solitude vs hiding",
+   "file": "sheet-18.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Split: stickman in garden with open gate, and in bunker with locked hatch. [T]\nP2: In armchair, front door open behind him. [R]\nP3: Circling date on wall calendar, smiling. [L]\nP4: Yawning under blanket, gently declining call. [R]\nP5: Walking beside friend, each with his own backpack. [T]\nP6: Pulling shutters closed on house. Obsidian. [L]\nP7: His thumb hovering over phone, not pressing. [R]\nP8: Turning back from misty unknown path. [L]\nP9: Building brick wall around himself after argument. Obsidian. [R]",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Split: stickman in a garden with an open gate, and in a bunker with a locked hatch"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman in an armchair, front door open behind him"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman circling a date on a wall calendar, smiling"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman yawning under a blanket, gently declining a call"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman walking beside a friend, each with his own backpack"
+    },
+    {
+     "code": "D:L",
+     "desc": "Stickman pulling shutters closed on a house"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman's thumb hovering over a phone, not pressing"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman turning back from a misty unknown path"
+    },
+    {
+     "code": "D:R",
+     "desc": "Stickman building a brick wall around himself after an argument"
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "name": "When the world gets smaller",
+   "file": "sheet-19.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Inside shrinking circle of light. Obsidian. [T]\nP2: Sighing with relief as he shuts door. [R]\nP3: Running on circular loop track. [L]\nP4: Familiar street turning foggy and strange in front of stickman. [R]\nP5: His footprints sinking deeper into same short path. [T]\nP6: Reading happily in sunny room, nothing wrong. [L]\nP7: Watching sapling grow into tree across seasons. [R]\nP8: Two pots: lush flowering plant and wilted grey one. [T]\nP9: Holding small shield in one hand, other hand open to friend. [L]",
+   "panels": [
+    {
+     "code": "D:T",
+     "desc": "Stickman inside a shrinking circle of light"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman sighing with relief as he shuts a door"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman running on a circular loop track"
+    },
+    {
+     "code": "R",
+     "desc": "Familiar street turning foggy and strange in front of the stickman"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman's footprints sinking deeper into the same short path"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman reading happily in a sunny room, nothing wrong"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman watching a sapling grow into a tree across seasons"
+    },
+    {
+     "code": "T",
+     "desc": "Two pots: a lush flowering plant and a wilted grey one"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman holding a small shield in one hand, the other hand open to a friend"
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "name": "Depth over frequency",
+   "file": "sheet-20.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Connecting two plugs, small spark. [R]\nP2: Holding one gem beside heap of pebbles. [L]\nP3: At small campfire with two close friends. [T]\nP4: Passing long queue of waving grey figures. [R]\nP5: Stifling yawn during looping small-talk circle. [L]\nP6: And friend in honest talk over tea, leaning in. [R]\nP7: Two friends disagreeing calmly with open hands. [TL]\nP8: Two friends sitting silently on bench at sunset. [R]\nP9: Handing fragile paper boat to trusted friend. [L]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman connecting two plugs, small spark"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman holding one gem beside a heap of pebbles"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman at a small campfire with two close friends"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman passing a long queue of waving grey figures"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman stifling a yawn during a looping small-talk circle"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman and a friend in honest talk over tea, leaning in"
+    },
+    {
+     "code": "TL",
+     "desc": "Two friends disagreeing calmly with open hands"
+    },
+    {
+     "code": "R",
+     "desc": "Two friends sitting silently on a bench at sunset"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman handing a fragile paper boat to a trusted friend"
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "name": "Different relationships, different purposes",
+   "file": "sheet-21.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Small warm circle of three beside large faded web of tiny dots. [T]\nP2: Holding door open for many different people. [R]\nP3: His roots reaching into several soil layers. [L]\nP4: Picking up small flower someone dropped. [R]\nP5: Neighbourhood street, friendly waves between houses. [T]\nP6: Chatting over fence with neighbour. [L]\nP7: Sharing laugh with colleague by water cooler. [R]\nP8: Holding several keys of different sizes. [L]\nP9: Concentric circles of figures: many outer, few inner around stickman. [TR]",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Small warm circle of three beside a large faded web of tiny dots"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman holding a door open for many different people"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman's roots reaching into several soil layers"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman picking up a small flower someone dropped"
+    },
+    {
+     "code": "T",
+     "desc": "Neighbourhood street, friendly waves between houses"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman chatting over a fence with a neighbour"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman sharing a laugh with a colleague by a water cooler"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman holding several keys of different sizes"
+    },
+    {
+     "code": "TR",
+     "desc": "Concentric circles of figures: many outer, a few inner around the stickman"
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "name": "Independent and connected",
+   "file": "sheet-22.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Happily visiting party, coat over arm. [R]\nP2: Reading by lamp, framed photo of friends on table. [L]\nP3: Balancing pole: book one end, friends' photo other. [T]\nP4: Lone tree whose roots connect underground to forest. [R]\nP5: Grey figures drawing line, demanding he pick side. Obsidian. [TL]\nP6: On bench with room for another, smiling. [R]\nP7: On hill waving down to friends' village. [L]\nP8: Walking his own path parallel to his friends' path. [T]\nP9: Standing tall, holding threads to others. [R]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman happily visiting a party, coat over arm"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman reading by a lamp, framed photo of friends on the table"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman balancing a pole: book one end, friends' photo other"
+    },
+    {
+     "code": "R",
+     "desc": "A lone tree whose roots connect underground to a forest"
+    },
+    {
+     "code": "D:TL",
+     "desc": "Grey figures drawing a line, demanding he pick a side"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman on a bench with room for another, smiling"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman on hill waving down to friends' village"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman walking his own path parallel to his friends' path"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman standing tall, holding threads to others"
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "name": "Self-knowledge changes your choices",
+   "file": "sheet-23.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: In circle dance, keeping his rust lining bright. [T]\nP2: Facing large closed door at end of hall. Obsidian. [R]\nP3: Three stickman silhouettes, young to older, each calmer. [T]\nP4: Holding compass whose needle points to his chest. [L]\nP5: Swept along in river of grey figures. [R]\nP6: Reaching for gold trophy everyone stares at. [L]\nP7: Running with overflowing stack of calendars. [R]\nP8: Sorting objects into keep and leave baskets. [TL]\nP9: Between two plugs: one charging him, one draining him. [R]",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman in a circle dance, keeping his rust lining bright"
+    },
+    {
+     "code": "D:R",
+     "desc": "Stickman facing a large closed door at the end of a hall"
+    },
+    {
+     "code": "T",
+     "desc": "Three stickman silhouettes, young to older, each calmer"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman holding a compass whose needle points to his chest"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman swept along in a river of grey figures"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman reaching for a gold trophy everyone stares at"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman running with an overflowing stack of calendars"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman sorting objects into keep and leave baskets"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman between two plugs: one charging him, one draining him"
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "name": "Saying no, growing on purpose",
+   "file": "sheet-24.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Gently closing door on flood of envelopes. [R]\nP2: Walking past many glowing doors, choosing one. [T]\nP3: Climbing steep rock face, determined. [L]\nP4: Stepping into unfamiliar street, curious. [R]\nP5: Listening to someone wearing very different hat. [L]\nP6: Drawing deliberate route on map. [TR]\nP7: Setting down overfull hourglass. [R]\nP8: Walking past wall covered in pinned invitations. [L]\nP9: On porch with tea in warm afternoon sun. [T]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman gently closing a door on a flood of envelopes"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman walking past many glowing doors, choosing one"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman climbing a steep rock face, determined"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman stepping into an unfamiliar street, curious"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman listening to someone wearing a very different hat"
+    },
+    {
+     "code": "TR",
+     "desc": "Stickman drawing a deliberate route on a map"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman setting down an overfull hourglass"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman walking past a wall covered in pinned invitations"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman on a porch with tea in warm afternoon sun"
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "name": "Choosing with intention",
+   "file": "sheet-25.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Reading under tree, leaves drifting. [R]\nP2: At workbench building birdhouse. [L]\nP3: Leaving dull party early with relieved smile. [R]\nP4: Holding hands in small chosen circle. [T]\nP5: Fitting last piece into puzzle-shaped self-portrait. [L]\nP6: Among friends in his own hoodie, no mask. [R]\nP7: Tossing away toolbox meant to fix him. [L]\nP8: Stepping down from pedestal to rejoin others. [R]\nP9: Painting canvas in sunlit studio. [TL]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman reading under a tree, leaves drifting"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman at a workbench building a birdhouse"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman leaving a dull party early with a relieved smile"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman holding hands in a small chosen circle"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman fitting the last piece into a puzzle-shaped self-portrait"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman among friends in his own hoodie, no mask"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman tossing away a toolbox meant to fix him"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman stepping down from a pedestal to rejoin others"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman painting a canvas in a sunlit studio"
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "name": "Balance and the empty room",
+   "file": "sheet-26.png",
+   "prompt": "16:9 1920x1080, exact 3x3 grid, thin black borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Bracket = side kept 40% empty (L/R/T/TL/TR). Bottom 20% clean. No text.\nP1: Arranging three stones by size, thoughtful. [R]\nP2: Napping in hammock while storm passes far away. [L]\nP3: Opening his door to two genuine friends. [R]\nP4: Adjusting hanging mobile of four balanced shapes. [T]\nP5: Switching off phone glowing with notifications. [L]\nP6: Calmly walking past crowd demanding explanations. [R]\nP7: Entering empty room filled with warm light, smiling. [L]\nP8: Sitting eyes closed, ripple rings spreading outward. Obsidian. [T]\nP9: Stepping out of his house into world at sunrise. [TL]",
+   "panels": [
+    {
+     "code": "R",
+     "desc": "Stickman arranging three stones by size, thoughtful"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman napping in a hammock while a storm passes far away"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman opening his door to two genuine friends"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman adjusting a hanging mobile of four balanced shapes"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman switching off a phone glowing with notifications"
+    },
+    {
+     "code": "R",
+     "desc": "Stickman calmly walking past a crowd demanding explanations"
+    },
+    {
+     "code": "L",
+     "desc": "Stickman entering an empty room filled with warm light, smiling"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman sitting eyes closed, ripple rings spreading outward"
+    },
+    {
+     "code": "TL",
+     "desc": "Stickman stepping out of his house into the world at sunrise"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "short": "SH1",
+   "name": "Alone Isn't Lonely",
+   "range": "01:04.7-01:52.0",
+   "sheet": "A",
+   "file": "sh1-sheet-A.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Sitting alone in quiet lamplit room, serene.\nP2 Top-right: Faded in middle of dense crowd, every grey figure turned away. Obsidian.\nP3 Bottom-left: Laughing at party while his wall shadow slumps sadly.\nP4 Bottom-right: Sitting cross-legged in sunbeam, eyes closed, at peace.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman sitting alone in a quiet lamplit room, serene"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman faded in the middle of a dense crowd, every grey figure turned away"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman laughing at a party while his wall shadow slumps sadly"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman sitting cross-legged in a sunbeam, eyes closed, at peace"
+    }
+   ]
+  },
+  {
+   "short": "SH1",
+   "name": "Alone Isn't Lonely",
+   "range": "01:04.7-01:52.0",
+   "sheet": "B",
+   "file": "sh1-sheet-B.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Counting grey heads in crowd, puzzled.\nP2 Top-right: Hugging himself warmly, rust heart glowing at his chest.\nP3 Bottom-left: Reaching toward puzzle-shaped gap in wall. Obsidian.\nP4 Bottom-right: Alone on bench under tree, calm.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman counting grey heads in a crowd, puzzled"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman hugging himself warmly, rust heart glowing at his chest"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman reaching toward a puzzle-shaped gap in a wall"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman alone on a bench under a tree, calm"
+    }
+   ]
+  },
+  {
+   "short": "SH1",
+   "name": "Alone Isn't Lonely",
+   "range": "01:04.7-01:52.0",
+   "sheet": "C",
+   "file": "sh1-sheet-C.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Standing half in warm sunlight, half in cool shadow.\nP2 Top-right: His shadow and friend's shadow overlapping on ground.\nP3 Bottom-left: Reading alone as small heart floats toward friend's window.\nP4 Bottom-right: Walking toward friend's open door carrying small gift.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman standing half in warm sunlight, half in cool shadow"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman's shadow and a friend's shadow overlapping on the ground"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman reading alone as a small heart floats toward a friend's window"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman walking toward a friend's open door carrying a small gift"
+    }
+   ]
+  },
+  {
+   "short": "SH2",
+   "name": "Peace or Fear?",
+   "range": "12:11.4-12:53.2",
+   "sheet": "A",
+   "file": "sh2-sheet-A.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Two identical stickmen in identical rooms: one sunlit, one in shadow.\nP2 Top-right: Stretching freely in open field, birds lifting.\nP3 Bottom-left: Hiding under table from giant pointing fingers. Obsidian.\nP4 Bottom-right: Closing curtains, eyes wide with fear. Obsidian.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Two identical stickmen in identical rooms: one sunlit, one in shadow"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman stretching freely in an open field, birds lifting"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman hiding under a table from giant pointing fingers"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman closing curtains, eyes wide with fear"
+    }
+   ]
+  },
+  {
+   "short": "SH2",
+   "name": "Peace or Fear?",
+   "range": "12:11.4-12:53.2",
+   "sheet": "B",
+   "file": "sh2-sheet-B.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Two identical lit windows seen from outside, stickman in each.\nP2 Top-right: Both stickmen setting blank invitation envelopes aside.\nP3 Bottom-left: Two mirrored small circles of three friends.\nP4 Bottom-right: X-ray view: one stickman holds calm sun inside, other storm.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Two identical lit windows seen from outside, a stickman in each"
+    },
+    {
+     "code": "T",
+     "desc": "Both stickmen setting blank invitation envelopes aside"
+    },
+    {
+     "code": "T",
+     "desc": "Two mirrored small circles of three friends"
+    },
+    {
+     "code": "T",
+     "desc": "X-ray view: one stickman holds a calm sun inside, the other a storm"
+    }
+   ]
+  },
+  {
+   "short": "SH2",
+   "name": "Peace or Fear?",
+   "range": "12:11.4-12:53.2",
+   "sheet": "C",
+   "file": "sh2-sheet-C.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Resting in hammock, content.\nP2 Top-right: With hand on window glass, watching friends outside. Obsidian.\nP3 Bottom-left: Friend offering hand to stickman sitting on ground.\nP4 Bottom-right: Two doors: one sunlit and open, one shut with bars.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman resting in a hammock, content"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman with a hand on window glass, watching friends outside"
+    },
+    {
+     "code": "T",
+     "desc": "Friend offering a hand to the stickman sitting on the ground"
+    },
+    {
+     "code": "T",
+     "desc": "Two doors: one sunlit and open, one shut with bars"
+    }
+   ]
+  },
+  {
+   "short": "SH3",
+   "name": "Whose Life Is This?",
+   "range": "09:14.5-09:55.7",
+   "sheet": "A",
+   "file": "sh3-sheet-A.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Alone at night desk, studying briefcase questioningly.\nP2 Top-right: Stepping out of noisy room into quiet garden.\nP3 Bottom-left: Holding briefcase while crowd applauds behind him.\nP4 Bottom-right: Pausing halfway up ladder toward trophy, looking down.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman alone at a night desk, studying a briefcase questioningly"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman stepping out of a noisy room into a quiet garden"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman holding a briefcase while a crowd applauds behind him"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman pausing halfway up a ladder toward a trophy, looking down"
+    }
+   ]
+  },
+  {
+   "short": "SH3",
+   "name": "Whose Life Is This?",
+   "range": "09:14.5-09:55.7",
+   "sheet": "B",
+   "file": "sh3-sheet-B.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Running anxiously after departing train.\nP2 Top-right: Sitting in groove worn into floor.\nP3 Bottom-left: Awkwardly holding prickly cactus.\nP4 Bottom-right: Looking back at footprints on path painted for him. Obsidian.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman running anxiously after a departing train"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman sitting in a groove worn into the floor"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman awkwardly holding a prickly cactus"
+    },
+    {
+     "code": "D:T",
+     "desc": "Stickman looking back at footprints on a path painted for him"
+    }
+   ]
+  },
+  {
+   "short": "SH3",
+   "name": "Whose Life Is This?",
+   "range": "09:14.5-09:55.7",
+   "sheet": "C",
+   "file": "sh3-sheet-C.png",
+   "prompt": "9:16 1080x1920, exact 2x2 grid of four 9:16 panels, thin black ink borders. Ink doodle, warm paper #F7F4EE, charcoal lines, rust #C8623C watercolor wash; obsidian panels #16150F, warm rim light. Canonical stickman from reference (round white head, charcoal hoodie, rust lining) in every panel unless noted; others faceless grey figures. Each panel: subject mid-frame, top 40% empty, bottom 25% clean. No text.\nP1 Top-left: Smiling while holding cracked smiling mask.\nP2 Top-right: Comparing small cabin with showy mansion facade.\nP3 Bottom-left: Tearing glossy facade poster to reveal forest trail.\nP4 Bottom-right: Walking that trail toward sunrise, lighter.",
+   "panels": [
+    {
+     "code": "T",
+     "desc": "Stickman smiling while holding a cracked smiling mask"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman comparing a small cabin with a showy mansion facade"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman tearing a glossy facade poster to reveal a forest trail"
+    },
+    {
+     "code": "T",
+     "desc": "Stickman walking that trail toward sunrise, lighter"
+    }
+   ]
+  }
+ ],
+ "stats": [
+  [
+   "S01",
+   146
+  ],
+  [
+   "S02",
+   145
+  ],
+  [
+   "S03",
+   141
+  ],
+  [
+   "S04",
+   141
+  ],
+  [
+   "S05",
+   143
+  ],
+  [
+   "S06",
+   146
+  ],
+  [
+   "S07",
+   138
+  ],
+  [
+   "S08",
+   143
+  ],
+  [
+   "S09",
+   148
+  ],
+  [
+   "S10",
+   136
+  ],
+  [
+   "S11",
+   138
+  ],
+  [
+   "S12",
+   142
+  ],
+  [
+   "S13",
+   136
+  ],
+  [
+   "S14",
+   136
+  ],
+  [
+   "S15",
+   133
+  ],
+  [
+   "S16",
+   144
+  ],
+  [
+   "S17",
+   143
+  ],
+  [
+   "S18",
+   142
+  ],
+  [
+   "S19",
+   145
+  ],
+  [
+   "S20",
+   138
+  ],
+  [
+   "S21",
+   141
+  ],
+  [
+   "S22",
+   144
+  ],
+  [
+   "S23",
+   144
+  ],
+  [
+   "S24",
+   130
+  ],
+  [
+   "S25",
+   130
+  ],
+  [
+   "S26",
+   140
+  ],
+  [
+   "SH1A",
+   106
+  ],
+  [
+   "SH1B",
+   98
+  ],
+  [
+   "SH1C",
+   104
+  ],
+  [
+   "SH2A",
+   103
+  ],
+  [
+   "SH2B",
+   104
+  ],
+  [
+   "SH2C",
+   101
+  ],
+  [
+   "SH3A",
+   100
+  ],
+  [
+   "SH3B",
+   95
+  ],
+  [
+   "SH3C",
+   97
+  ]
+ ]
+}
