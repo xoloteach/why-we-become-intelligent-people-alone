@@ -1,0 +1,2 @@
+{'landscape': (-16.0, -4.5, 172), 'SH1': (-16.0, -4.5, 10), 'SH2': (-16.1, -4.5, 9), 'SH3': (-16.1, -4.5, 6)}
+[perf] audio: rc=0 56.7s maxrss=2356MB on AMD EPYC 9V74 80-Core Processor x4
