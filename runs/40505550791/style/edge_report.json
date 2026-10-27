@@ -1,0 +1,176 @@
+{
+ "schema": "wwb-fx-edges/1",
+ "pass": true,
+ "jobs": [
+  {
+   "id": "style-battery-charge-f",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-battery-charge-q",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-battery-drain-f",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-battery-drain-q",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-books-4-f",
+   "frames": 120,
+   "edge_violations": []
+  },
+  {
+   "id": "style-books-4-q",
+   "frames": 120,
+   "edge_violations": []
+  },
+  {
+   "id": "style-briefcase-f",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-briefcase-q",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-clock-f",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-clock-q",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-door-f",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-door-q",
+   "frames": 75,
+   "edge_violations": []
+  },
+  {
+   "id": "style-envelope-1-f",
+   "frames": 60,
+   "edge_violations": []
+  },
+  {
+   "id": "style-envelope-1-q",
+   "frames": 60,
+   "edge_violations": []
+  },
+  {
+   "id": "style-envelope-2-f",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-envelope-2-q",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-envelope-3-f",
+   "frames": 80,
+   "edge_violations": []
+  },
+  {
+   "id": "style-envelope-3-q",
+   "frames": 80,
+   "edge_violations": []
+  },
+  {
+   "id": "style-globe-grow-f",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-globe-grow-q",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-globe-shrink-f",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-globe-shrink-q",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-phone-drop-f",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-phone-drop-q",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-phone-scroll-f",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-phone-scroll-q",
+   "frames": 90,
+   "edge_violations": []
+  },
+  {
+   "id": "style-scale-2-f",
+   "frames": 120,
+   "edge_violations": []
+  },
+  {
+   "id": "style-scale-2-q",
+   "frames": 120,
+   "edge_violations": []
+  },
+  {
+   "id": "style-scale-4-f",
+   "frames": 150,
+   "edge_violations": []
+  },
+  {
+   "id": "style-scale-4-q",
+   "frames": 150,
+   "edge_violations": []
+  },
+  {
+   "id": "style-stairs-4-f",
+   "frames": 110,
+   "edge_violations": []
+  },
+  {
+   "id": "style-stairs-4-q",
+   "frames": 110,
+   "edge_violations": []
+  },
+  {
+   "id": "style-window-2-f",
+   "frames": 60,
+   "edge_violations": []
+  },
+  {
+   "id": "style-window-2-q",
+   "frames": 60,
+   "edge_violations": []
+  }
+ ]
+}
