@@ -1,0 +1,11 @@
+{
+  "name": "wwb-fx",
+  "private": true,
+  "type": "module",
+  "description": "Why We Become effect bakes: Three.js ink-and-paper objects + Rapier physics",
+  "dependencies": {
+    "three": "0.186.1",
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "playwright": "1.64.1"
+  }
+}

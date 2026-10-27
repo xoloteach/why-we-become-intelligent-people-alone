@@ -1,0 +1,29 @@
+{"schema": "wwb-fx-specs/1",
+ "note": "Cue words are looked up in the aligned narration inside each scene; times become scene-local seconds. dur_to = word whose time ends the motion (+dur_pad).",
+ "landscape": {
+  "S01-6": {"object": "envelope", "params": {"count": 1}, "cues": ["invitations"]},
+  "S04-6": {"object": "battery", "params": {"mode": "drain", "from": 0.85, "to": 0.12}, "cues": ["hours"], "dur_to": "exhausted"},
+  "S05-3": {"object": "battery", "params": {"mode": "charge", "from": 0.1, "to": 0.95, "dur": 1.4}, "cues": ["recharge"], "cue_shift": -0.5},
+  "S06-4": {"object": "scale", "params": {"sides": [-1, 1], "colors": ["rust", "gold"]}, "cues": ["need", "balanced"]},
+  "S07-8": {"object": "books", "params": {"count": 4}, "cues": ["philosophy", "writing", "business", "language"]},
+  "S08-4": {"object": "phone", "params": {"mode": "drop", "land": 0.55}, "cues": ["appears"]},
+  "S08-6": {"object": "clock", "params": {}, "cues": ["20"], "dur_to": "disappeared", "dur_pad": 0.3},
+  "S10-9": {"object": "stairs", "params": {"count": 4}, "cues": ["progress", "goal", "announcing", "entirely"]},
+  "S11-9": {"object": "phone", "params": {"mode": "scroll"}, "cues": ["scroll"]},
+  "S12-9": {"object": "briefcase", "params": {}, "cues": ["career"]},
+  "S15-6": {"object": "battery", "params": {"mode": "drain", "from": 0.85, "to": 0.12}, "cues": ["perform"], "dur_to": "exhausting"},
+  "S17-1": {"object": "window", "params": {"count": 2}, "cues": ["outside", "same"]},
+  "S17-2": {"object": "envelope", "params": {"count": 2}, "cues": ["decline", "invitations"]},
+  "S19-1": {"object": "globe", "params": {"from": 1, "to": 0.55}, "cues": ["world"], "dur_to": "smaller", "dur_pad": 0.3},
+  "S26-4": {"object": "scale", "params": {"sides": [-1, 1, -1, 1], "colors": ["rust", "gold", "paper", "grey"]}, "cues": ["independence", "connection", "purpose", "peace"]},
+  "S26-7": {"object": "door", "params": {}, "cues": ["empty"]},
+  "S26-9": {"object": "globe", "params": {"from": 0.55, "to": 1}, "cues": ["participate"]}
+ },
+ "shorts": {
+  "SH1A-4": {"object": "door", "params": {}, "cues": ["quiet"]},
+  "SH1C-2": {"object": "scale", "params": {"sides": [-1, 1], "colors": ["rust", "gold"]}, "cues": ["two", "together"]},
+  "SH2B-1": {"object": "window", "params": {"count": 2}, "cues": ["outside", "same"]},
+  "SH2B-2": {"object": "envelope", "params": {"count": 2}, "cues": ["decline", "invitations"]},
+  "SH3A-1": {"object": "briefcase", "params": {}, "cues": ["career"]},
+  "SH3A-4": {"object": "stairs", "params": {"count": 3}, "cues": ["pursuing", "goal", "matters"]}
+ }}
