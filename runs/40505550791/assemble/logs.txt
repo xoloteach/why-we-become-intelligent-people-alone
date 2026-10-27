@@ -1,0 +1,65 @@
+[perf] assemble: rc=0 53.1s maxrss=52MB on AMD EPYC 7763 64-Core Processor x4
+thumbs ok ['SH1.mp4', 'SH2.mp4', 'SH3.mp4', 'cover_SH1.jpg', 'cover_SH2.jpg', 'cover_SH3.jpg', 'final.mp4', 'thumbnail.jpg', 'thumbnail_160x90_check.png']
+00:00 Why some people enjoy being alone
+01:04 Being alone vs. being lonely
+02:14 How you process the world
+04:19 Do intelligent people prefer solitude?
+05:07 Deep work needs uninterrupted time
+06:45 Joy without an audience
+08:19 Hearing your own thoughts
+10:19 When reflection becomes rumination
+10:44 The emotional work of socialising
+12:09 Preference or fear?
+13:22 Choosing solitude vs. hiding in it
+15:00 Depth over frequency
+16:46 Independence isn't the absence of others
+17:22 Why solitude grows with self-knowledge
+19:20 The value of quiet
+[PASS] final.mp4 geometry: h264 1920x1080 30.000fps yuv420p
+[PASS] final.mp4 duration: 1231.515s vs plan 1231.515s
+[PASS] final.mp4 audio stream: aac 44100 2ch
+[PASS] final.mp4 loudness: -16.0 LUFS integrated, true peak -3.9 dBFS (target -16, -17.5..-14.5, TP<=-1)
+[PASS] final.mp4 faststart: moov atom at file start
+[PASS] SH1.mp4 geometry: h264 1080x1920 30.000fps yuv420p
+[PASS] SH1.mp4 duration: 49.880s vs plan 49.880s
+[PASS] SH1.mp4 audio stream: aac 44100 2ch
+[PASS] SH1.mp4 loudness: -16.0 LUFS integrated, true peak -4.3 dBFS (target -16, -17.5..-14.5, TP<=-1)
+[PASS] SH1.mp4 faststart: moov atom at file start
+[PASS] SH2.mp4 geometry: h264 1080x1920 30.000fps yuv420p
+[PASS] SH2.mp4 duration: 43.910s vs plan 43.910s
+[PASS] SH2.mp4 audio stream: aac 44100 2ch
+[PASS] SH2.mp4 loudness: -16.1 LUFS integrated, true peak -4.4 dBFS (target -16, -17.5..-14.5, TP<=-1)
+[PASS] SH2.mp4 faststart: moov atom at file start
+[PASS] SH3.mp4 geometry: h264 1080x1920 30.000fps yuv420p
+[PASS] SH3.mp4 duration: 43.470s vs plan 43.470s
+[PASS] SH3.mp4 audio stream: aac 44100 2ch
+[PASS] SH3.mp4 loudness: -16.2 LUFS integrated, true peak -4.4 dBFS (target -16, -17.5..-14.5, TP<=-1)
+[PASS] SH3.mp4 faststart: moov atom at file start
+[PASS] narration PCM hash: bc51fe9a8064c669… vs manifest bc51fe9a8064c669… (user Google AI Studio take, processed chain; script/audio unchanged)
+[PASS] narration duration: vo_end 1226.515s
+[PASS] captions landscape: 3332 events, 686 groups, max 7 words, last end 1226.41s ≤ 1231.52s
+[PASS] captions SH1: 127 events, 33 groups, max 5 words, last end 47.38s ≤ 49.88s
+[PASS] captions SH2: 102 events, 29 groups, max 5 words, last end 41.41s ≤ 43.91s
+[PASS] captions SH3: 125 events, 31 groups, max 5 words, last end 40.97s ≤ 43.47s
+[PASS] word alignment: faster-whisper-small.en (provisional): 3331/3332 exact (99.97%), 0 interpolated
+[PASS] 3D bakes complete + hashed: 23 effects, objects ['battery', 'books', 'briefcase', 'clock', 'door', 'envelope', 'globe', 'phone', 'scale', 'stairs', 'window']; all frame counts and sha256 manifests match
+[PASS] 3D toolchain versions: {"chromium": "156.0.8078.4", "node": "v24.21.0", "playwright": "1.64.1", "rapier": "0.21.0", "three": "0.186.1"}
+[PASS] physics cue error ≤ ±1 frame: all contact targets hit on cue
+[PASS] 3D scene spread (§3G/§4I): landscape 17 (thirds [7, 6, 4], max run 2); shorts {'SH1': 2, 'SH2': 2, 'SH3': 2}
+[PASS] 3D alpha clear of caption band: 2354 sampled fx frames across 18 renders, 0 with alpha inside the caption band
+[PASS] SFX thud ±1 frame of contact: 27 contacts, worst offset 0.3 ms (Python/ffmpeg SFX set; Tone.js stem not built)
+[PASS] mix loudness reports: landscape -16.0, SH1 -16.0, SH2 -16.1, SH3 -16.1
+[PASS] deterministic sample re-bake: L-S01-6: 114 final frame hashes compared
+[PASS] Typography width + headline regression: 269 scene layouts; Overwhelming fitted at 38px; failures []
+[PASS] SH1 first frame carries hook: headline ink coverage 12.6% in frame 0 ("Alone Is Not Lonely")
+[PASS] SH1 length: 49.88s incl. end card 2.5s
+[PASS] SH2 first frame carries hook: headline ink coverage 9.0% in frame 0 ("Peace or Fear?")
+[PASS] SH2 length: 43.91s incl. end card 2.5s
+[PASS] SH3 first frame carries hook: headline ink coverage 12.6% in frame 0 ("Whose Life Is This?")
+[PASS] SH3 length: 43.47s incl. end card 2.5s
+[PASS] YouTube chapters: 15 chapters from processed-narration alignment, first 00:00, min gap 25s
+[PASS] bake workers ≤ 3: workers [3, 3]
+[PASS] perf recorded: assemble: 53.1s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 52.2 MB; audio: 56.0s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 2330.4 MB; fx: 76.4s, AMD EPYC 9V45 96-Core Processor, 15.6 GB, maxrss 518.5 MB; prep: 242.7s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 665.9 MB; render-0: 167.4s, Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz, 15.6 GB, maxrss 332.7 MB; render-1: 77.0s, AMD EPYC 9V45 96-Core Processor, 15.6 GB, maxrss 344.1 MB; render-2: 149.0s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 372.5 MB; render-3: 121.6s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 372.8 MB; render-4: 143.0s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 358.3 MB; render-5: 123.4s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 490.5 MB; short-SH1: 28.3s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 485.3 MB; short-SH2: 22.5s, AMD EPYC 9V74 80-Core Processor, 15.6 GB, maxrss 470.9 MB; short-SH3: 25.2s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 393.6 MB; style: 107.4s, AMD EPYC 7763 64-Core Processor, 15.6 GB, maxrss 543.4 MB
+[PASS] credential scan: no key patterns or secret values in repo or release files
+[PASS] QA stills from final renders: 30 stills extracted from the released files
+QA PASS {'PASS': 47, 'FAIL': 0, 'NOT CHECKED': 0}
