@@ -10,4 +10,4 @@ Automated production repo: 1 landscape episode (1920×1080) + 3 native Shorts (1
 
 ## Delivery status
 
-The first release passed automated technical checks but is **not final-approved**: later frame review found envelope clipping and Short 2 background blocks. Corrected render: run 40496242616 @ b86370e. Final publication is held for required visual/playback review; see `reviews/README.md`.
+The first release passed automated technical checks but is **not final-approved**: later frame review found envelope clipping and Short 2 background blocks. Corrected review render: run 40497873055 @ c1a5d6b (includes framing, source-crop and typography fixes). Final publication is held for required visual/playback review; see `reviews/README.md`.
