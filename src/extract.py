@@ -141,14 +141,15 @@ def main(only=None):
         qa_overlay(img, cells, os.path.join(WORK, 'qa_grid', f'{key}.jpg'))
         for p, (x0, y0, x1, y1) in enumerate(cells, 1):
             name = f'{key}-{p}'
-            # Reviewed subject crops from the locked 768x1376 P07 sheet. Remove disconnected
-            # dark floor/blank wall blocks, not connected people, desks, lamps or windows.
-            reviewed = {'SH2B-1': (65, 310, 330, 490), 'SH2B-2': (402, 276, 737, 611)}
+            # Reviewed subject crops from locked 768x1376 P04/P07 sheets. Remove blank
+            # lower paper strips and disconnected blocks, not connected subject details.
+            reviewed = {'SH2B-1': (65, 310, 330, 490), 'SH2B-2': (402, 276, 737, 611),
+                        'SH2A-3': (24, 704, 373, 1234), 'SH2A-4': (399, 704, 744, 1234)}
             if name in reviewed:
                 x0, y0, x1, y1 = reviewed[name]
             a = img[y0:y1, x0:x1].copy() if name in reviewed else trim_cell(img[y0:y1, x0:x1]); cv2.imwrite(os.path.join(WORK, 'native', name + '.png'), a)
             b, method = upscale(a); a8, bg = matte(b, name in dark)
-            if name in reviewed:
+            if name in ('SH2B-1', 'SH2B-2'):
                 # These supplied cells have dark backgrounds with grey floors/walls.
                 # Subject-only brightness mask avoids turning those backgrounds into blocks.
                 fg = (np.max(b, axis=2) > 75).astype(np.uint8) * 255
